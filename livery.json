@@ -1473,6 +1473,75 @@
           "type_id": 2
         }
       ]
+    },
+    "6": {
+      "name": "de Havilland Canada DHC6 Twin Otter",
+      "index": [8, 1, 2, 3],
+      "parts": [0, 0, 0, 0],
+      "liveries": [
+        {
+          "name": "Widerøes Flyveselskap AS LN-BEZ",
+          "credits": "Nichy",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/DHC6/LNBEZ/main.png",
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/DHC6/LNBEZ/left.png",
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/DHC6/LNBEZ/Bottom.jpg",
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/DHC6/LNBEZ/right.png"
+          ],
+          "type_id": 1
+        },
+        {
+          "name": "Widerøes Flyveselskap AS LN-BNA",
+          "credits": "Nichy",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/DHC6/LNBNA/main.png",
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/DHC6/LNBEZ/left.png",
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/DHC6/LNBEZ/bottom.png",
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/DHC6/LNBEZ/right.png"
+          ],
+          "type_id": 1
+        }
+      ]
+    },
+    "1001": {
+      "name": "Boeing B737-900ER",
+      "index": [0],
+      "parts": [0],
+      "liveries": [
+        {
+          "name": "Wayfarer",
+          "credits": "Nichy",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b737-900/N1018V.png"
+          ],
+          "type_id": 2
+        }
+      ]
+    },
+    "1023": {
+      "name": "Mcdonell MD11",
+      "index": [7, 3],
+      "parts": [1, 1],
+      "liveries": [
+        {
+          "name": "FedSEx",
+          "credits": "Nichy",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/MD11/FEDSEX.png",
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/MD11/FEDSEX.png"
+          ],
+          "type_id": 2
+        },
+        {
+          "name": "Federal SExpress",
+          "credits": "Nichy",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/MD11/FDSX.png",
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/MD11/FDSX.png"
+          ],
+          "type_id": 2
+        }
+      ]
     }
   }
 }
