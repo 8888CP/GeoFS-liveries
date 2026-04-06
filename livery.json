@@ -1495,9 +1495,9 @@
           "credits": "Nichy",
           "texture": [
             "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/DHC6/LNBNA/main.png",
-            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/DHC6/LNBEZ/left.png",
-            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/DHC6/LNBEZ/bottom.png",
-            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/DHC6/LNBEZ/right.png"
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/DHC6/LNBNA/left.png",
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/DHC6/LNBNA/bottom.png",
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/DHC6/LNBNA/right.png"
           ],
           "type_id": 1
         }
