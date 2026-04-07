@@ -961,6 +961,15 @@
             "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b777-200/United_old_radome.png"
           ],
           "type_id": 1
+        },
+        {
+          "name": "Aeromexico (chrome livery)",
+          "credits": "Nichy",
+          "texture": [
+            "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-200/shaders/original.png",
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b777-200/Aeromexico_2_1.png"
+          ],
+          "type_id": 1
         }
       ]
     },
@@ -1029,6 +1038,15 @@
           "texture": [
             "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-200f/shaders/original.png",
             "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b777-200f/AeroLogic_DHL.png"
+          ],
+          "type_id": 1
+        },
+        {
+          "name": "Korean Air Cargo (new design)",
+          "credits": "Nichy",
+          "texture": [
+            "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-200f/shaders/original.png",
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b777-200f/Koreannew.png"
           ],
           "type_id": 1
         }
