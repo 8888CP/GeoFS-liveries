@@ -1,4 +1,4 @@
-name: livery updates
+name: Livery Update
 
 on:
   push:
@@ -8,30 +8,31 @@ permissions:
   contents: write
 
 jobs:
-  update:
+  run:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repo
+      - name: Checkout
         uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
         with:
-          fetch-depth: 0
-          persist-credentials: true
+          python-version: 3.11
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
 
       - name: Run script
-        run: python3 .webhook/livery_update.py
         env:
           LIVERY_UPDATE_WEBHOOK: ${{ secrets.LIVERY_UPDATE_WEBHOOK }}
+        run: python3 .webhook/livery_update.py
 
-      - name: Commit commit.txt
+      - name: Update commit file
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
           git add .webhook/commit.txt
-
-          # 防止没有变化时报错
-          git diff --cached --quiet && echo "No changes" && exit 0
-
-          git commit -m "Update commit.txt"
+          git commit -m "Update commit.txt" || exit 0
           git push
