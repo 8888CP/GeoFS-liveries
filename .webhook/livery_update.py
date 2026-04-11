@@ -1,23 +1,31 @@
 import requests
+import json
 import os
 from discord_webhook import DiscordWebhook, DiscordEmbed
 
-WEBHOOK = os.environ["LIVERY_UPDATE_WEBHOOK"]
+LIVERY_UPDATE_WEBHOOK = os.environ["LIVERY_UPDATE_WEBHOOK"]
 
-with open(".webhook/commit.txt", "r") as f:
-    commit_id = f.read().strip()
+with open(".webhook/commit.txt", "r") as file:
+    commit_id = file.read().strip()
 
-BASE = "https://raw.githubusercontent.com/CCA131488/GeoFS-liveries"
+# 当前最新数据
+new_json = json.loads(
+    requests.get(
+        "https://raw.githubusercontent.com/CCA131488/GeoFS-liveries/refs/heads/main/livery.json"
+    ).text
+)
 
-# ✅ 正确 JSON 获取方式（防 BOM / content 错误）
-new_json = requests.get(f"{BASE}/refs/heads/main/livery.json").json()
-old_json = requests.get(f"{BASE}/{commit_id}/livery.json").json()
+# 旧数据（对比用）
+old_json = json.loads(
+    requests.get(
+        f"https://raw.githubusercontent.com/CCA131488/GeoFS-liveries/{commit_id}/livery.json"
+    ).text
+)
 
 diff_data = []
+total = 0
 
-# 🔍 diff
 for plane_id, plane_data in new_json["aircrafts"].items():
-
     addition = []
 
     new_liveries = plane_data.get("liveries", [])
@@ -29,45 +37,37 @@ for plane_id, plane_data in new_json["aircrafts"].items():
 
     if addition:
         diff_data.append({
-            "name": plane_data.get("name", plane_id),
-            "addition": addition
+            "plane_name": plane_data.get("name", plane_id),
+            "liveries": addition
         })
 
-total = 0
+# ✈️ 每个飞机一个消息
+for plane in diff_data:
+    webhook = DiscordWebhook(url=LIVERY_UPDATE_WEBHOOK)
 
-if diff_data:
+    text = ""
 
-    # ✈️ 每个飞机 = 单独消息
-    for plane in diff_data:
-
-        webhook = DiscordWebhook(url=WEBHOOK)
-
-        text = ""
-
-        for livery in plane["addition"]:
-            total += 1
-            name = livery.get("name", "unknown")
-            credits = livery.get("credits", "??")
-
-            text += f"{name} by: *{credits}*\n"
-
-        embed = DiscordEmbed(
-            title=plane["name"],
-            description=text.strip(),
-            color="242429"
-        )
-
-        webhook.add_embed(embed)
-        webhook.execute()
-
-    # 📊 total message
-    webhook = DiscordWebhook(url=WEBHOOK)
+    for livery in plane["liveries"]:
+        total += 1
+        name = livery.get("name", "Unknown")
+        credits = livery.get("credits", "??")
+        text += f"{name} by: {credits}\n"
 
     embed = DiscordEmbed(
-        title="Total",
-        description=str(total),
+        description=f"{plane['plane_name']}\n{text.strip()}",
         color="242429"
     )
 
     webhook.add_embed(embed)
     webhook.execute()
+
+# 📊 Total 单独消息
+webhook = DiscordWebhook(url=LIVERY_UPDATE_WEBHOOK)
+
+embed = DiscordEmbed(
+    description=f"Total: {total}",
+    color="242429"
+)
+
+webhook.add_embed(embed)
+webhook.execute()
