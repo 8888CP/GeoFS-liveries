@@ -1,7 +1,7 @@
 import requests
 import os
 from datetime import datetime
-from discord_webhook import DiscordWebhook, DiscordEmbed
+from discord_webhook import DiscordWebhook
 
 WEBHOOK_URL = os.environ["LIVERY_UPDATE_WEBHOOK"]
 
@@ -44,19 +44,20 @@ for plane_key, plane_data in new_json["aircrafts"].items():
 # 🚀 有更新才发送
 if diff_data:
     total = 0
-
-    # 🕒 时间（统一）
     update_time = datetime.now().strftime("%B %d, %Y at %I:%M %p")
 
-    # ✈️ 每个机型 → 单独消息
+    # ✈️ 每个机型一个“框框消息”
     for plane in diff_data:
         webhook = DiscordWebhook(url=WEBHOOK_URL)
 
-        webhook.content = (
-            f"**livery updates**\n"
-            f"Update time: {update_time}\n"
-            f"Update by: <@1396820811876405278>"
-        )
+        content = []
+
+        content.append("**livery update**")
+        content.append(f"**Update time: {update_time}**")
+        content.append("**Update by: <@1396820811876405278>**")
+        content.append("")
+        content.append(plane["name"])
+        content.append("")
 
         real_lines = []
         virtual_lines = []
@@ -68,48 +69,43 @@ if diff_data:
             creator = livery.get("credits", "CP8888")
             type_id = livery.get("type_id", 1)
 
-            line = f"{name} by: {creator}"
+            line = f"{name} by: *{creator}*"
 
             if type_id == 1:
                 real_lines.append(line)
             else:
                 virtual_lines.append(line)
 
-        embed = DiscordEmbed(
-            title=plane["name"],
-            color="2b2d31"
-        )
-
         if real_lines:
-            embed.add_embed_field(
-                name="real liveries",
-                value="\n".join(real_lines),
-                inline=False
-            )
+            content.append("real liveries")
+            content.extend(real_lines)
+            content.append("")
 
         if virtual_lines:
-            embed.add_embed_field(
-                name="virtual liveries",
-                value="\n".join(virtual_lines),
-                inline=False
-            )
+            content.append("virtual liveries")
+            content.extend(virtual_lines)
+            content.append("")
 
-        webhook.add_embed(embed)
+        webhook.content = "\n".join(content)
         webhook.execute()
 
-    # 📊 Total 单独一条消息
+    # 📊 Total 单独一条消息（emoji数字）
+    number_map = {
+        0: ":zero:",
+        1: ":one:",
+        2: ":two:",
+        3: ":three:",
+        4: ":four:",
+        5: ":five:",
+        6: ":six:",
+        7: ":seven:",
+        8: ":eight:",
+        9: ":nine:",
+        10: ":ten:"
+    }
+
+    total_emoji = number_map.get(total, str(total))
+
     webhook = DiscordWebhook(url=WEBHOOK_URL)
-
-    webhook.content = (
-        f"**livery updates**\n"
-        f"Update time: {update_time}\n"
-        f"Update by: <@1396820811876405278>"
-    )
-
-    total_embed = DiscordEmbed(
-        description=f"**Total: {total}**",
-        color="5865F2"
-    )
-
-    webhook.add_embed(total_embed)
+    webhook.content = f"**Total: {total_emoji}**"
     webhook.execute()
