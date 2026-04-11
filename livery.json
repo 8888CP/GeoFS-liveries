@@ -357,7 +357,15 @@
           ],
           "type_id": 1
         }
-      ]
+        {
+          "name": "Japan airlines",
+          "credits": "TOMAIM",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b737max8/Japan.png"
+          ],
+          "type_id": 1
+        }
+      ],
     },
     "3180": {
       "name": "Boeing B787-10",
@@ -544,6 +552,14 @@
           "credits": "Nichy",
           "texture": [
             "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b737-800/VTAXD.png"
+          ],
+          "type_id": 1
+        },
+        {
+          "name": "Japan Quick Airline (Go Japan)",
+          "credits": "TOMAIM",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b737-800/JAPAN.png"
           ],
           "type_id": 1
         }
