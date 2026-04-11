@@ -1576,6 +1576,22 @@
           "type_id": 2
         }
       ]
+    },
+    "5193": {
+      "name": "Boeing B747-8i",
+      "index": [0, 1],
+      "parts": [0, 0],
+      "liveries": [
+        {
+          "name": "Lufthansa (Retro design)",
+          "credits": "KN5290",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b747-8i/LufthansaRetro.png",
+            "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b747-8i/wing/original.png"
+          ],
+          "type_id": 1
+        }
+      ]
     }
   }
 }
