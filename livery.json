@@ -974,7 +974,7 @@
       ]
     },
     "4402": {
-      "name": "Boeing B777-200f",
+      "name": "Boeing B777-200F",
       "index": [1, 0],
       "parts": [0, 0],
       "liveries": [
@@ -1070,7 +1070,7 @@
       ]
     },
     "252": {
-      "name": "Boeing B747-8f",
+      "name": "Boeing B747-8F",
       "index": [0],
       "parts": [0],
       "liveries": [
@@ -1314,7 +1314,7 @@
       ]
     },
     "1005": {
-      "name": "Boeing B777-9x",
+      "name": "Boeing B777-9X",
       "index": [0, 1, 2],
       "parts": [0, 0, 0],
       "liveries": [
@@ -1461,7 +1461,7 @@
       ]
     },
     "1004": {
-      "name": "Boeing B777-200lr",
+      "name": "Boeing B777-200LR",
       "index": [0],
       "parts": [0],
       "liveries": [
