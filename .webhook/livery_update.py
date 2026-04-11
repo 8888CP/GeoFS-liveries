@@ -1,124 +1,113 @@
 import requests
+import json
 import os
-from datetime import datetime
 from discord_webhook import DiscordWebhook, DiscordEmbed
 
-WEBHOOK_URL = os.environ["LIVERY_UPDATE_WEBHOOK"]
+LIVERY_UPDATE_WEBHOOK = os.environ["LIVERY_UPDATE_WEBHOOK"]
 
-# 读取 commit
 with open(".webhook/commit.txt", "r") as file:
-    commit_id = file.read().strip()
+    commit_id = file.read()
+    print(commit_id)
 
-new_json = requests.get(
-    "https://raw.githubusercontent.com/CCA131488/GeoFS-liveries/main/livery.json"
-).json()
+new_json = json.loads(
+    requests.get(
+        "https://raw.githubusercontent.com/CCA131488/GeoFS-liveries/refs/heads/main/livery.json"
+    ).content
+)
 
-old_json = requests.get(
-    f"https://raw.githubusercontent.com/CCA131488/GeoFS-liveries/{commit_id}/livery.json"
-).json()
+old_json = json.loads(
+    requests.get(
+        f"https://raw.githubusercontent.com/CCA131488/GeoFS-liveries/{commit_id}/livery.json"
+    ).content
+)
+
+keys = new_json["aircrafts"].keys()
 
 diff_data = []
 
-# 🔍 diff
-for plane_key, plane_data in new_json["aircrafts"].items():
-    new_liveries = plane_data["liveries"]
-
-    try:
-        old_liveries = old_json["aircrafts"][plane_key]["liveries"]
-    except KeyError:
-        old_liveries = []
-
+for plane in keys:
     addition = []
 
-    for livery in new_liveries:
-        if livery not in old_liveries:
+    for livery in new_json["aircrafts"][plane]["liveries"]:
+        try:
+            if livery not in old_json["aircrafts"][plane]["liveries"]:
+                addition.append(livery)
+        except KeyError:
             addition.append(livery)
 
-    if addition:
-        diff_data.append({
-            "name": plane_data.get("name", plane_key),
+    try:
+        data = {
+            "name": new_json["aircrafts"][plane]["name"],
             "addition": addition
-        })
+        }
+    except KeyError:
+        data = {
+            "name": plane,
+            "addition": addition
+        }
 
-# 🚀 send
+    if addition:
+        diff_data.append(data)
+
+print(diff_data)
+
+total = 0
+
+# 🎯 emoji map（0-10）
+number_map = {
+    0: ":zero:",
+    1: ":one:",
+    2: ":two:",
+    3: ":three:",
+    4: ":four:",
+    5: ":five:",
+    6: ":six:",
+    7: ":seven:",
+    8: ":eight:",
+    9: ":nine:",
+    10: ":ten:"
+}
+
 if diff_data:
-    total = 0
-    update_time = datetime.now().strftime("%B %d, %Y at %I:%M %p")
 
-    # ✈️ 每个机型一个 embed
+    # ✈️ 每个机型一个 embed（一个消息）
     for plane in diff_data:
-        webhook = DiscordWebhook(url=WEBHOOK_URL)
+        webhook = DiscordWebhook(url=LIVERY_UPDATE_WEBHOOK)
 
         embed = DiscordEmbed(
-            title=plane["name"],
-            color="242429"   # ⭐你要的颜色
+            title="livery update",
+            color="242429"
         )
 
-        embed.add_embed_field(
-            name="livery update",
-            value=(
-                f"**Update time:** {update_time}\n"
-                f"**Update by:** <@1396820811876405278>"
-            ),
-            inline=False
-        )
-
-        real_lines = []
-        virtual_lines = []
+        livery_list = ""
 
         for livery in plane["addition"]:
             total += 1
 
-            name = livery.get("name", "Unknown")
-            creator = livery.get("credits", "CP8888")
-            type_id = livery.get("type_id", 1)
+            try:
+                livery_list += f'{livery["name"]} *by: {livery["credits"]}*\n'
+            except KeyError:
+                livery_list += f'{livery["name"]} *by: ??*\n'
 
-            line = f"{name} by: *{creator}*"
-
-            if type_id == 1:
-                real_lines.append(line)
-            else:
-                virtual_lines.append(line)
-
-        if real_lines:
-            embed.add_embed_field(
-                name="real liveries",
-                value="\n".join(real_lines),
-                inline=False
-            )
-
-        if virtual_lines:
-            embed.add_embed_field(
-                name="virtual liveries",
-                value="\n".join(virtual_lines),
-                inline=False
-            )
+        embed.add_embed_field(
+            name=plane["name"],
+            value=livery_list.strip(),
+            inline=False
+        )
 
         webhook.add_embed(embed)
         webhook.execute()
 
-    # 📊 Total embed（单独一条）
-    number_map = {
-        1: ":one:",
-        2: ":two:",
-        3: ":three:",
-        4: ":four:",
-        5: ":five:",
-        6: ":six:",
-        7: ":seven:",
-        8: ":eight:",
-        9: ":nine:",
-        10: ":ten:"
-    }
+    # 📊 Total 单独一个 embed
+    webhook = DiscordWebhook(url=LIVERY_UPDATE_WEBHOOK)
 
-    total_emoji = number_map.get(total, str(total))
+    total_display = number_map.get(total, str(total))
 
-    total_webhook = DiscordWebhook(url=WEBHOOK_URL)
-    total_embed = DiscordEmbed(
-        title="Total",
-        description=f"**{total_emoji}**",
+    embed = DiscordEmbed(
+        title="livery update",
+        description=f"**Total: {total_display}**",
         color="242429"
     )
 
-    total_webhook.add_embed(total_embed)
-    total_webhook.execute()
+    webhook.add_embed(embed)
+    webhook.execute()
