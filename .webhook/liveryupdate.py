@@ -28,7 +28,7 @@ old_json = json.loads(old_raw)
 diff_data = []
 total = 0
 
-# ===== 找差异 =====
+# ===== diff =====
 for plane_id, plane_data in new_json["aircrafts"].items():
 
     old_liveries = old_json.get("aircrafts", {}).get(plane_id, {}).get("liveries", [])
@@ -43,7 +43,7 @@ for plane_id, plane_data in new_json["aircrafts"].items():
 if not diff_data:
     exit()
 
-# ===== ① 标题 embed =====
+# ===== ① Title embed =====
 title_webhook = DiscordWebhook(url=LIVERY_UPDATE_WEBHOOK)
 title_embed = DiscordEmbed(
     description="# Livery update",
@@ -52,7 +52,7 @@ title_embed = DiscordEmbed(
 title_webhook.add_embed(title_embed)
 title_webhook.execute()
 
-# ===== ② 每个 livery 单独 embed =====
+# ===== ② Each livery embed =====
 for plane_name, livery in diff_data:
 
     total += 1
