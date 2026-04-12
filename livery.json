@@ -41,7 +41,23 @@
             "https://raw.githubusercontent.com/CCA131488/GeoFS-liveries/refs/heads/main/liveries/b767-300er/shanghaiold.png"
           ],
           "type_id": 1
-        }        
+        },
+        {
+          "name": "FedSEx",
+          "credits": "Nichy",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b767-300ER/Fedsex.png",
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b767-300ER/Fedsex.png",
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b767-300ER/Fedsex.png",
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b767-300ER/Fedsex.png",
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b767-300ER/Fedsex.png",
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b767-300ER/Fedsex.png",
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b767-300ER/Fedsex.png",
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b767-300ER/Fedsex.png",
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b767-300ER/Fedsex.png"
+          ],
+          "type_id": 2
+        }
       ]
     },
     "238": {
@@ -66,7 +82,25 @@
             "https://raw.githubusercontent.com/CCA131488/GeoFS-liveries/refs/heads/main/liveries/b757-200/airchina.png"
           ],
           "type_id": 1
-        }        
+        },
+        {
+          "name": "FedSEx",
+          "credits": "Nichy",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b757-200/Fedsex.png",
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b757-200/Fedsex.png",
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b757-200/Fedsex.png",
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b757-200/Fedsex.png",
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b757-200/Fedsex.png",
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b757-200/Fedsex.png",
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b757-200/Fedsex.png",
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b757-200/Fedsex.png",
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b757-200/Fedsex.png",
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b757-200/Fedsex.png",
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b757-200/Fedsex.png"
+          ],
+          "type_id": 2
+        }
       ]
     },
     "2879": {
@@ -181,6 +215,14 @@
           "credits": "CP8888",
           "texture": [
             "https://i.ibb.co/jZM54RGK/koreanair.png"
+          ],
+          "type_id": 1
+        },
+        {
+          "name": "Qantas (100 years anniversary livery)",
+          "credits": "CP8888",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b787-9/VH-ZNJ.jpg"
           ],
           "type_id": 1
         }
@@ -562,6 +604,14 @@
             "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b737-800/JAPAN.png"
           ],
           "type_id": 1
+        },
+        {
+          "name": "FedSEx",
+          "credits": "Nichy",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b737-800/Fedsex.png"
+          ],
+          "type_id": 2
         }
       ]
     },
