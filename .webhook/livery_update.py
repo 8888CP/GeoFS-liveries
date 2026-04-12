@@ -8,26 +8,25 @@ LIVERY_UPDATE_WEBHOOK = os.environ["LIVERY_UPDATE_WEBHOOK"]
 with open(".webhook/commit.txt", "r") as file:
     commit_id = file.read().strip()
 
-# 当前最新数据
-new_json = json.loads(
-    requests.get(
-        "https://raw.githubusercontent.com/CCA131488/GeoFS-liveries/refs/heads/main/livery.json"
-    ).text
-)
+new_raw = requests.get(
+    "https://raw.githubusercontent.com/CCA131488/GeoFS-liveries/refs/heads/main/livery.json"
+).text
 
-# 旧数据（对比用）
-old_json = json.loads(
-    requests.get(
-        f"https://raw.githubusercontent.com/CCA131488/GeoFS-liveries/{commit_id}/livery.json"
-    ).text
-)
+old_raw = requests.get(
+    f"https://raw.githubusercontent.com/CCA131488/GeoFS-liveries/{commit_id}/livery.json"
+).text
+
+if new_raw == old_raw:
+    exit()
+
+new_json = json.loads(new_raw)
+old_json = json.loads(old_raw)
 
 diff_data = []
 total = 0
 
 for plane_id, plane_data in new_json["aircrafts"].items():
     addition = []
-
     new_liveries = plane_data.get("liveries", [])
     old_liveries = old_json.get("aircrafts", {}).get(plane_id, {}).get("liveries", [])
 
@@ -41,12 +40,14 @@ for plane_id, plane_data in new_json["aircrafts"].items():
             "liveries": addition
         })
 
-# ✈️ 每个飞机一个消息
+if not diff_data:
+    exit()
+
+first = True
+
 for plane in diff_data:
     webhook = DiscordWebhook(url=LIVERY_UPDATE_WEBHOOK)
-
     text = ""
-
     for livery in plane["liveries"]:
         total += 1
         name = livery.get("name", "Unknown")
@@ -58,14 +59,33 @@ for plane in diff_data:
         color="242429"
     )
 
+    if first:
+        embed.set_title("Livery Update!")
+        first = False
+
     webhook.add_embed(embed)
     webhook.execute()
 
-# 📊 Total 单独消息
+number_emojis = {
+    "0": ":zero:",
+    "1": ":one:",
+    "2": ":two:",
+    "3": ":three:",
+    "4": ":four:",
+    "5": ":five:",
+    "6": ":six:",
+    "7": ":seven:",
+    "8": ":eight:",
+    "9": ":nine:"
+}
+
+def number_to_emoji(num):
+    return "".join(number_emojis[d] for d in str(num))
+
 webhook = DiscordWebhook(url=LIVERY_UPDATE_WEBHOOK)
 
 embed = DiscordEmbed(
-    description=f"Total: {total}",
+    description=f"Total: {number_to_emoji(total)}",
     color="242429"
 )
 
