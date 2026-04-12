@@ -3,6 +3,9 @@ import json
 import os
 from discord_webhook import DiscordWebhook, DiscordEmbed
 
+if os.environ.get("GITHUB_REF") != "refs/heads/main":
+    exit()
+
 LIVERY_UPDATE_WEBHOOK = os.environ["LIVERY_UPDATE_WEBHOOK"]
 
 with open(".webhook/commit.txt", "r") as file:
