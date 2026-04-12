@@ -95,7 +95,7 @@ def number_to_emoji(num):
 
 total_webhook = DiscordWebhook(url=LIVERY_UPDATE_WEBHOOK)
 total_embed = DiscordEmbed(
-    description=f"Total: {number_to_emoji(total)}",
+    description=f"**Total:** {number_to_emoji(total)}",
     color="242429"
 )
 total_webhook.add_embed(total_embed)
