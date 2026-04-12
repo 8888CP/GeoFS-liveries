@@ -26,7 +26,7 @@ jobs:
       - name: Run script
         working-directory: .webhook
         env:
-          LIVERY_UPDATE_WEBHOOK: ${{ secrets.GITHUB }}
+          LIVERY_UPDATE_WEBHOOK: ${{ secrets.LIVERY_UPDATE_WEBHOOK }}
           GITHUB_REF: ${{ github.ref }}
         run: |
           python3 liveryupdate.py
