@@ -8,7 +8,7 @@ if os.environ.get("GITHUB_REF") != "refs/heads/main":
 
 LIVERY_UPDATE_WEBHOOK = os.environ["LIVERY_UPDATE_WEBHOOK"]
 
-with open(".webhook/commit.txt", "r") as file:
+with open("commit.txt", "r") as file:
     commit_id = file.read().strip()
 
 new_raw = requests.get(
