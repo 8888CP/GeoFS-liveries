@@ -25,72 +25,41 @@ if new_raw == old_raw:
 new_json = json.loads(new_raw)
 old_json = json.loads(old_raw)
 
-diff_data = []
-total = 0
+# ===== 第一条：标题 embed =====
+title_webhook = DiscordWebhook(url=LIVERY_UPDATE_WEBHOOK)
+title_embed = DiscordEmbed(
+    description="Livery update",
+    color="242429"
+)
+title_webhook.add_embed(title_embed)
+title_webhook.execute()
 
+# ===== 后续每个 livery 单独 embed =====
 for plane_id, plane_data in new_json["aircrafts"].items():
-    addition = []
-    new_liveries = plane_data.get("liveries", [])
+
     old_liveries = old_json.get("aircrafts", {}).get(plane_id, {}).get("liveries", [])
+    new_liveries = plane_data.get("liveries", [])
+
+    plane_name = plane_data.get("name", plane_id)
 
     for livery in new_liveries:
         if livery not in old_liveries:
-            addition.append(livery)
 
-    if addition:
-        diff_data.append({
-            "plane_name": plane_data.get("name", plane_id),
-            "liveries": addition
-        })
+            livery_name = livery.get("name", "Unknown")
+            credits = livery.get("credits", "??")
 
-if not diff_data:
-    exit()
+            type_id = livery.get("type_id", 2)
+            livery_type = "real livery" if type_id == 1 else "virtual livery"
 
-first = True
+            embed = DiscordEmbed(
+                description=(
+                    f"**{plane_name}**\n"
+                    f"**{livery_type}**\n"
+                    f"{livery_name} *by: {credits}*"
+                ),
+                color="242429"
+            )
 
-for plane in diff_data:
-    webhook = DiscordWebhook(url=LIVERY_UPDATE_WEBHOOK)
-    text = ""
-    for livery in plane["liveries"]:
-        total += 1
-        name = livery.get("name", "Unknown")
-        credits = livery.get("credits", "??")
-        text += f"{name} by: {credits}\n"
-
-    embed = DiscordEmbed(
-        description=f"{plane['plane_name']}\n{text.strip()}",
-        color="242429"
-    )
-
-    if first:
-        embed.set_title("Livery Update!")
-        first = False
-
-    webhook.add_embed(embed)
-    webhook.execute()
-
-number_emojis = {
-    "0": ":zero:",
-    "1": ":one:",
-    "2": ":two:",
-    "3": ":three:",
-    "4": ":four:",
-    "5": ":five:",
-    "6": ":six:",
-    "7": ":seven:",
-    "8": ":eight:",
-    "9": ":nine:"
-}
-
-def number_to_emoji(num):
-    return "".join(number_emojis[d] for d in str(num))
-
-webhook = DiscordWebhook(url=LIVERY_UPDATE_WEBHOOK)
-
-embed = DiscordEmbed(
-    description=f"Total: {number_to_emoji(total)}",
-    color="242429"
-)
-
-webhook.add_embed(embed)
-webhook.execute()
+            webhook = DiscordWebhook(url=LIVERY_UPDATE_WEBHOOK)
+            webhook.add_embed(embed)
+            webhook.execute()
