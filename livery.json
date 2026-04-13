@@ -1523,6 +1523,14 @@
             "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Airbus a300-600/DHL_hongkong.png"
           ],
           "type_id": 1
+        },
+        {
+          "name": "FedSEx",
+          "credits": "Nichy",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Airbus a300-600/Fedsex_A300.png"
+          ],
+          "type_id": 2
         }
       ]
     },
