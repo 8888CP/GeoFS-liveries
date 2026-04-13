@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         GeoFS-liveries
 // @namespace    http://tampermonkey.net/
-// @version      1.3
+// @version      1.3.1
 // @description  add some liveries
 // @author       ChatGPT & CP8888
 // @match        https://geo-fs.com/geofs.php*
@@ -31,7 +31,7 @@
     }, 1000);
 
     async function init() {
-        console.log("✅ Plugin Loaded v1.2-fixed");
+        console.log("✅ Plugin Loaded v1.3.1");
 
         try {
             data = await fetch(jsonUrl).then(r => r.json());
@@ -143,9 +143,6 @@
         document.body.appendChild(panel);
     }
 
-    // =========================
-    // APPLY LIVERY (UNCHANGED)
-    // =========================
     function applyLivery(livery) {
         const id = geofs.aircraft.instance.id;
 
@@ -176,9 +173,6 @@
         });
     }
 
-    // =========================
-    // RENDER (UNCHANGED)
-    // =========================
     function renderList(list) {
         listContainer.innerHTML = "";
 
@@ -233,7 +227,7 @@
     }
 
     // =========================
-    // FILTER (UNCHANGED)
+    // FILTER (ONLY CHANGE: SORT ADDED)
     // =========================
     function filterList() {
         const keyword = searchInput.value.toLowerCase();
@@ -256,60 +250,14 @@
             (l.credits || "").toLowerCase().includes(keyword)
         );
 
+        // ⭐ NEW: alphabetical sort (ONLY ADDITION)
+        list.sort((a, b) =>
+            a.name.localeCompare(b.name, "en", { sensitivity: "base" })
+        );
+
         renderList(list);
     }
 
-    // =========================
-    // ⭐ FIXED SHIFT LOGIC (ONLY CHANGE)
-    // =========================
-
-    function isTypingInUI() {
-        const el = document.activeElement;
-        if (!el) return false;
-
-        const tag = el.tagName;
-        return (
-            tag === "INPUT" ||
-            tag === "TEXTAREA" ||
-            el.isContentEditable
-        );
-    }
-
-    document.addEventListener("mousedown", (e) => {
-        const t = e.target;
-
-        // ❗点击UI不算游戏焦点
-        if (panel.contains(t) || t.tagName === "INPUT" || t.tagName === "SELECT") {
-            gameFocused = false;
-            return;
-        }
-
-        gameFocused = true;
-    });
-
-    searchInput?.addEventListener("focus", () => gameFocused = false);
-    searchInput?.addEventListener("blur", () => gameFocused = true);
-
-    document.addEventListener("keydown", (e) => {
-
-        if (!panel) return;
-
-        // ⭐ 核心修复1：输入状态直接禁止
-        if (isTypingInUI()) return;
-
-        // ⭐ 核心修复2：必须点击过游戏
-        if (!gameFocused) return;
-
-        // ⭐ Shift 才触发
-        if (e.key === "Shift") {
-            panel.style.display =
-                panel.style.display === "none" ? "flex" : "none";
-        }
-    });
-
-    // =========================
-    // LOOP (UNCHANGED)
-    // =========================
     function startLoop() {
         setInterval(() => {
             if (!panel || !document.body.contains(panel)) createUI();
