@@ -1337,6 +1337,15 @@
             "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b747-400/wing/original.png"
           ],
           "type_id": 1
+        },
+        {
+          "name": "Mandarin Airlines",
+          "credits": "CNA1838",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b747-400/744_mandarin.png",
+            "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b747-400/wing/original.png"
+          ],
+          "type_id": 1
         }
       ]
     },
