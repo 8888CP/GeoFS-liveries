@@ -9,6 +9,8 @@ This section contains all the unupdated liveries created by me and my friends. I
 When you use this plugin, press Shift to hide it.
 **If you have an idea for making a plugin better, feel free to ask it in the [issues](https://github.com/CCA131488/GeoFS-liveries-that-has-not-been-updated/issues).**
 
+# Key reminder!
+To use this plugin, you need to first install [Kolos' GEOFS-LiverySelector](https://github.com/kolos26/GEOFS-LiverySelector).
 # Version: 1.3
 
 **•**  Modified the gradient effect.
