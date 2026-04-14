@@ -41,12 +41,37 @@
         }
 
         createUI();
+        setupHideKey(); // ✅ 启用隐藏逻辑（已修复）
         startLoop();
     }
 
-    // =========================
-    // UI CREATION (UNCHANGED)
-    // =========================
+    // ✅ 修复后的 Shift 隐藏逻辑（唯一修改点）
+    function setupHideKey() {
+        document.addEventListener("mousedown", (e) => {
+            if (panel && panel.contains(e.target)) {
+                gameFocused = false;
+            } else {
+                gameFocused = true;
+            }
+        });
+
+        document.addEventListener("keydown", (e) => {
+            const active = document.activeElement;
+            const typing =
+                active &&
+                (active.tagName === "INPUT" ||
+                 active.tagName === "TEXTAREA" ||
+                 active.isContentEditable);
+
+            if (typing) return; // ❌ 输入时不触发
+
+            if (e.key === "Shift" && gameFocused && panel) {
+                panel.style.display =
+                    panel.style.display === "none" ? "flex" : "none";
+            }
+        });
+    }
+
     function createUI() {
         if (panel && document.body.contains(panel)) return;
 
@@ -226,9 +251,6 @@
         listContainer.appendChild(fragment);
     }
 
-    // =========================
-    // FILTER (ONLY CHANGE: SORT ADDED)
-    // =========================
     function filterList() {
         const keyword = searchInput.value.toLowerCase();
         const id = geofs.aircraft.instance.id;
@@ -250,7 +272,6 @@
             (l.credits || "").toLowerCase().includes(keyword)
         );
 
-        // ⭐ NEW: alphabetical sort (ONLY ADDITION)
         list.sort((a, b) =>
             a.name.localeCompare(b.name, "en", { sensitivity: "base" })
         );
