@@ -329,7 +329,7 @@
         },
         {
           "name": "Air China (Zhoushan Hello livery)",
-          "credits": "CP8888 ＆ TOMAIM",
+          "credits": "TOMAIM",
           "texture": [
             "https://raw.githubusercontent.com/CCA131488/GeoFS-liveries/refs/heads/main/liveries/7m8/airchinazhoushan.png"
           ],
@@ -368,7 +368,7 @@
           "type_id": 1
         },
         {
-          "name": "Shandong Airlines (Hainan Airlines tail wing)",
+          "name": "Shandong Airlines (Hainan Airlines tail fin)",
           "credits": "TOMAIM",
           "texture": [
             "https://raw.githubusercontent.com/CCA131488/GeoFS-liveries/refs/heads/main/liveries/7m8/N234BE.png"
