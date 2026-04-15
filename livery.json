@@ -1440,7 +1440,7 @@
           "name": "China Northern Airlines",
           "credits": "CNA1838",
           "texture": [
-            "https://raw.githubusercontent.com/CCA131488/GeoFS-liveries-that-has-not-been-updated/refs/heads/main/liveries/a300/chinanorthern.png"
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Airbus a300-600/306Chinanorthern.png"
           ],
           "type_id": 1
         },
@@ -1496,7 +1496,7 @@
           "name": "China Cargo Airlines",
           "credits": "TOMAIM",
           "texture": [
-            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Airbus a300-600/Chinaairlines.png"
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Airbus a300-600/MUC.png"
           ],
           "type_id": 1
         },
