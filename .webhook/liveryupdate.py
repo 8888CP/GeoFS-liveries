@@ -71,14 +71,18 @@ for plane_name, liveries in grouped.items():
 
     lines = []
 
-    for livery_type, items in type_group.items():
+    # 固定顺序：real 在上，virtual 在下
+    for livery_type in ["real liveries", "virtual liveries"]:
+        if livery_type not in type_group:
+            continue
+
         lines.append(f"**{livery_type}**")
 
-        for livery in items:
+        for livery in type_group[livery_type]:
             livery_name = livery.get("name", "Unknown")
             credits = livery.get("credits", "??")
 
-            lines.append(f"{livery_name} by: {credits}")
+            lines.append(f"{livery_name} *by: {credits}*")
 
         lines.append("")
 
