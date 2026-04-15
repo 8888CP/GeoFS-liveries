@@ -741,7 +741,7 @@
       "parts": [0, 0],
       "liveries": [
         {
-          "name": "Korean Air (200th Boeing Aircraft tick)",
+          "name": "Korean Air (200th Boeing aircraft tick)",
           "credits": "CP8888 ＆ KN5290",
           "texture": [
             "/models/aircraft/premium/777_300/specular_0.jpg",
@@ -947,7 +947,7 @@
           "type_id": 1
         },
         {
-          "name": "Aircalin (2011 South Pacific Games livery)",
+          "name": "Aircalin (2011 South Pacific games livery)",
           "credits": "Geofs Player Bilibili",
           "texture": [
             "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Airbus_a320-232/Aircalin_2011.png"
@@ -1002,7 +1002,7 @@
       "parts": [0, 0],
       "liveries": [
         {
-          "name": "Japan Airlines (Tokyo Olympics 2020 livery)",
+          "name": "Japan Airlines (Tokyo olympics 2020 livery)",
           "credits": "TOMAIM",
           "texture": [
             "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-200/shaders/original.png",
@@ -1029,7 +1029,7 @@
           "type_id": 1
         },
         {
-          "name": "Aeromexico (chrome livery)",
+          "name": "Aeromexico (Chrome livery)",
           "credits": "Nichy",
           "texture": [
             "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-200/shaders/original.png",
