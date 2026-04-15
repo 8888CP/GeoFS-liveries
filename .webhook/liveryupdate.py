@@ -1,6 +1,7 @@
 import requests
 import json
 import os
+from collections import defaultdict
 from discord_webhook import DiscordWebhook, DiscordEmbed
 
 if os.environ.get("GITHUB_REF") != "refs/heads/main":
@@ -52,22 +53,39 @@ title_embed = DiscordEmbed(
 title_webhook.add_embed(title_embed)
 title_webhook.execute()
 
-# ===== ② Each livery embed =====
+# ===== ② Each plane embed (merged + grouped by type) =====
+grouped = defaultdict(list)
+
 for plane_name, livery in diff_data:
+    grouped[plane_name].append(livery)
 
-    total += 1
+for plane_name, liveries in grouped.items():
+    total += len(liveries)
 
-    livery_name = livery.get("name", "Unknown")
-    credits = livery.get("credits", "??")
+    type_group = defaultdict(list)
 
-    type_id = livery.get("type_id", 2)
-    livery_type = "real livery" if type_id == 1 else "virtual livery"
+    for livery in liveries:
+        type_id = livery.get("type_id", 2)
+        livery_type = "real liveries" if type_id == 1 else "virtual liveries"
+        type_group[livery_type].append(livery)
+
+    lines = []
+
+    for livery_type, items in type_group.items():
+        lines.append(f"**{livery_type}**")
+
+        for livery in items:
+            livery_name = livery.get("name", "Unknown")
+            credits = livery.get("credits", "??")
+
+            lines.append(f"{livery_name} by: {credits}")
+
+        lines.append("")
 
     embed = DiscordEmbed(
         description=(
-            f"**{plane_name}**\n"
-            f"**{livery_type}**\n"
-            f"{livery_name} *by: {credits}*"
+            f"**{plane_name}**\n" +
+            "\n".join(lines).strip()
         ),
         color="242429"
     )
