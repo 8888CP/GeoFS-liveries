@@ -328,7 +328,7 @@
           "type_id": 1
         },
         {
-          "name": "Air China (Zhoushan Hello livery)",
+          "name": "Air China (Zhoushan hello livery)",
           "credits": "TOMAIM",
           "texture": [
             "https://raw.githubusercontent.com/CCA131488/GeoFS-liveries/refs/heads/main/liveries/7m8/airchinazhoushan.png"
@@ -336,7 +336,7 @@
           "type_id": 1
         },
         {
-          "name": "Air India Express (China Eastern Airlines livery)",
+          "name": "Air India Express (ex China Eastern Airlines)",
           "credits": "KN5290",
           "texture": [
             "https://raw.githubusercontent.com/CCA131488/GeoFS-liveries/refs/heads/main/liveries/7m8/VT-BWI.png"
