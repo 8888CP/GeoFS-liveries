@@ -139,6 +139,14 @@
             "https://raw.githubusercontent.com/CCA131488/GeoFS-liveries/refs/heads/main/liveries/a319/deerjet.png"
           ],
           "type_id": 1
+        },
+        {
+          "name": "British Airways (BEA retro livery)",
+          "credits": "CP8888",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Airbus_a319/BEA.png"
+          ],
+          "type_id": 1
         }
       ]
     },
@@ -404,6 +412,22 @@
           "credits": "TOMAIM",
           "texture": [
             "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b737max8/Japan.png"
+          ],
+          "type_id": 1
+        },
+        {
+          "name": "EgyptAir (American Test Registration)",
+          "credits": "Nichy",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b737max8/EgyptAir_N6046P_-_B38M.png"
+          ],
+          "type_id": 1
+        },
+        {
+          "name": "EgyptAir (Egyptian Registration)",
+          "credits": "Nichy",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b737max8/EgyptAir_SU-GGL_-_B38M.png"
           ],
           "type_id": 1
         }
