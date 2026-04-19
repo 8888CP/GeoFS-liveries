@@ -1666,6 +1666,53 @@
           "type_id": 1
         }
       ]
+    },
+    "1016": {
+      "name": "Bombardier CRJ900",
+      "index": [1, 3, 5],
+      "parts": [1, 1, 1],
+      "liveries": [
+        {
+          "name": "Mesa Airlines",
+          "credits": "Nichy",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/CRJ900/Mesa.png",
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/CRJ900/Mesa.png",
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/CRJ900/Mesa.png"
+          ],
+          "type_id": 1
+        },
+        {
+          "name": "AirOne CityLiner",
+          "credits": "Nichy",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/CRJ900/AirOne_Cityliner.png",
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/CRJ900/AirOne_Cityliner.png",
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/CRJ900/AirOne_Cityliner.png"
+          ],
+          "type_id": 1
+        },
+        {
+          "name": "American Eagle (Canadian Test Registration)",
+          "credits": "Nichy",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/CRJ900/PSA_Canada.png",
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/CRJ900/PSA_Canada.png",
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/CRJ900/PSA_Canada.png"
+          ],
+          "type_id": 1
+        },
+        {
+          "name": "American Eagle (U.S. Registration)",
+          "credits": "Nichy",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/CRJ900/PSA_US.png",
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/CRJ900/PSA_US.png",
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/CRJ900/PSA_US.png"
+          ],
+          "type_id": 1
+        }
+      ]
     }
   }
 }
