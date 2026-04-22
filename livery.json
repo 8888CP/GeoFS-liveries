@@ -636,6 +636,14 @@
             "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b737-800/Fedsex.png"
           ],
           "type_id": 2
+        },
+        {
+          "name": "Poste Air Cargo",
+          "credits": "Geofs Player Bilibili",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b737-800/Poste.png"
+          ],
+          "type_id": 1
         }
       ]
     },
@@ -929,6 +937,14 @@
           "credits": "CP8888",
           "texture": [
             "https://i.ibb.co/m55rsJsF/SAS80.png"
+          ],
+          "type_id": 1
+        },
+        {
+          "name": "Hainan Airlines (old design)",
+          "credits": "CNA1838",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Airbus_a330-200/hainanold.png"
           ],
           "type_id": 1
         }
@@ -1709,6 +1725,26 @@
             "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/CRJ900/PSA_US.png",
             "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/CRJ900/PSA_US.png",
             "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/CRJ900/PSA_US.png"
+          ],
+          "type_id": 1
+        },
+        {
+          "name": "Global Reach Aviation",
+          "credits": "CP8888",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/CRJ900/Global_Reach_Aviation.png",
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/CRJ900/Global_Reach_Aviation.png",
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/CRJ900/Global_Reach_Aviation.png"
+          ],
+          "type_id": 1
+        },
+        {
+          "name": "China Express Airlines (new design)",
+          "credits": "CNA1838",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/CRJ900/CEnew.png",
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/CRJ900/CEnew.png",
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/CRJ900/CEnew.png"
           ],
           "type_id": 1
         }
