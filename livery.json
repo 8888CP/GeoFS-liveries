@@ -1974,23 +1974,23 @@
             "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/CRJ900/CEnew.png"
           ],
           "type_id": 1
-        },
-        "10": {
-          "name": "Airbus A380",
-          "index": [0, 2, 3],
-          "parts": [0, 0, 0],
-          "liveries": [
-            {
-              "name": "Singapore Airlines",
-              "credits": "Ivan Dmitriev",
-              "texture": [
-                "/models/aircraft/premium/a380/normal.jpg",
-                "/models/aircraft/premium/a380/specular.jpg",
-                "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Airbus_a380/Singapore_airlines.jpg"
-              ],
-              "type_id": 1
-            }
-          ]
+        }
+      ]
+    },
+    "10": {
+      "name": "Airbus A380",
+      "index": [0, 2, 3],
+      "parts": [0, 0, 0],
+      "liveries": [
+        {
+          "name": "Singapore Airlines",
+          "credits": "Ivan Dmitriev",
+          "texture": [
+            "/models/aircraft/premium/a380/normal.jpg",
+            "/models/aircraft/premium/a380/specular.jpg",
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Airbus_a380/Singapore_airlines.jpg"
+          ],
+          "type_id": 1
         }
       ]
     }
