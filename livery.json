@@ -319,6 +319,14 @@
             "https://i.ibb.co/jvtBMwRf/hainan.png"
           ],
           "type_id": 1
+        },
+        {
+          "name": "Juneyao Airlines (Yudo car livery)",
+          "credits": "CP8888",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Airbus_a320neo/Juneyao_B-325L.jpg"
+          ],
+          "type_id": 1
         }
       ]
     },
@@ -798,6 +806,15 @@
             "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b777-300/JA307M.png"
           ],
           "type_id": 2
+        },
+        {
+          "name": "Korean Air (Skyteam livery)",
+          "credits": "KN5290",
+          "texture": [
+            "/models/aircraft/premium/777_300/specular_0.jpg",
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b777-300/koreanair_sky.png"
+          ],
+          "type_id": 1
         }
       ]
     },
@@ -1033,6 +1050,14 @@
             "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Airbus_a320-232/Turkish_Airlines.png"
           ],
           "type_id": 1
+        },
+        {
+          "name": "Mahan Air",
+          "credits": "CNA1838",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Airbus_a320-232/mahan.png"
+          ],
+          "type_id": 1
         }
       ]
     },
@@ -1074,6 +1099,15 @@
           "texture": [
             "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-200/shaders/original.png",
             "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b777-200/Aeromexico_2_1.png"
+          ],
+          "type_id": 1
+        },
+        {
+          "name": "Asiana Airlines (old design)",
+          "credits": "CNA1838",
+          "texture": [
+            "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-200/shaders/original.png",
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b777-200/asianaold.png"
           ],
           "type_id": 1
         }
