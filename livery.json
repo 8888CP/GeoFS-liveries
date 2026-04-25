@@ -438,6 +438,70 @@
             "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b737max8/EgyptAir_SU-GGL_-_B38M.png"
           ],
           "type_id": 1
+        },
+        {
+          "name": "Norwegian",
+          "credits": "Ivan Dmitriev",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b737max8/Norwegian.jpg"
+          ],
+          "type_id": 1
+        },
+        {
+          "name": "Norwegian SE-RTT",
+          "credits": "Ivan Dmitriev",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b737max8/Norwegian_SE-RTT.jpg"
+          ],
+          "type_id": 1
+        },
+        {
+          "name": "Norwegian (unicef livery)",
+          "credits": "Ivan Dmitriev",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b737max8/Norwegian_unicef_livery.jpg"
+          ],
+          "type_id": 1
+        },
+        {
+          "name": "Norwegian (Charles Lindbergh livery)",
+          "credits": "Ivan Dmitriev",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b737max8/Norwegian_Charles_Lindbergh_livery.jpg"
+          ],
+          "type_id": 1
+        },
+        {
+          "name": "Norwegian (Elsa Beskow livery)",
+          "credits": "Ivan Dmitriev",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b737max8/Norwegian_Elsa_Beskow_livery.jpg"
+          ],
+          "type_id": 1
+        },
+        {
+          "name": "Norwegian (Felix Rodriguez de la Fuente livery)",
+          "credits": "Ivan Dmitriev",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b737max8/Norwegian_Felix_Rodriguez_de_la_Fuente_livery.jpg"
+          ],
+          "type_id": 1
+        },
+        {
+          "name": "Norwegian (Theodor Kittelsen livery)",
+          "credits": "Ivan Dmitriev",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b737max8/Norwegian_Theodor_Kittelsenlivery.jpg"
+          ],
+          "type_id": 1
+        },
+        {
+          "name": "Norwegian (unicef livery without text on the fuselage livery)",
+          "credits": "Ivan Dmitriev",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b737max8/Norwegian_unicef_without_text_on_fuselage_livery.jpg"
+          ],
+          "type_id": 1
         }
       ]
     },
@@ -467,6 +531,14 @@
           "credits": "CP8888",
           "texture": [
             "https://raw.githubusercontent.com/CCA131488/GeoFS-liveries/refs/heads/main/liveries/78x/SQ.png"
+          ],
+          "type_id": 1
+        },
+        {
+          "name": "Etihad (Greenliner livery)",
+          "credits": "Ivan Dmitriev",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/GeoFS-liveries/refs/heads/main/liveries/Boeing_b787-10/Etihad_greenliner.jpg"
           ],
           "type_id": 1
         }
@@ -652,6 +724,94 @@
             "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b737-800/Poste.png"
           ],
           "type_id": 1
+        },
+        {
+          "name": "Pobeda Airlines (Thank you to the heroes in white coats livery)",
+          "credits": "Ivan Dmitriev",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b737-800/pobedaWith_mask.jpg"
+          ],
+          "type_id": 1
+        },
+        {
+          "name": "Pobeda Airlines (Price from 499ruble livery)",
+          "credits": "Ivan Dmitriev",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b737-800/pobeda_Price_from_499ruble.jpg"
+          ],
+          "type_id": 1
+        },
+        {
+          "name": "Pobeda Airlines (70 years victory livery)",
+          "credits": "Ivan Dmitriev",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b737-800/pobeda70.jpg"
+          ],
+          "type_id": 1
+        },
+        {
+          "name": "Pobeda Airlines (Vyatsky kvas livery)",
+          "credits": "Ivan Dmitriev",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b737-800/pobedaVyatsky_kvas.jpg"
+          ],
+          "type_id": 1
+        },
+        {
+          "name": "Pobeda Airlines",
+          "credits": "Ivan Dmitriev",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b737-800/pobeda.jpg"
+          ],
+          "type_id": 1
+        },
+        {
+          "name": "Pobeda Airlines (Vkusnolet livery)",
+          "credits": "Ivan Dmitriev",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b737-800/pobeda_Vkusnolet_livery.jpg"
+          ],
+          "type_id": 1
+        },
+        {
+          "name": "Pobeda Airlines (Peral of the Baltic livery)",
+          "credits": "Ivan Dmitriev",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b737-800/pobedaPeral_of_the_Baltic_livery.jpg"
+          ],
+          "type_id": 1
+        },
+        {
+          "name": "Pobeda Airlines (My mom's on board livery)",
+          "credits": "Ivan Dmitriev",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b737-800/pobedamom.jpg"
+          ],
+          "type_id": 1
+        },
+        {
+          "name": "Pobeda Airlines (Murmansk livery)",
+          "credits": "Ivan Dmitriev",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b737-800/pobedaMurmansk_livery.jpg"
+          ],
+          "type_id": 1
+        },
+        {
+          "name": "Pobeda Airlines (Stavropol livery)",
+          "credits": "Ivan Dmitriev",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b737-800/pobeda_Stavropol_livery.jpg"
+          ],
+          "type_id": 1
+        },
+        {
+          "name": "Pobeda Airlines VP-BPJ",
+          "credits": "Ivan Dmitriev",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b737-800/pobeda_VP-BPJ.jpg"
+          ],
+          "type_id": 1
         }
       ]
     },
@@ -772,6 +932,14 @@
             "https://raw.githubusercontent.com/CCA131488/GeoFS-liveries/refs/heads/main/liveries/321n/WestAiroldradome.png"
           ],
           "type_id": 1
+        },
+        {
+          "name": "Air Astana",
+          "credits": "Ivan Dmitriev",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Airbus_a321neo/Air_Astana.jpg"
+          ],
+          "type_id": 1
         }
       ]
     },
@@ -813,6 +981,15 @@
           "texture": [
             "/models/aircraft/premium/777_300/specular_0.jpg",
             "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b777-300/koreanair_sky.png"
+          ],
+          "type_id": 1
+        },
+        {
+          "name": "Azur Air",
+          "credits": "Ivan Dmitriev",
+          "texture": [
+            "/models/aircraft/premium/777_300/specular_0.jpg",
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b777-300/Azur_Air.jpg"
           ],
           "type_id": 1
         }
@@ -883,6 +1060,14 @@
           "credits": "CNA1838",
           "texture": [
             "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Airbus_a321-211/chinanorthern.png"
+          ],
+          "type_id": 1
+        },
+        {
+          "name": "Air Astana",
+          "credits": "Ivan Dmitriev",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Airbus_a321-211/Air_Astana.jpg"
           ],
           "type_id": 1
         }
@@ -964,6 +1149,22 @@
             "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Airbus_a330-200/hainanold.png"
           ],
           "type_id": 1
+        },
+        {
+          "name": "SriLankan",
+          "credits": "Ivan Dmitriev",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Airbus_a330-200/Srilankan.jpg"
+          ],
+          "type_id": 1
+        },
+        {
+          "name": "SriLankan (OneWorld livery)",
+          "credits": "Ivan Dmitriev",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Airbus_a330-200/Srilankanone.jpg"
+          ],
+          "type_id": 1
         }
       ]
     },
@@ -987,14 +1188,6 @@
       "index": [0],
       "parts": [0],
       "liveries": [
-        {
-          "name": "Air Macau (Macau 2005 livery)",
-          "credits": "CP8888",
-          "texture": [
-            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Airbus_a320-232/B-MAH.png"
-          ],
-          "type_id": 1
-        },
         {
           "name": "Aircalin (white design)",
           "credits": "Geofs Player Bilibili",
@@ -1036,14 +1229,6 @@
           "type_id": 1
         },
         {
-          "name": "Longjiang Airlines (white design)",
-          "credits": "CP8888",
-          "texture": [
-            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Airbus_a320-232/Longjiang_Airlines_white.png"
-          ],
-          "type_id": 1
-        },
-        {
           "name": "Turkish Airlines",
           "credits": "CP8888",
           "texture": [
@@ -1056,6 +1241,14 @@
           "credits": "CNA1838",
           "texture": [
             "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Airbus_a320-232/mahan.png"
+          ],
+          "type_id": 1
+        },
+        {
+          "name": "FlyArystan",
+          "credits": "Ivan Dmitriev",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Airbus_a320-232/FlyArystan.jpg"
           ],
           "type_id": 1
         }
@@ -1781,6 +1974,23 @@
             "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/CRJ900/CEnew.png"
           ],
           "type_id": 1
+        },
+        "10": {
+          "name": "Airbus A380",
+          "index": [0, 2, 3],
+          "parts": [0, 0, 0],
+          "liveries": [
+            {
+              "name": "Singapore Airlines",
+              "credits": "Ivan Dmitriev",
+              "texture": [
+                "/models/aircraft/premium/a380/normal.jpg",
+                "/models/aircraft/premium/a380/specular.jpg",
+                "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Airbus_a380/Singapore_airlines.jpg"
+              ],
+              "type_id": 1
+            }
+          ]
         }
       ]
     }
