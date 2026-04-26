@@ -248,6 +248,46 @@
             "https://raw.githubusercontent.com/CCA131488/GeoFS-liveries/refs/heads/main/liveries/a320-214/B6841.png"
           ],
           "type_id": 1
+        },
+        {
+          "name": "Avianca (Surf City El Salvador livery)",
+          "credits": "Nichy",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Airbus_a320-214/N686TA.png"
+          ],
+          "type_id": 1
+        },
+        {
+          "name": "Avianca (Pride livery)",
+          "credits": "Nichy",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Airbus_a320-214/N724AV.png"
+          ],
+          "type_id": 1
+        },
+        {
+          "name": "Avianca (Colombian Registration)",
+          "credits": "Nichy",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Airbus_a320-214/HK-5335.png"
+          ],
+          "type_id": 1
+        },
+        {
+          "name": "Avianca (American Registration)",
+          "credits": "Nichy",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Airbus_a320-214/N664AV.png"
+          ],
+          "type_id": 1
+        },
+        {
+          "name": "Avianca (Star Alliance livery)",
+          "credits": "Nichy",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Airbus_a320-214/N689TA.png"
+          ],
+          "type_id": 1
         }
       ]
     },
@@ -538,7 +578,7 @@
           "name": "Etihad (Greenliner livery)",
           "credits": "Ivan Dmitriev",
           "texture": [
-            "https://raw.githubusercontent.com/CCA131488/GeoFS-liveries/refs/heads/main/liveries/Boeing_b787-10/Etihad_greenliner.jpg"
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b787-10/Etihad_greenliner.jpg"
           ],
           "type_id": 1
         }
@@ -812,6 +852,30 @@
             "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b737-800/pobeda_VP-BPJ.jpg"
           ],
           "type_id": 1
+        },
+        {
+          "name": "BBN Airlines Cargo Nordic",
+          "credits": "Geofs Player Bilibili",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b737-800/BBN_Airlines_Nordic.png"
+          ],
+          "type_id": 1
+        },
+        {
+          "name": "Bluebird Cargo Nordic",
+          "credits": "Geofs Player Bilibili",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b737-800/Bluebird_Nordic.png"
+          ],
+          "type_id": 1
+        },
+        {
+          "name": "Bluebird Cargo Nordic (no logo)",
+          "credits": "Geofs Player Bilibili",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b737-800/Bluebird_Nordic_.png"
+          ],
+          "type_id": 1
         }
       ]
     },
@@ -1082,7 +1146,7 @@
           "name": "Airbus house livery (old design)",
           "credits": "CNA1838",
           "texture": [
-            "https://raw.githubusercontent.com/CCA131488/GeoFS-liveries-that-has-not-been-updated/refs/heads/main/liveries/332/airbus.png"
+            "https://raw.githubusercontent.com/CCA131488/GeoFS-liveries/refs/heads/main/liveries/332/airbus.png"
           ],
           "type_id": 1
         },
@@ -1106,7 +1170,7 @@
           "name": "China Eastern Airlines (Heroes AFC Champions League livery)",
           "credits": "CNA1838",
           "texture": [
-            "https://raw.githubusercontent.com/CCA131488/GeoFS-liveries-that-has-not-been-updated/refs/heads/main/liveries/332/5975.png"
+            "https://raw.githubusercontent.com/CCA131488/GeoFS-liveries/refs/heads/main/liveries/332/5975.png"
           ],
           "type_id": 1
         },
@@ -1213,14 +1277,6 @@
           "type_id": 1
         },
         {
-          "name": "Chongqing Airlines",
-          "credits": "CP8888",
-          "texture": [
-            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Airbus_a320-232/chongqing.png"
-          ],
-          "type_id": 1
-        },
-        {
           "name": "Iran Air",
           "credits": "Geofs Player Bilibili",
           "texture": [
@@ -1249,6 +1305,46 @@
           "credits": "Ivan Dmitriev",
           "texture": [
             "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Airbus_a320-232/FlyArystan.jpg"
+          ],
+          "type_id": 1
+        },
+        {
+          "name": "Lift Aviation (Black Tail)",
+          "credits": "Nichy",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Airbus_a320-232/ZS-GAO.png"
+          ],
+          "type_id": 1
+        },
+        {
+          "name": "Lift Aviation (Yellow Tail)",
+          "credits": "Nichy",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Airbus_a320-232/ZS-GAR.png"
+          ],
+          "type_id": 1
+        },
+        {
+          "name": "Lift Aviation (White Tail)",
+          "credits": "Nichy",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Airbus_a320-232/ZS-GAS.png"
+          ],
+          "type_id": 1
+        },
+        {
+          "name": "Spirit Airlines",
+          "credits": "Nichy",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Airbus_a320-232/N628NK.png"
+          ],
+          "type_id": 1
+        },
+        {
+          "name": "Spirit Airlines (white nose)",
+          "credits": "Nichy",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Airbus_a320-232/N624NK.png"
           ],
           "type_id": 1
         }
@@ -1810,7 +1906,7 @@
       ]
     },
     "2706": {
-      "name": "CRJ200",
+      "name": "Bombardier CRJ-200",
       "index": [0, 2],
       "parts": [0, 0],
       "liveries": [
@@ -1822,6 +1918,15 @@
             "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/CRJ200/31124ya.png"
           ],
           "type_id": 2
+        },
+        {
+          "name": "NorthWest Jet Airlink",
+          "credits": "Geofs Player Bilibili",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/CRJ200/Pinnacle_NWA.png",
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/CRJ200/Pinnacle_NWA.png"
+          ],
+          "type_id": 1
         }
       ]
     },
@@ -1972,6 +2077,26 @@
             "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/CRJ900/CEnew.png",
             "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/CRJ900/CEnew.png",
             "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/CRJ900/CEnew.png"
+          ],
+          "type_id": 1
+        },
+        {
+          "name": "Northwest Airlink (American Registration)",
+          "credits": "Nichy",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/CRJ900/NWAUS.png",
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/CRJ900/NWAUS.png",
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/CRJ900/NWAUS.png"
+          ],
+          "type_id": 1
+        },
+        {
+          "name": "Northwest Airlink (Canadian Test Registration)",
+          "credits": "Nichy",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/CRJ900/NWA_Canada.png",
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/CRJ900/NWA_Canada.png",
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/CRJ900/NWA_Canada.png"
           ],
           "type_id": 1
         }
