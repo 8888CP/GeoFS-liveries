@@ -233,6 +233,22 @@
             "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b787-9/VH-ZNJ.jpg"
           ],
           "type_id": 1
+        },
+        {
+          "name": "Etihad",
+          "credits": "Ivan Dmitriev",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b787-9/Etihad.jpg"
+          ],
+          "type_id": 1
+        },
+        {
+          "name": "Etihad airways (Manchester City livery)",
+          "credits": "Ivan Dmitriev",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b787-9/Etihad_Manchester.jpg"
+          ],
+          "type_id": 1
         }
       ]
     },
@@ -876,6 +892,54 @@
             "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b737-800/Bluebird_Nordic_.png"
           ],
           "type_id": 1
+        },
+        {
+          "name": "Aeroflot",
+          "credits": "Ivan Dmitriev",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b737-800/aeroflot.jpg"
+          ],
+          "type_id": 1
+        },
+        {
+          "name": "Aeroflot VQ-BWC",
+          "credits": "Ivan Dmitriev",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b737-800/aeroflotVQ-BWC.jpg"
+          ],
+          "type_id": 1
+        },
+        {
+          "name": "LOT",
+          "credits": "Ivan Dmitriev",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b737-800/LOT.jpg"
+          ],
+          "type_id": 1
+        },
+        {
+          "name": "S7 Airlines (old design, VP-BNG)",
+          "credits": "Ivan Dmitriev",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b737-800/S7Old_VP-BNG.jpg"
+          ],
+          "type_id": 1
+        },
+        {
+          "name": "S7 Airlines (new design)",
+          "credits": "Ivan Dmitriev",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b737-800/S7_Airlines.jpg"
+          ],
+          "type_id": 1
+        },
+        {
+          "name": "KLM",
+          "credits": "Ivan Dmitriev",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b737-800/KLM.jpg"
+          ],
+          "type_id": 1
         }
       ]
     },
@@ -1227,6 +1291,30 @@
           "credits": "Ivan Dmitriev",
           "texture": [
             "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Airbus_a330-200/Srilankanone.jpg"
+          ],
+          "type_id": 1
+        },
+        {
+          "name": "Aeroflot",
+          "credits": "Ivan Dmitriev",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Airbus_a330-200/aeroflot.jpg"
+          ],
+          "type_id": 1
+        },
+        {
+          "name": "Aeroflot VQ-BBE",
+          "credits": "Ivan Dmitriev",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Airbus_a330-200/VQ-BBE.jpg"
+          ],
+          "type_id": 1
+        },
+        {
+          "name": "Aeroflot (Skyteam livery)",
+          "credits": "Ivan Dmitriev",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Airbus_a330-200/Aeroflot_Skyteam_livery.jpg"
           ],
           "type_id": 1
         }
@@ -2097,6 +2185,36 @@
             "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/CRJ900/NWA_Canada.png",
             "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/CRJ900/NWA_Canada.png",
             "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/CRJ900/NWA_Canada.png"
+          ],
+          "type_id": 1
+        },
+        {
+          "name": "Lufthansa (with Wi-Fi icon)",
+          "credits": "Nichy",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/CRJ900/Lufthansa_WIFI.jpg",
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/CRJ900/Lufthansa_WIFI.jpg",
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/CRJ900/Lufthansa_WIFI.jpg"
+          ],
+          "type_id": 1
+        },
+        {
+          "name": "Nordica (Blue design)",
+          "credits": "Ivan Dmitriev",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/CRJ900/Nordica_blue.jpg",
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/CRJ900/Nordica_blue.jpg",
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/CRJ900/Nordica_blue.jpg"
+          ],
+          "type_id": 1
+        },
+        {
+          "name": "Nordica (white design)",
+          "credits": "Ivan Dmitriev",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/CRJ900/Nordica_white.jpg",
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/CRJ900/Nordica_white.jpg",
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/CRJ900/Nordica_white.jpg"
           ],
           "type_id": 1
         }
