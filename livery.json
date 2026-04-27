@@ -147,6 +147,14 @@
             "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Airbus_a319/BEA.png"
           ],
           "type_id": 1
+        },
+        {
+          "name": "EasyJet (new design)",
+          "credits": "Ivan Dmitriev",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Airbus_a319/easyJet_New_design.jpg"
+          ],
+          "type_id": 1
         }
       ]
     },
@@ -176,6 +184,14 @@
           "credits": "TOMAIM",
           "texture": [
             "https://raw.githubusercontent.com/CCA131488/GeoFS-liveries/refs/heads/main/liveries/a350-1000/StarluxAirsorayamaSilver.png"
+          ],
+          "type_id": 1
+        },
+        {
+          "name": "Qatar airways",
+          "credits": "Ivan Dmitriev",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Airbus_a350-1000/Qatar_airways.jpg"
           ],
           "type_id": 1
         }
@@ -302,6 +318,30 @@
           "credits": "Nichy",
           "texture": [
             "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Airbus_a320-214/N689TA.png"
+          ],
+          "type_id": 1
+        },
+        {
+          "name": "EasyJet (new design)",
+          "credits": "Ivan Dmitriev",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Airbus_a320-214/easyJetNew1.jpg"
+          ],
+          "type_id": 1
+        },
+        {
+          "name": "EasyJet Europe (new design)",
+          "credits": "Ivan Dmitriev",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Airbus_a320-214/easyJet_Europe_New.jpg"
+          ],
+          "type_id": 1
+        },
+        {
+          "name": "EasyJet Switzerland (new design)",
+          "credits": "Ivan Dmitriev",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Airbus_a320-214/easyJet_Switzerland_New.jpg"
           ],
           "type_id": 1
         }
@@ -1637,6 +1677,14 @@
             "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Comac_c919/N919PR.png"
           ],
           "type_id": 2
+        },
+        {
+          "name": "Shenzhen Airlines",
+          "credits": "CP8888",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Comac_c919/Shenzhen.jpg"
+          ],
+          "type_id": 2
         }
       ]
     },
@@ -2232,6 +2280,57 @@
             "/models/aircraft/premium/a380/normal.jpg",
             "/models/aircraft/premium/a380/specular.jpg",
             "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Airbus_a380/Singapore_airlines.jpg"
+          ],
+          "type_id": 1
+        },
+        {
+          "name": "Qantas (new design)",
+          "credits": "Ivan Dmitriev",
+          "texture": [
+            "/models/aircraft/premium/a380/normal.jpg",
+            "/models/aircraft/premium/a380/specular.jpg",
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Airbus_a380/Qantas.jpg"
+          ],
+          "type_id": 1
+        },
+        {
+          "name": "Qatar Airways",
+          "credits": "Ivan Dmitriev",
+          "texture": [
+            "/models/aircraft/premium/a380/normal.jpg",
+            "/models/aircraft/premium/a380/specular.jpg",
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Airbus_a380/Qatar_airways.jpg"
+          ],
+          "type_id": 1
+        }
+      ]
+    },
+    "2418": {
+      "name": "ATR 72-600",
+      "index": [0],
+      "parts": [0],
+      "liveries": [
+        {
+          "name": "LOT",
+          "credits": "Ivan Dmitriev",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/ATR72/LOT.jpg"
+          ],
+          "type_id": 1
+        },
+        {
+          "name": "LOT (Eurolot livery)",
+          "credits": "Ivan Dmitriev",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/ATR72/LOTEurolot_livery.jpg"
+          ],
+          "type_id": 1
+        },
+        {
+          "name": "EuroLOT",
+          "credits": "Ivan Dmitriev",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/ATR72/EuroLOT.jpg"
           ],
           "type_id": 1
         }
