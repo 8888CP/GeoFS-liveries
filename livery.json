@@ -188,10 +188,18 @@
           "type_id": 1
         },
         {
-          "name": "Qatar airways",
+          "name": "Qatar Airways",
           "credits": "Ivan Dmitriev",
           "texture": [
             "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Airbus_a350-1000/Qatar_airways.jpg"
+          ],
+          "type_id": 1
+        },
+        {
+          "name": "Etihad",
+          "credits": "Ivan Dmitriev",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Airbus_a350-1000/Etihad.jpg"
           ],
           "type_id": 1
         }
@@ -263,6 +271,14 @@
           "credits": "Ivan Dmitriev",
           "texture": [
             "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b787-9/Etihad_Manchester.jpg"
+          ],
+          "type_id": 1
+        },
+        {
+          "name": "Qatar Airways",
+          "credits": "Ivan Dmitriev",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b787-9/qatar.jpg"
           ],
           "type_id": 1
         }
@@ -344,6 +360,14 @@
             "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Airbus_a320-214/easyJet_Switzerland_New.jpg"
           ],
           "type_id": 1
+        },
+        {
+          "name": "Aeroflot VP-BLL",
+          "credits": "Ivan Dmitriev",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Airbus_a320-214/Aeroflot_VP-BLL.jpg"
+          ],
+          "type_id": 1
         }
       ]
     },
@@ -421,6 +445,14 @@
           "credits": "CP8888",
           "texture": [
             "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Airbus_a320neo/Juneyao_B-325L.jpg"
+          ],
+          "type_id": 1
+        },
+        {
+          "name": "Aeroflot VP-BPQ",
+          "credits": "Ivan Dmitriev",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Airbus_a320neo/AeroflotVP-BPQ.jpg"
           ],
           "type_id": 1
         }
@@ -1238,6 +1270,14 @@
             "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Airbus_a321-211/Air_Astana.jpg"
           ],
           "type_id": 1
+        },
+        {
+          "name": "Aeroflot VP-BFQ",
+          "credits": "Ivan Dmitriev",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Airbus_a321-211/AEROFLOT_VP-BFQ.jpg"
+          ],
+          "type_id": 1
         }
       ]
     },
@@ -1683,6 +1723,14 @@
           "credits": "CP8888",
           "texture": [
             "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Comac_c919/Shenzhen.jpg"
+          ],
+          "type_id": 2
+        },
+        {
+          "name": "Japan Airlines",
+          "credits": "CP8888",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Comac_c919/Japan.jpg"
           ],
           "type_id": 2
         }
