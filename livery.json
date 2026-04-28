@@ -702,7 +702,7 @@
           "type_id": 1
         },
         {
-          "name": "Hebei Airlines (20th aircraft tick)",
+          "name": "Hebei Airlines (20th Aircraft tick)",
           "credits": "CP8888",
           "texture": [
             "https://raw.githubusercontent.com/CCA131488/GeoFS-liveries/refs/heads/main/liveries/738/hebei20th.png"
@@ -1080,7 +1080,7 @@
       "liveries": [
         {
           "name": "Hainan Airlines",
-          "credits": "TOMAIM, CP8888 ＆ HO1796[Sino Wings Group]",
+          "credits": "TOMAIM ＆ CP8888",
           "texture": [
             "https://raw.githubusercontent.com/CCA131488/GeoFS-liveries/refs/heads/main/liveries/a339/hainannew.png"
           ],
