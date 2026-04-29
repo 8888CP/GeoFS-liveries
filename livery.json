@@ -1192,6 +1192,15 @@
             "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b777-300/Azur_Air.jpg"
           ],
           "type_id": 1
+        },
+        {
+          "name": "Korean Air",
+          "credits": "KN5290",
+          "texture": [
+            "/models/aircraft/premium/777_300/specular_0.jpg",
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b777-300/KOREAN.png"
+          ],
+          "type_id": 1
         }
       ]
     },
