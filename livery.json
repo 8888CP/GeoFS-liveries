@@ -1133,15 +1133,6 @@
           "type_id": 1
         },
         {
-          "name": "Korean Air (Expo 2030 Busan livery)",
-          "credits": "TOMAIM",
-          "texture": [
-            "/models/aircraft/premium/777_300/specular_0.jpg",
-            "https://raw.githubusercontent.com/CCA131488/GeoFS-liveries/refs/heads/main/liveries/77w/KEblackpink.png"
-          ],
-          "type_id": 1
-        },
-        {
           "name": "JA307M",
           "credits": "Nichy",
           "texture": [
