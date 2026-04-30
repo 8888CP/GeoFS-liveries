@@ -512,7 +512,7 @@
           "type_id": 1
         },
         {
-          "name": "Shandong Airlines (Hainan Airlines tail fin)",
+          "name": "Shandong Airlines (ex Hainan Airlines)",
           "credits": "TOMAIM",
           "texture": [
             "https://raw.githubusercontent.com/CCA131488/GeoFS-liveries/refs/heads/main/liveries/7m8/N234BE.png"
@@ -678,14 +678,6 @@
       "parts": [0],
       "liveries": [
         {
-          "name": "China Eastern Airlines (old design)",
-          "credits": "TOMAIM",
-          "texture": [
-            "https://raw.githubusercontent.com/CCA131488/GeoFS-liveries/refs/heads/main/liveries/738/Chinaeasternold.png"
-          ],
-          "type_id": 1
-        },
-        {
           "name": "China Eastern Airlines (Skyteam livery)",
           "credits": "KN5290",
           "texture": [
@@ -826,14 +818,6 @@
           "credits": "Nichy",
           "texture": [
             "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b737-800/VTAXD.png"
-          ],
-          "type_id": 1
-        },
-        {
-          "name": "JAL Express",
-          "credits": "TOMAIM",
-          "texture": [
-            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b737-800/JAPAN.png"
           ],
           "type_id": 1
         },
@@ -1050,15 +1034,6 @@
           "texture": [
             "/models/aircraft/premium/a350/specular.jpg",
             "https://raw.githubusercontent.com/CCA131488/GeoFS-liveries/refs/heads/main/liveries/a359/ITA.png"
-          ],
-          "type_id": 1
-        },
-        {
-          "name": "Starlux",
-          "credits": "TOMAIM",
-          "texture": [
-            "/models/aircraft/premium/a350/specular.jpg",
-            "https://raw.githubusercontent.com/CCA131488/GeoFS-liveries/refs/heads/main/liveries/a359/starlux.png"
           ],
           "type_id": 1
         },
