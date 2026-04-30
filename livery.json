@@ -1310,14 +1310,6 @@
           "type_id": 1
         },
         {
-          "name": "Sichuan Airlines Cargo",
-          "credits": "TOMAIM",
-          "texture": [
-            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Airbus_a330-200/sichuancargo.png"
-          ],
-          "type_id": 1
-        },
-        {
           "name": "SAS (80th anniversary livery)",
           "credits": "CP8888",
           "texture": [
@@ -1517,15 +1509,6 @@
           "type_id": 1
         },
         {
-          "name": "United Airlines (old design radome)",
-          "credits": "TOMAIM",
-          "texture": [
-            "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-200/shaders/original.png",
-            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b777-200/United_old_radome.png"
-          ],
-          "type_id": 1
-        },
-        {
           "name": "Aeromexico (Chrome livery)",
           "credits": "Nichy",
           "texture": [
@@ -1550,60 +1533,6 @@
       "index": [1, 0],
       "parts": [0, 0],
       "liveries": [
-        {
-          "name": "Air China Cargo",
-          "credits": "TOMAIM",
-          "texture": [
-            "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-200f/shaders/original.png",
-            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b777-200f/CA.png"
-          ],
-          "type_id": 1
-        },
-        {
-          "name": "Air China Cargo (Red Cargo Font and Without a national flag)",
-          "credits": "TOMAIM",
-          "texture": [
-            "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-200f/shaders/original.png",
-            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b777-200f/CAred.png"
-          ],
-          "type_id": 1
-        },
-        {
-          "name": "China Southern Cargo Airlines (white design)",
-          "credits": "TOMAIM",
-          "texture": [
-            "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-200f/shaders/original.png",
-            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b777-200f/Chinasouthernwhite.png"
-          ],
-          "type_id": 1
-        },
-        {
-          "name": "China Cargo Airlines (China Eastern Cold Chain 10th Anniversary livery of theSouth America Fresh Express)",
-          "credits": "TOMAIM",
-          "texture": [
-            "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-200f/shaders/original.png",
-            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b777-200f/MUcoldchain10th.png"
-          ],
-          "type_id": 1
-        },
-        {
-          "name": "China Cargo Airlines (old design)",
-          "credits": "TOMAIM",
-          "texture": [
-            "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-200f/shaders/original.png",
-            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b777-200f/MUold.png"
-          ],
-          "type_id": 1
-        },
-        {
-          "name": "China Postal Airlines",
-          "credits": "TOMAIM",
-          "texture": [
-            "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-200f/shaders/original.png",
-            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b777-200f/Chinapostal.png"
-          ],
-          "type_id": 1
-        },
         {
           "name": "DHL (Operated by AeroLogic)",
           "credits": "CP8888",
@@ -1753,15 +1682,6 @@
           "type_id": 1
         },
         {
-          "name": "ANA (Yokoso Japan livery)",
-          "credits": "TOMAIM",
-          "texture": [
-            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b747-400/ANAYOKOSOJAPAN.png",
-            "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b747-400/wing/original.png"
-          ],
-          "type_id": 1
-        },
-        {
           "name": "China Airlines (Skyteam livery)",
           "credits": "CP8888",
           "texture": [
@@ -1775,24 +1695,6 @@
           "credits": "TOMAIM",
           "texture": [
             "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b747-400/JALsolar.png",
-            "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b747-400/wing/original.png"
-          ],
-          "type_id": 1
-        },
-        {
-          "name": "Japan Airlines (white nose)",
-          "credits": "TOMAIM",
-          "texture": [
-            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b747-400/JALoldwhitenose.png",
-            "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b747-400/wing/original.png"
-          ],
-          "type_id": 1
-        },
-        {
-          "name": "Japan Airlines (Yokoso Japan livery)",
-          "credits": "TOMAIM",
-          "texture": [
-            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b747-400/JALyokoso.png",
             "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b747-400/wing/original.png"
           ],
           "type_id": 1
@@ -1951,14 +1853,6 @@
       "parts": [0],
       "liveries": [
         {
-          "name": "China Eastern Airlines",
-          "credits": "TOMAIM",
-          "texture": [
-            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Airbus a300-600/Chinaeastern.png"
-          ],
-          "type_id": 1
-        },
-        {
           "name": "China Northern Airlines",
           "credits": "CNA1838",
           "texture": [
@@ -1979,46 +1873,6 @@
           "credits": "CNA1838",
           "texture": [
             "https://raw.githubusercontent.com/CCA131488/GeoFS-liveries-that-has-not-been-updated/refs/heads/main/liveries/a300/uni-top.png"
-          ],
-          "type_id": 1
-        },
-        {
-          "name": "China Southern Airlines",
-          "credits": "TOMAIM",
-          "texture": [
-            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Airbus a300-600/Chinasouthern.png"
-          ],
-          "type_id": 1
-        },
-        {
-          "name": "China Southern Airlines (with SkyTeam logo)",
-          "credits": "TOMAIM",
-          "texture": [
-            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Airbus a300-600/B-2323.png"
-          ],
-          "type_id": 1
-        },
-        {
-          "name": "China Southern Cargo Airlines",
-          "credits": "TOMAIM",
-          "texture": [
-            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Airbus a300-600/Chinasoutherncargo.png"
-          ],
-          "type_id": 1
-        },
-        {
-          "name": "China Southern Cargo Airlines (with SkyTeam logo)",
-          "credits": "TOMAIM",
-          "texture": [
-            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Airbus a300-600/B-2315.png"
-          ],
-          "type_id": 1
-        },
-        {
-          "name": "China Cargo Airlines",
-          "credits": "TOMAIM",
-          "texture": [
-            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Airbus a300-600/MUC.png"
           ],
           "type_id": 1
         },
