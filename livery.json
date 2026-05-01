@@ -1834,15 +1834,6 @@
       "parts": [0, 0],
       "liveries": [
         {
-          "name": "31124ya Airlines",
-          "credits": "Geofs Player Bilibili",
-          "texture": [
-            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/CRJ200/31124ya.png",
-            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/CRJ200/31124ya.png"
-          ],
-          "type_id": 2
-        },
-        {
           "name": "NorthWest Jet Airlink",
           "credits": "Nichy",
           "texture": [
