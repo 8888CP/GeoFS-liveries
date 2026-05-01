@@ -27,22 +27,6 @@
       "parts": [0, 23, 27, 28, 29, 30, 31, 32, 36],
       "liveries": [
         {
-          "name": "Shanghai Airlines (old design)",
-          "credits": "TOMAIM",
-          "texture": [
-            "https://raw.githubusercontent.com/CCA131488/GeoFS-liveries/refs/heads/main/liveries/b767-300er/shanghaiold.png",
-            "https://raw.githubusercontent.com/CCA131488/GeoFS-liveries/refs/heads/main/liveries/b767-300er/shanghaiold.png",
-            "https://raw.githubusercontent.com/CCA131488/GeoFS-liveries/refs/heads/main/liveries/b767-300er/shanghaiold.png",
-            "https://raw.githubusercontent.com/CCA131488/GeoFS-liveries/refs/heads/main/liveries/b767-300er/shanghaiold.png",
-            "https://raw.githubusercontent.com/CCA131488/GeoFS-liveries/refs/heads/main/liveries/b767-300er/shanghaiold.png",
-            "https://raw.githubusercontent.com/CCA131488/GeoFS-liveries/refs/heads/main/liveries/b767-300er/shanghaiold.png",
-            "https://raw.githubusercontent.com/CCA131488/GeoFS-liveries/refs/heads/main/liveries/b767-300er/shanghaiold.png",
-            "https://raw.githubusercontent.com/CCA131488/GeoFS-liveries/refs/heads/main/liveries/b767-300er/shanghaiold.png",
-            "https://raw.githubusercontent.com/CCA131488/GeoFS-liveries/refs/heads/main/liveries/b767-300er/shanghaiold.png"
-          ],
-          "type_id": 1
-        },
-        {
           "name": "FedSEx",
           "credits": "Nichy",
           "texture": [
@@ -164,30 +148,6 @@
       "parts": [0],
       "liveries": [
         {
-          "name": "Air China Cargo",
-          "credits": "TOMAIM",
-          "texture": [
-            "https://raw.githubusercontent.com/CCA131488/GeoFS-liveries/refs/heads/main/liveries/a350-1000/airchinacargo.png"
-          ],
-          "type_id": 1
-        },
-        {
-          "name": "Air China Cargo (red cargo logo)",
-          "credits": "TOMAIM",
-          "texture": [
-            "https://raw.githubusercontent.com/CCA131488/GeoFS-liveries/refs/heads/main/liveries/a350-1000/airchinacargored.png"
-          ],
-          "type_id": 1
-        },
-        {
-          "name": "Starlux (Airsorayama Silver design)",
-          "credits": "TOMAIM",
-          "texture": [
-            "https://raw.githubusercontent.com/CCA131488/GeoFS-liveries/refs/heads/main/liveries/a350-1000/StarluxAirsorayamaSilver.png"
-          ],
-          "type_id": 1
-        },
-        {
           "name": "Qatar Airways",
           "credits": "Ivan Dmitriev",
           "texture": [
@@ -231,14 +191,6 @@
           "credits": "KN5290",
           "texture": [
             "https://raw.githubusercontent.com/CCA131488/GeoFS-liveries/refs/heads/main/liveries/b787-9/MUHeadquarters.jpg"
-          ],
-          "type_id": 1
-        },
-        {
-          "name": "Hainan Airlines (5 star Skytrax livery)",
-          "credits": "TOMAIM",
-          "texture": [
-            "https://raw.githubusercontent.com/CCA131488/GeoFS-liveries/refs/heads/main/liveries/b787-9/hainan5star.png"
           ],
           "type_id": 1
         },
@@ -472,14 +424,6 @@
           "type_id": 1
         },
         {
-          "name": "Air China (Zhoushan hello livery)",
-          "credits": "TOMAIM",
-          "texture": [
-            "https://raw.githubusercontent.com/CCA131488/GeoFS-liveries/refs/heads/main/liveries/7m8/airchinazhoushan.png"
-          ],
-          "type_id": 1
-        },
-        {
           "name": "Air India Express (ex China Eastern Airlines)",
           "credits": "KN5290",
           "texture": [
@@ -512,14 +456,6 @@
           "type_id": 1
         },
         {
-          "name": "Shandong Airlines (ex Hainan Airlines)",
-          "credits": "TOMAIM",
-          "texture": [
-            "https://raw.githubusercontent.com/CCA131488/GeoFS-liveries/refs/heads/main/liveries/7m8/N234BE.png"
-          ],
-          "type_id": 1
-        },
-        {
           "name": "WestJet (Sunwing livery)",
           "credits": "Nichy",
           "texture": [
@@ -540,14 +476,6 @@
           "credits": "Nichy",
           "texture": [
             "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b737max8/WestJet_Planet_Hollywood.png"
-          ],
-          "type_id": 1
-        },
-        {
-          "name": "Japan Airlines",
-          "credits": "TOMAIM",
-          "texture": [
-            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b737max8/Japan.png"
           ],
           "type_id": 1
         },
@@ -638,22 +566,6 @@
       "index": [0],
       "parts": [0],
       "liveries": [
-        {
-          "name": "Korean Air (Blackpink livery V1)",
-          "credits": "TOMAIM",
-          "texture": [
-            "https://raw.githubusercontent.com/CCA131488/GeoFS-liveries/refs/heads/main/liveries/78x/koreanblankpink.png"
-          ],
-          "type_id": 1
-        },
-        {
-          "name": "Korean Air (Blackpink livery V2)",
-          "credits": "TOMAIM",
-          "texture": [
-            "https://raw.githubusercontent.com/CCA131488/GeoFS-liveries/refs/heads/main/liveries/78x/KoreanAir&BlackPink_V2.png"
-          ],
-          "type_id": 1
-        },
         {
           "name": "Singapore Airlines",
           "credits": "CP8888",
@@ -1507,15 +1419,6 @@
       "parts": [0, 0],
       "liveries": [
         {
-          "name": "Japan Airlines (Tokyo olympics 2020 livery)",
-          "credits": "TOMAIM",
-          "texture": [
-            "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-200/shaders/original.png",
-            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b777-200/japantokyo2020.png"
-          ],
-          "type_id": 1
-        },
-        {
           "name": "Mahan Air",
           "credits": "CP8888",
           "texture": [
@@ -1702,15 +1605,6 @@
           "credits": "CP8888",
           "texture": [
             "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b747-400/CIsky.png",
-            "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b747-400/wing/original.png"
-          ],
-          "type_id": 1
-        },
-        {
-          "name": "Japan Airlines (Solar arc livery)",
-          "credits": "TOMAIM",
-          "texture": [
-            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b747-400/JALsolar.png",
             "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b747-400/wing/original.png"
           ],
           "type_id": 1
