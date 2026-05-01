@@ -2146,6 +2146,14 @@
             "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Embraer_erj175/AmericanEagle_envoy_Jet.jpg"
           ],
           "type_id": 1
+        },
+        {
+          "name": "American Eagle (Operated by SkyWest)",
+          "credits": "Ivan Dmitriev",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Embraer_erj175/AmericanEagle_SkyWest.jpg"
+          ],
+          "type_id": 1
         }
       ]
     }
