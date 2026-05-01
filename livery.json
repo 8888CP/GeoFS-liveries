@@ -233,6 +233,14 @@
             "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b787-9/qatar.jpg"
           ],
           "type_id": 1
+        },
+        {
+          "name": "Air Canada (old design)",
+          "credits": "Ivan Dmitriev",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b787-9/aircanadaold.jpg"
+          ],
+          "type_id": 1
         }
       ]
     },
@@ -914,6 +922,22 @@
           "credits": "CNA1838",
           "texture": [
             "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b737-800/HONGKONG_old.png"
+          ],
+          "type_id": 1
+        },
+        {
+          "name": "American Airlines (new design)",
+          "credits": "Ivan Dmitriev",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b737-800/Americannew.jpg"
+          ],
+          "type_id": 1
+        },
+        {
+          "name": "American Airlines (Oneworld livery)",
+          "credits": "Ivan Dmitriev",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b737-800/Americanone..jpg"
           ],
           "type_id": 1
         }
@@ -2089,6 +2113,37 @@
           "credits": "Ivan Dmitriev",
           "texture": [
             "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/ATR72/EuroLOT.jpg"
+          ],
+          "type_id": 1
+        }
+      ]
+    },
+    "5566": {
+      "name": "Embraer E175",
+      "index": [2, 5, 6, 7, 8, 9],
+      "parts": [0, 0, 0, 0, 0, 0],
+      "liveries": [
+        {
+          "name": "American Eagle (Operated by Republic Airways Jet)",
+          "credits": "Ivan Dmitriev",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Embraer_erj175/AmericanEagleRepublic_Airways_Jet.jpg"
+          ],
+          "type_id": 1
+        },
+        {
+          "name": "American Eagle (250 years of independence)",
+          "credits": "Ivan Dmitriev",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Embraer_erj175/AmericanEagle_250years.jpg"
+          ],
+          "type_id": 1
+        },
+        {
+          "name": "American Eagle (Operated by envoy Jet)",
+          "credits": "Ivan Dmitriev",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Embraer_erj175/AmericanEagle_envoy_Jet.jpg"
           ],
           "type_id": 1
         }
