@@ -1722,26 +1722,6 @@
         }
       ]
     },
-    "5566": {
-      "name": "Embraer ERJ175",
-      "index": [2, 5, 6, 7, 8, 9],
-      "parts": [0, 0, 0, 0, 0, 0],
-      "liveries": [
-        {
-          "name": "Delta Connection",
-          "credits": "CP8888",
-          "texture": [
-            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Embraer_erj175/deltaconnection.png",
-            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Embraer_erj175/deltaconnection.png",
-            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Embraer_erj175/deltaconnection.png",
-            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Embraer_erj175/deltaconnection.png",
-            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Embraer_erj175/deltaconnection.png",
-            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Embraer_erj175/deltaconnection.png"
-          ],
-          "type_id": 1
-        }
-      ]
-    },
     "5211": {
       "name": "Boeing B747SP",
       "index": [0],
