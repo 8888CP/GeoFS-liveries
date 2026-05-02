@@ -940,6 +940,14 @@
             "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b737-800/Americanone..jpg"
           ],
           "type_id": 1
+        },
+        {
+          "name": "Shanghai Airlines (old design nose)",
+          "credits": "CP8888",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b737-800/B-7397.jpg"
+          ],
+          "type_id": 1
         }
       ]
     },
