@@ -1213,6 +1213,14 @@
             "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Airbus_a321-211/AEROFLOT_VP-BFQ.jpg"
           ],
           "type_id": 1
+        },
+        {
+          "name": "Utair",
+          "credits": "Ivan Dmitriev",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Airbus_a321-211/Utair.jpg"
+          ],
+          "type_id": 1
         }
       ]
     },
