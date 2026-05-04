@@ -241,6 +241,14 @@
             "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b787-9/aircanadaold.jpg"
           ],
           "type_id": 1
+        },
+        {
+          "name": "Hainan Airlines",
+          "credits": "CP8888",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b787-9/hainan.jpg"
+          ],
+          "type_id": 1
         }
       ]
     },
@@ -1127,6 +1135,15 @@
             "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b777-300/KOREAN.png"
           ],
           "type_id": 1
+        },
+        {
+          "name": "N105UT",
+          "credits": "Nichy",
+          "texture": [
+            "/models/aircraft/premium/777_300/specular_0.jpg",
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b777-300/N105TU.png"
+          ],
+          "type_id": 2
         }
       ]
     },
@@ -1594,6 +1611,86 @@
           "credits": "CP8888",
           "texture": [
             "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Comac_c919/Japan.jpg"
+          ],
+          "type_id": 2
+        },
+        {
+          "name": "Air New Zealand (white design)",
+          "credits": "Nichy",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Comac_c919/Air_NZ.png"
+          ],
+          "type_id": 2
+        },
+        {
+          "name": "Breeze Airways",
+          "credits": "Nichy",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Comac_c919/Breeze_Airways.png"
+          ],
+          "type_id": 2
+        },
+        {
+          "name": "Contour Air",
+          "credits": "Nichy",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Comac_c919/Contour_Air.png"
+          ],
+          "type_id": 2
+        },
+        {
+          "name": "TAM Lihnas Aereas",
+          "credits": "Nichy",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Comac_c919/TAMold.png"
+          ],
+          "type_id": 2
+        },
+        {
+          "name": "Taca",
+          "credits": "Nichy",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Comac_c919/TACA.png"
+          ],
+          "type_id": 2
+        },
+        {
+          "name": "Avianca (retro design)",
+          "credits": "Nichy",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Comac_c919/Avianca_retro.png"
+          ],
+          "type_id": 2
+        },
+        {
+          "name": "JetBlue (Puerto Rico livery)",
+          "credits": "Nichy",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Comac_c919/JetBlue.png"
+          ],
+          "type_id": 2
+        },
+        {
+          "name": "Lufthansa (new design)",
+          "credits": "Nichy",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Comac_c919/Lufthansanew.png"
+          ],
+          "type_id": 2
+        },
+        {
+          "name": "LATAM",
+          "credits": "Nichy",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Comac_c919/LATAM.png"
+          ],
+          "type_id": 2
+        },
+        {
+          "name": "Emirates",
+          "credits": "Nichy",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Comac_c919/Emirates.png"
           ],
           "type_id": 2
         }
