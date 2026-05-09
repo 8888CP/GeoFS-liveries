@@ -246,7 +246,15 @@
           "name": "Hainan Airlines",
           "credits": "CP8888",
           "texture": [
-            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b787-9/hainan.jpg"
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b787-9/Hainan.jpg"
+          ],
+          "type_id": 1
+        },
+        {
+          "name": "TUI Airways",
+          "credits": "Ivan Dmitriev",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b787-9/TUI.jpg"
           ],
           "type_id": 1
         }
@@ -306,7 +314,7 @@
           "type_id": 1
         },
         {
-          "name": "EasyJet (new design)",
+          "name": "Easyjet (new design)",
           "credits": "Ivan Dmitriev",
           "texture": [
             "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Airbus_a320-214/easyJetNew1.jpg"
@@ -314,7 +322,7 @@
           "type_id": 1
         },
         {
-          "name": "EasyJet Europe (new design)",
+          "name": "Easyjet Europe (new design)",
           "credits": "Ivan Dmitriev",
           "texture": [
             "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Airbus_a320-214/easyJet_Europe_New.jpg"
@@ -322,7 +330,7 @@
           "type_id": 1
         },
         {
-          "name": "EasyJet Switzerland (new design)",
+          "name": "Easyjet Switzerland (new design)",
           "credits": "Ivan Dmitriev",
           "texture": [
             "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Airbus_a320-214/easyJet_Switzerland_New.jpg"
@@ -421,6 +429,94 @@
           "credits": "Ivan Dmitriev",
           "texture": [
             "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Airbus_a320neo/AeroflotVP-BPQ.jpg"
+          ],
+          "type_id": 1
+        },
+        {
+          "name": "Easyjet",
+          "credits": "Ivan Dmitriev",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Airbus_a320neo/easyJet.jpg"
+          ],
+          "type_id": 1
+        },
+        {
+          "name": "Easyjet (NEO livery)",
+          "credits": "Ivan Dmitriev",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Airbus_a320neo/easyJet__NEO.jpg"
+          ],
+          "type_id": 1
+        },
+        {
+          "name": "Easyjet (Eurovision 2025 Official Airline livery)",
+          "credits": "Ivan Dmitriev",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Airbus_a320neo/easyJet__Eurovision2025.jpg"
+          ],
+          "type_id": 1
+        },
+        {
+          "name": "Easyjet (Europcar livery)",
+          "credits": "Ivan Dmitriev",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Airbus_a320neo/easyJet_Europcar.jpg"
+          ],
+          "type_id": 1
+        },
+        {
+          "name": "Easyjet Europe",
+          "credits": "Ivan Dmitriev",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Airbus_a320neo/easyJet_Europe.jpg"
+          ],
+          "type_id": 1
+        },
+        {
+          "name": "Easyjet Europe (NEO livery)",
+          "credits": "Ivan Dmitriev",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Airbus_a320neo/easyJet_Europe__NEO.jpg"
+          ],
+          "type_id": 1
+        },
+        {
+          "name": "Easyjet Europe (Austria)",
+          "credits": "Ivan Dmitriev",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Airbus_a320neo/easyJet_Europe_Austria.jpg"
+          ],
+          "type_id": 1
+        },
+        {
+          "name": "Easyjet Europe (Berlin)",
+          "credits": "Ivan Dmitriev",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Airbus_a320neo/easyJet_Europe_Berlin.jpg"
+          ],
+          "type_id": 1
+        },
+        {
+          "name": "Easyjet Switzerland",
+          "credits": "Ivan Dmitriev",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Airbus_a320neo/HB-AYP.jpg"
+          ],
+          "type_id": 1
+        },
+        {
+          "name": "Easyjet Switzerland (NEO livery)",
+          "credits": "Ivan Dmitriev",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Airbus_a320neo/easyJet_Switzerland_NEO.jpg"
+          ],
+          "type_id": 1
+        },
+        {
+          "name": "Easyjet Switzerland (Basel x Mulhouse)",
+          "credits": "Ivan Dmitriev",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Airbus_a320neo/easyJet_Switzerland_Basel.jpg"
           ],
           "type_id": 1
         }
@@ -1083,6 +1179,38 @@
             "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Airbus_a321neo/Air_Astana.jpg"
           ],
           "type_id": 1
+        },
+        {
+          "name": "Easyjet",
+          "credits": "Ivan Dmitriev",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Airbus_a321neo/easyJet.jpg"
+          ],
+          "type_id": 1
+        },
+        {
+          "name": "Easyjet (NEO livery)",
+          "credits": "Ivan Dmitriev",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Airbus_a321neo/easyJet_NEO.jpg"
+          ],
+          "type_id": 1
+        },
+        {
+          "name": "Easyjet Europe",
+          "credits": "Ivan Dmitriev",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Airbus_a321neo/easyJet_Europe.jpg"
+          ],
+          "type_id": 1
+        },
+        {
+          "name": "Easyjet Europe (400th Airbus)",
+          "credits": "Ivan Dmitriev",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Airbus_a321neo/easyJet_Europe_400th.jpg"
+          ],
+          "type_id": 1
         }
       ]
     },
@@ -1144,6 +1272,51 @@
             "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b777-300/N105TU.png"
           ],
           "type_id": 2
+        },
+        {
+          "name": "Aeroflot VP-BPG",
+          "credits": "Ivan Dmitriev",
+          "texture": [
+            "/models/aircraft/premium/777_300/specular_0.jpg",
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b777-300/VP-BPG.jpg"
+          ],
+          "type_id": 1
+        },
+        {
+          "name": "Aeroflot",
+          "credits": "Ivan Dmitriev",
+          "texture": [
+            "/models/aircraft/premium/777_300/specular_0.jpg",
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b777-300/aeroflot.jpg"
+          ],
+          "type_id": 1
+        },
+        {
+          "name": "Aeroflot (100 years of Russian aviation livery)",
+          "credits": "Ivan Dmitriev",
+          "texture": [
+            "/models/aircraft/premium/777_300/specular_0.jpg",
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b777-300/aeroflot__100.jpg"
+          ],
+          "type_id": 1
+        },
+        {
+          "name": "Aeroflot (100 years anniversary livery)",
+          "credits": "Ivan Dmitriev",
+          "texture": [
+            "/models/aircraft/premium/777_300/specular_0.jpg",
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b777-300/aeroflot_100_years.jpg"
+          ],
+          "type_id": 1
+        },
+        {
+          "name": "Aeroflot (Skyteam livery)",
+          "credits": "Ivan Dmitriev",
+          "texture": [
+            "/models/aircraft/premium/777_300/specular_0.jpg",
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b777-300/aeroflot_SKYTEAM.jpg"
+          ],
+          "type_id": 1
         }
       ]
     },
@@ -1814,6 +1987,15 @@
           "credits": "CNA1838",
           "texture": [
             "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b747-400/744_mandarin.png",
+            "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b747-400/wing/original.png"
+          ],
+          "type_id": 1
+        },
+        {
+          "name": "Asiana Cargo",
+          "credits": "Ivan Dmitriev",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b747-400/Asiana_Cargo.jpg",
             "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b747-400/wing/original.png"
           ],
           "type_id": 1
