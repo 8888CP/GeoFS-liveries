@@ -1095,7 +1095,7 @@
         },
         {
           "name": "AJet (red design)",
-          "credits": "Ivan Dmitriev & CP8888&",
+          "credits": "Ivan Dmitriev & CP8888",
           "texture": [
             "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b737-800/AJetred.png"
           ],
@@ -1159,7 +1159,7 @@
       "liveries": [
         {
           "name": "Hainan Airlines",
-          "credits": "TOMAIM ＆ CP8888",
+          "credits": "TOMAIM & CP8888",
           "texture": [
             "https://raw.githubusercontent.com/CCA131488/GeoFS-liveries/refs/heads/main/liveries/a339/hainannew.png"
           ],
@@ -1269,7 +1269,7 @@
       "liveries": [
         {
           "name": "Korean Air (200th Boeing aircraft tick)",
-          "credits": "CP8888 ＆ KN5290",
+          "credits": "CP8888 & KN5290",
           "texture": [
             "/models/aircraft/premium/777_300/specular_0.jpg",
             "https://raw.githubusercontent.com/CCA131488/GeoFS-liveries/refs/heads/main/liveries/77w/Korean_200th.png"
@@ -2122,7 +2122,7 @@
         },
         {
           "name": "Tibet Airlines",
-          "credits": "TOMAIM ＆ Nichy",
+          "credits": "TOMAIM & Nichy",
           "texture": [
             "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Airbus_a319neo/Tibet_Airlines.png"
           ],
@@ -2130,7 +2130,7 @@
         },
         {
           "name": "T7-1177",
-          "credits": "HO1796[Sino Wings Group] ＆ CP8888",
+          "credits": "HO1796[Sino Wings Group] & CP8888",
           "texture": [
             "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Airbus_a319neo/T7-1177.png"
           ],
