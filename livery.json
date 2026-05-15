@@ -257,6 +257,38 @@
             "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b787-9/TUI.jpg"
           ],
           "type_id": 1
+        },
+        {
+          "name": "El Al",
+          "credits": "Ivan Dmitriev",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b787-9/El-Al.jpg"
+          ],
+          "type_id": 1
+        },
+        {
+          "name": "El Al (Jerusalem of Gold livery)",
+          "credits": "Ivan Dmitriev",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b787-9/El-Al_Jerusalem.jpg"
+          ],
+          "type_id": 1
+        },
+        {
+          "name": "El Al (Jerusalem of Gold livery, stand with Israel design)",
+          "credits": "Ivan Dmitriev",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b787-9/4X-EDM.jpg"
+          ],
+          "type_id": 1
+        },
+        {
+          "name": "El Al (Jerusalem of Gold livery, official Airline of the Olympic Committee of Israel design)",
+          "credits": "Ivan Dmitriev",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b787-9/4X-EDM2.jpg"
+          ],
+          "type_id": 1
         }
       ]
     },
@@ -1052,6 +1084,22 @@
             "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b737-800/B-7397.jpg"
           ],
           "type_id": 1
+        },
+        {
+          "name": "AJet",
+          "credits": "Ivan Dmitriev",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b737-800/AJet.jpg"
+          ],
+          "type_id": 1
+        },
+        {
+          "name": "AJet (red design)",
+          "credits": "Ivan Dmitriev & CP8888&",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b737-800/AJetred.png"
+          ],
+          "type_id": 2
         }
       ]
     },
@@ -1317,6 +1365,15 @@
             "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b777-300/aeroflot_SKYTEAM.jpg"
           ],
           "type_id": 1
+        },
+        {
+          "name": "JA513D",
+          "credits": "Nichy",
+          "texture": [
+            "/models/aircraft/premium/777_300/specular_0.jpg",
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b777-300/JA513D.png"
+          ],
+          "type_id": 2
         }
       ]
     },
@@ -1638,6 +1695,46 @@
           "credits": "Nichy",
           "texture": [
             "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Airbus_a320-232/N624NK.png"
+          ],
+          "type_id": 1
+        },
+        {
+          "name": "Spirit Airlines (Skittles livery)",
+          "credits": "Nichy",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Airbus_a320-232/N633NK.png"
+          ],
+          "type_id": 1
+        },
+        {
+          "name": "Spirit Airlines (Skittles livery - yellow nose)",
+          "credits": "Nichy",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Airbus_a320-232/N637NK.png"
+          ],
+          "type_id": 1
+        },
+        {
+          "name": "Qatar Airways (new design)",
+          "credits": "Ivan Dmitriev",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Airbus_a320-232/qatar.jpg"
+          ],
+          "type_id": 1
+        },
+        {
+          "name": "LATAM Airlines",
+          "credits": "Nichy",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Airbus_a320-232/LATAM.png"
+          ],
+          "type_id": 1
+        },
+        {
+          "name": "TAM Linhas Aéreas (old design)",
+          "credits": "Nichy",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Airbus_a320-232/PR-MBK.png"
           ],
           "type_id": 1
         }
