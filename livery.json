@@ -702,6 +702,62 @@
             "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b737max8/Norwegian_unicef_without_text_on_fuselage_livery.jpg"
           ],
           "type_id": 1
+        },
+        {
+          "name": "LOT",
+          "credits": "Ivan Dmitriev",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b737max8/LOT.jpg"
+          ],
+          "type_id": 1
+        },
+        {
+          "name": "LOT (Star Alliance livery)",
+          "credits": "Ivan Dmitriev",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b737max8/LOTSTAR.jpg"
+          ],
+          "type_id": 1
+        },
+        {
+          "name": "LOT (Bank Pekao livery)",
+          "credits": "Ivan Dmitriev",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b737max8/LOT_bankpekao.jpg"
+          ],
+          "type_id": 1
+        },
+        {
+          "name": "LOT (Itaka livery)",
+          "credits": "Ivan Dmitriev",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b737max8/LOT_itaka.jpg"
+          ],
+          "type_id": 1
+        },
+        {
+          "name": "LOT (Proud of Poland's Independence livery)",
+          "credits": "Ivan Dmitriev",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b737max8/LOT_SP-LVD.jpg"
+          ],
+          "type_id": 1
+        },
+        {
+          "name": "LOT (EG 2023 livery)",
+          "credits": "Ivan Dmitriev",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b737max8/LOT_EG2023.jpg"
+          ],
+          "type_id": 1
+        },
+        {
+          "name": "LOT (100 years of Krosno Glass livery)",
+          "credits": "Ivan Dmitriev",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b737max8/LOT100.jpg"
+          ],
+          "type_id": 1
         }
       ]
     },
@@ -1149,6 +1205,15 @@
             "https://raw.githubusercontent.com/CCA131488/GeoFS-liveries/refs/heads/main/liveries/a359/World2fly.png"
           ],
           "type_id": 1
+        },
+        {
+          "name": "Air France (Marseille)",
+          "credits": "Ivan Dmitriev",
+          "texture": [
+            "/models/aircraft/premium/a350/specular.jpg",
+            "https://raw.githubusercontent.com/CCA131488/GeoFS-liveries/refs/heads/main/liveries/a359/AIRFRANCE_MARSEILLE.jpg"
+          ],
+          "type_id": 1
         }
       ]
     },
@@ -1253,10 +1318,18 @@
           "type_id": 1
         },
         {
-          "name": "Easyjet Europe (400th Airbus)",
+          "name": "Easyjet Europe (400th Airbus livery)",
           "credits": "Ivan Dmitriev",
           "texture": [
             "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Airbus_a321neo/easyJet_Europe_400th.jpg"
+          ],
+          "type_id": 1
+        },
+        {
+          "name": "Air China",
+          "credits": "CP8888",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Airbus_a321neo/airchina.png"
           ],
           "type_id": 1
         }
