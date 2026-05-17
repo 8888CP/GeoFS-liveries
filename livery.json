@@ -1756,7 +1756,7 @@
           "type_id": 1
         },
         {
-          "name": "Spirit Airlines",
+          "name": "Spirit (old design)",
           "credits": "Nichy",
           "texture": [
             "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Airbus_a320-232/N628NK.png"
@@ -1764,7 +1764,7 @@
           "type_id": 1
         },
         {
-          "name": "Spirit Airlines (white nose)",
+          "name": "Spirit (white nose)",
           "credits": "Nichy",
           "texture": [
             "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Airbus_a320-232/N624NK.png"
@@ -1772,7 +1772,7 @@
           "type_id": 1
         },
         {
-          "name": "Spirit Airlines (Skittles livery)",
+          "name": "Spirit (Skittles livery)",
           "credits": "Nichy",
           "texture": [
             "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Airbus_a320-232/N633NK.png"
@@ -1780,7 +1780,7 @@
           "type_id": 1
         },
         {
-          "name": "Spirit Airlines (Skittles livery - yellow nose)",
+          "name": "Spirit (Skittles livery - yellow nose)",
           "credits": "Nichy",
           "texture": [
             "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Airbus_a320-232/N637NK.png"
