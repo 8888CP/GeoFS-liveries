@@ -289,6 +289,14 @@
             "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b787-9/4X-EDM2.jpg"
           ],
           "type_id": 1
+        },
+        {
+          "name": "Spring Airlines",
+          "credits": "Ivan Dmitriev",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b787-9/Spring.jpg"
+          ],
+          "type_id": 2
         }
       ]
     },
@@ -370,10 +378,66 @@
           "type_id": 1
         },
         {
-          "name": "Aeroflot VP-BLL",
+          "name": "Aeroflot VP-BLL (old aircraft registration)",
           "credits": "Ivan Dmitriev",
           "texture": [
             "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Airbus_a320-214/Aeroflot_VP-BLL.jpg"
+          ],
+          "type_id": 1
+        },
+        {
+          "name": "Aeroflot VP-BLL",
+          "credits": "Ivan Dmitriev",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Airbus_a320-214/VP-BLLnew.jpg"
+          ],
+          "type_id": 1
+        },
+        {
+          "name": "Aeroflot",
+          "credits": "Ivan Dmitriev",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Airbus_a320-214/Aeroflot.jpg"
+          ],
+          "type_id": 1
+        },
+        {
+          "name": "Aeroflot (75th anniversary of Victory Great Patriotic War)",
+          "credits": "Ivan Dmitriev",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Airbus_a320-214/Aeroflot_75th.jpg"
+          ],
+          "type_id": 1
+        },
+        {
+          "name": "Aeroflot (80th anniversary of Victory Great Patriotic War)",
+          "credits": "Ivan Dmitriev",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Airbus_a320-214/Aeroflot_80th.jpg"
+          ],
+          "type_id": 1
+        },
+        {
+          "name": "Aeroflot (100 years of domestic civil aviation)",
+          "credits": "Ivan Dmitriev",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Airbus_a320-214/Aeroflot_100.jpg"
+          ],
+          "type_id": 1
+        },
+        {
+          "name": "Aeroflot (Retro livery)",
+          "credits": "Ivan Dmitriev",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Airbus_a320-214/AeroflotRetro.jpg"
+          ],
+          "type_id": 1
+        },
+        {
+          "name": "Aeroflot (Skyteam livery)",
+          "credits": "Ivan Dmitriev",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Airbus_a320-214/Aeroflotsky.jpg"
           ],
           "type_id": 1
         }
@@ -1810,6 +1874,14 @@
             "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Airbus_a320-232/PR-MBK.png"
           ],
           "type_id": 1
+        },
+        {
+          "name": "Spirit Airlines (old design)",
+          "credits": "CP8888",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Airbus_a320-232/Spiritold.jpg"
+          ],
+          "type_id": 1
         }
       ]
     },
@@ -1907,6 +1979,14 @@
           "credits": "CP8888",
           "texture": [
             "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b747-8F/UPSexqatar.png"
+          ],
+          "type_id": 1
+        },
+        {
+          "name": "Nippon Cargo (40th anniversary sticker)",
+          "credits": "CP8888",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b747-8F/NCA40.png"
           ],
           "type_id": 1
         }
