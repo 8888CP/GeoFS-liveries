@@ -176,4 +176,3 @@ total_embed = DiscordEmbed(
 send_embed(total_embed)
 
 print(f"Finished sending {total} liveries")
-```
