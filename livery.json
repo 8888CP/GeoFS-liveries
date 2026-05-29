@@ -41,6 +41,22 @@
             "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b767-300ER/Fedsex.png"
           ],
           "type_id": 2
+        },
+        {
+          "name": "LATAM",
+          "credits": "Ivan Dmitriev",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b767-300ER/latam.jpg",
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b767-300ER/latam.jpg",
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b767-300ER/latam.jpg",
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b767-300ER/latam.jpg",
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b767-300ER/latam.jpg",
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b767-300ER/latam.jpg",
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b767-300ER/latam.jpg",
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b767-300ER/latam.jpg",
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b767-300ER/latam.jpg"
+          ],
+          "type_id": 1
         }
       ]
     },
@@ -84,6 +100,42 @@
             "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b757-200/Fedsex.png"
           ],
           "type_id": 2
+        },
+        {
+          "name": "United Airlines (Continental design)",
+          "credits": "Ivan Dmitriev",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b757-200/United_airlines_Continentaldesign.jpg",
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b757-200/United_airlines_Continentaldesign.jpg",
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b757-200/United_airlines_Continentaldesign.jpg",
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b757-200/United_airlines_Continentaldesign.jpg",
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b757-200/United_airlines_Continentaldesign.jpg",
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b757-200/United_airlines_Continentaldesign.jpg",
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b757-200/United_airlines_Continentaldesign.jpg",
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b757-200/United_airlines_Continentaldesign.jpg",
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b757-200/United_airlines_Continentaldesign.jpg",
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b757-200/United_airlines_Continentaldesign.jpg",
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b757-200/United_airlines_Continentaldesign.jpg"
+          ],
+          "type_id": 1
+        },
+        {
+          "name": "Continental Airlines",
+          "credits": "Ivan Dmitriev",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b757-200/Continental757-200.jpg",
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b757-200/Continental757-200.jpg",
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b757-200/Continental757-200.jpg",
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b757-200/Continental757-200.jpg",
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b757-200/Continental757-200.jpg",
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b757-200/Continental757-200.jpg",
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b757-200/Continental757-200.jpg",
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b757-200/Continental757-200.jpg",
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b757-200/Continental757-200.jpg",
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b757-200/Continental757-200.jpg",
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b757-200/Continental757-200.jpg"
+          ],
+          "type_id": 1
         }
       ]
     },
@@ -137,6 +189,14 @@
           "credits": "Ivan Dmitriev",
           "texture": [
             "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Airbus_a319/easyJet_New_design.jpg"
+          ],
+          "type_id": 1
+        },
+        {
+          "name": "Myanmar Airways International",
+          "credits": "PietroB777pilot",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Airbus_a319/Myanmar_Airways_International.png"
           ],
           "type_id": 1
         }
@@ -297,6 +357,14 @@
             "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b787-9/Spring.jpg"
           ],
           "type_id": 2
+        },
+        {
+          "name": "Qantas",
+          "credits": "Ivan Dmitriev",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b787-9/Qantas.jpg"
+          ],
+          "type_id": 1
         }
       ]
     },
@@ -1220,6 +1288,14 @@
             "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b737-800/AJetred.png"
           ],
           "type_id": 2
+        },
+        {
+          "name": "American Airlines (FIFA World Cup 2026 Livery)",
+          "credits": "Nichy",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b737-800/N844NN.png"
+          ],
+          "type_id": 1
         }
       ]
     },
@@ -1276,6 +1352,15 @@
           "texture": [
             "/models/aircraft/premium/a350/specular.jpg",
             "https://raw.githubusercontent.com/CCA131488/GeoFS-liveries/refs/heads/main/liveries/a359/AIRFRANCE_MARSEILLE.jpg"
+          ],
+          "type_id": 1
+        },
+        {
+          "name": "Cathay Pacific (80th anniversary livery)",
+          "credits": "CP8888",
+          "texture": [
+            "/models/aircraft/premium/a350/specular.jpg",
+            "https://raw.githubusercontent.com/CCA131488/GeoFS-liveries/refs/heads/main/liveries/a359/CX80_A350-900.jpg"
           ],
           "type_id": 1
         }
@@ -1511,6 +1596,24 @@
             "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b777-300/JA513D.png"
           ],
           "type_id": 2
+        },
+        {
+          "name": "Cathay Pacific (80 years together sticker)",
+          "credits": "CP8888",
+          "texture": [
+            "/models/aircraft/premium/777_300/specular_0.jpg",
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b777-300/Cathay_Pacific80stickers.jpg"
+          ],
+          "type_id": 1
+        },
+        {
+          "name": "Qatar Airways (FIFA World Cup 2026 livery)",
+          "credits": "CP8888",
+          "texture": [
+            "/models/aircraft/premium/777_300/specular_0.jpg",
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b777-300/A7-BEH.png"
+          ],
+          "type_id": 1
         }
       ]
     },
@@ -1860,7 +1963,7 @@
           "type_id": 1
         },
         {
-          "name": "LATAM Airlines",
+          "name": "LATAM",
           "credits": "Nichy",
           "texture": [
             "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Airbus_a320-232/LATAM.png"
@@ -2660,6 +2763,38 @@
             "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/ATR72/EuroLOT.jpg"
           ],
           "type_id": 1
+        },
+        {
+          "name": "Myanmar Airways International",
+          "credits": "PietroB777pilot",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/ATR72/MAIair_XY-AMU.jpg"
+          ],
+          "type_id": 1
+        },
+        {
+          "name": "Mingalar Air Services",
+          "credits": "PietroB777pilot",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/ATR72/Mingalar_Aviation_XY-AMF.png"
+          ],
+          "type_id": 1
+        },
+        {
+          "name": "Air Thanlwind",
+          "credits": "PietroB777pilot",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/ATR72/Air_Thanlwin_XY-AIM.png"
+          ],
+          "type_id": 1
+        },
+        {
+          "name": "Mann Yadanarpon Airlines",
+          "credits": "PietroB777pilot",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/ATR72/Mann_Yadanarpon_Airlines.png"
+          ],
+          "type_id": 1
         }
       ]
     },
@@ -2697,6 +2832,54 @@
           "credits": "Ivan Dmitriev",
           "texture": [
             "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Embraer_erj175/AmericanEagle_SkyWest.jpg"
+          ],
+          "type_id": 1
+        }
+      ]
+    },
+    "3036": {
+      "name": "Embraer E195-E2",
+      "index": [9, 0, 7, 8, 10, 11],
+      "parts": [0, 0, 0, 0, 0, 0],
+      "liveries": [
+        {
+          "name": "Azul",
+          "credits": "Ivan Dmitriev",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Embraer_erj195-e2/Azul/Fuselage.jpg",
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Embraer_erj195-e2/Azul/Fuselage.jpg",
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Embraer_erj195-e2/Azul/engine.jpg",
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Embraer_erj195-e2/Azul/engine.jpg",
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Embraer_erj195-e2/Azul/tail.jpg",
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Embraer_erj195-e2/Azul/tail.jpg"
+          ],
+          "type_id": 1
+        },
+        {
+          "name": "LATAM",
+          "credits": "Ivan Dmitriev",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Embraer_erj195-e2/latam/Fuselage.jpg",
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Embraer_erj195-e2/latam/door.jpg",
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Embraer_erj195-e2/latam/engine.jpg",
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Embraer_erj195-e2/latam/engine.jpg",
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Embraer_erj195-e2/latam/tail.jpg",
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Embraer_erj195-e2/latam/tail.jpg"
+          ],
+          "type_id": 1
+        }
+      ]
+    },
+    "2951": {
+      "name": "Airbus A340-300",
+      "index": [0],
+      "parts": [0],
+      "liveries": [
+        {
+          "name": "Lufthansa (new design)",
+          "credits": "Ivan Dmitriev",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Airbus_a340-300/LufthansaNEW.jpg"
           ],
           "type_id": 1
         }
