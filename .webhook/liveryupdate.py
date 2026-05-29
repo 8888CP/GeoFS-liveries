@@ -1,6 +1,7 @@
 import requests
 import json
 import os
+import time
 from collections import defaultdict
 from discord_webhook import DiscordWebhook, DiscordEmbed
 
@@ -32,7 +33,12 @@ total = 0
 # ===== diff =====
 for plane_id, plane_data in new_json["aircrafts"].items():
 
-    old_liveries = old_json.get("aircrafts", {}).get(plane_id, {}).get("liveries", [])
+    old_liveries = (
+        old_json.get("aircrafts", {})
+        .get(plane_id, {})
+        .get("liveries", [])
+    )
+
     new_liveries = plane_data.get("liveries", [])
 
     plane_name = plane_data.get("name", plane_id)
@@ -44,59 +50,100 @@ for plane_id, plane_data in new_json["aircrafts"].items():
 if not diff_data:
     exit()
 
+# ===== safe send =====
+def send_embed(embed):
+
+    webhook = DiscordWebhook(
+        url=LIVERY_UPDATE_WEBHOOK,
+        rate_limit_retry=True
+    )
+
+    webhook.add_embed(embed)
+
+    try:
+        response = webhook.execute()
+
+        if response is None:
+            print("Webhook response is None")
+
+    except Exception as e:
+        print(f"Webhook send failed: {e}")
+
+    # 防止 Discord rate limit
+    time.sleep(1)
+
 # ===== ① Title embed =====
-title_webhook = DiscordWebhook(url=LIVERY_UPDATE_WEBHOOK)
 title_embed = DiscordEmbed(
     description="# Livery update",
     color="242429"
 )
-title_webhook.add_embed(title_embed)
-title_webhook.execute()
 
-# ===== ② Each plane embed (merged + grouped by type) =====
+send_embed(title_embed)
+
+# ===== ② Each plane embed =====
 grouped = defaultdict(list)
 
 for plane_name, livery in diff_data:
     grouped[plane_name].append(livery)
 
 for plane_name, liveries in grouped.items():
+
     total += len(liveries)
 
     type_group = defaultdict(list)
 
     for livery in liveries:
+
         type_id = livery.get("type_id", 2)
-        livery_type = "real liveries" if type_id == 1 else "virtual liveries"
+
+        livery_type = (
+            "real liveries"
+            if type_id == 1
+            else "virtual liveries"
+        )
+
         type_group[livery_type].append(livery)
 
     lines = []
 
-    # 固定顺序：real 在上，virtual 在下
-    for livery_type in ["real liveries", "virtual liveries"]:
+    # 固定顺序
+    for livery_type in [
+        "real liveries",
+        "virtual liveries"
+    ]:
+
         if livery_type not in type_group:
             continue
 
         lines.append(f"**{livery_type}**")
 
         for livery in type_group[livery_type]:
-            livery_name = livery.get("name", "Unknown")
-            credits = livery.get("credits", "??")
 
-            lines.append(f"{livery_name} *by: {credits}*")
+            livery_name = livery.get(
+                "name",
+                "Unknown"
+            )
+
+            credits = livery.get(
+                "credits",
+                "??"
+            )
+
+            lines.append(
+                f"{livery_name} *by: {credits}*"
+            )
 
         lines.append("")
 
     embed = DiscordEmbed(
         description=(
-            f"**{plane_name}**\n" +
-            "\n".join(lines).strip()
+            f"**{plane_name}**\n"
+            + "\n".join(lines).strip()
         ),
         color="242429"
     )
 
-    webhook = DiscordWebhook(url=LIVERY_UPDATE_WEBHOOK)
-    webhook.add_embed(embed)
-    webhook.execute()
+    send_embed(embed)
 
 # ===== ③ Total embed =====
 number_emojis = {
@@ -113,12 +160,20 @@ number_emojis = {
 }
 
 def number_to_emoji(num):
-    return "".join(number_emojis[d] for d in str(num))
+    return "".join(
+        number_emojis[d]
+        for d in str(num)
+    )
 
-total_webhook = DiscordWebhook(url=LIVERY_UPDATE_WEBHOOK)
 total_embed = DiscordEmbed(
-    description=f"**Total:** {number_to_emoji(total)}",
+    description=(
+        f"**Total:** "
+        f"{number_to_emoji(total)}"
+    ),
     color="242429"
 )
-total_webhook.add_embed(total_embed)
-total_webhook.execute()
+
+send_embed(total_embed)
+
+print(f"Finished sending {total} liveries")
+```
