@@ -398,7 +398,7 @@
           "type_id": 1
         },
         {
-          "name": "Avianca (Colombian Registration)",
+          "name": "Avianca (Colombian registration)",
           "credits": "Nichy",
           "texture": [
             "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Airbus_a320-214/HK-5335.png"
@@ -406,7 +406,7 @@
           "type_id": 1
         },
         {
-          "name": "Avianca (American Registration)",
+          "name": "Avianca (American registration)",
           "credits": "Nichy",
           "texture": [
             "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Airbus_a320-214/N664AV.png"
@@ -756,7 +756,7 @@
           "type_id": 1
         },
         {
-          "name": "EgyptAir (American Test Registration)",
+          "name": "EgyptAir (American Test registration)",
           "credits": "Nichy",
           "texture": [
             "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b737max8/EgyptAir_N6046P_-_B38M.png"
@@ -764,7 +764,7 @@
           "type_id": 1
         },
         {
-          "name": "EgyptAir (Egyptian Registration)",
+          "name": "EgyptAir (Egyptian registration)",
           "credits": "Nichy",
           "texture": [
             "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b737max8/EgyptAir_SU-GGL_-_B38M.png"
@@ -2647,7 +2647,7 @@
           "type_id": 1
         },
         {
-          "name": "Northwest Airlink (American Registration)",
+          "name": "Northwest Airlink (American registration)",
           "credits": "Nichy",
           "texture": [
             "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/CRJ900/NWAUS.png",
@@ -2657,7 +2657,7 @@
           "type_id": 1
         },
         {
-          "name": "Northwest Airlink (Canadian Test Registration)",
+          "name": "Northwest Airlink (Canadian test registration)",
           "credits": "Nichy",
           "texture": [
             "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/CRJ900/NWA_Canada.png",
