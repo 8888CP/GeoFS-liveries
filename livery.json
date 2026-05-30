@@ -1481,6 +1481,30 @@
             "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Airbus_a321neo/airchina.png"
           ],
           "type_id": 1
+        },
+        {
+          "name": "Cathay Pacific",
+          "credits": "KN5290 & TOMAIM",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Airbus_a321neo/Cathay_Pacific.png"
+          ],
+          "type_id": 1
+        },
+        {
+          "name": "Cathay Pacific (80 years together sticker)",
+          "credits": "KN5290 & TOMAIM",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Airbus_a321neo/Cathay_Pacific_80.png"
+          ],
+          "type_id": 1
+        },
+        {
+          "name": "Indigo Airlines (Test registration)",
+          "credits": "CP8888",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Airbus_a321neo/Indigo_D-AZYK.jpg"
+          ],
+          "type_id": 1
         }
       ]
     },
@@ -1608,7 +1632,7 @@
         },
         {
           "name": "Qatar Airways (FIFA World Cup 2026 livery)",
-          "credits": "CP8888",
+          "credits": "Nichy",
           "texture": [
             "/models/aircraft/premium/777_300/specular_0.jpg",
             "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b777-300/A7-BEH.png"
@@ -2834,6 +2858,14 @@
             "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Embraer_erj175/AmericanEagle_SkyWest.jpg"
           ],
           "type_id": 1
+        },
+        {
+          "name": "Alaska (Horizon retro design)",
+          "credits": "Ivan Dmitriev",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Embraer_erj175/Alaska_N652MK.jpg"
+          ],
+          "type_id": 1
         }
       ]
     },
@@ -2880,6 +2912,21 @@
           "credits": "Ivan Dmitriev",
           "texture": [
             "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Airbus_a340-300/LufthansaNEW.jpg"
+          ],
+          "type_id": 1
+        }
+      ]
+    },
+    "247": {
+      "name": "Bombardier Dash8-Q400",
+      "index": [0, 0, 0, 0],
+      "parts": [0, 12, 20, 21],
+      "liveries": [
+        {
+          "name": "Air Greenland",
+          "credits": "PietroB777pilot",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Bombardier_dash8-q400/Air_Greenland.png"
           ],
           "type_id": 1
         }
