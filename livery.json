@@ -1394,6 +1394,30 @@
             "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Airbus_a330-900neo/Air_Greenland_.jpg"
           ],
           "type_id": 1
+        },
+        {
+          "name": "Condor (Beach design)",
+          "credits": "Ivan Dmitriev",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Airbus_a330-900neo/condrobeach.jpg"
+          ],
+          "type_id": 1
+        },
+        {
+          "name": "Condor (Island design)",
+          "credits": "Ivan Dmitriev",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Airbus_a330-900neo/condorislnad.jpg"
+          ],
+          "type_id": 1
+        },
+        {
+          "name": "Condor (Sea design)",
+          "credits": "Ivan Dmitriev",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Airbus_a330-900neo/condorsea.jpg"
+          ],
+          "type_id": 1
         }
       ]
     },
@@ -2927,6 +2951,86 @@
           "credits": "PietroB777pilot",
           "texture": [
             "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Bombardier_dash8-q400/Air_Greenland.png"
+          ],
+          "type_id": 1
+        },
+        {
+          "name": "Horizon Airlines (Washington State Cougars)",
+          "credits": "Ivan Dmitriev",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Bombardier_dash8-q400/Horizon_airlines_Washington_State_Cougars.jpg"
+          ],
+          "type_id": 1
+        },
+        {
+          "name": "Horizon Airlines (Boise State Broncos Football Team)",
+          "credits": "Ivan Dmitriev",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Bombardier_dash8-q400/Horizon_Boise_State_Broncos_Football_Team.jpg"
+          ],
+          "type_id": 1
+        },
+        {
+          "name": "Horizon Airlines (Washington Huskies Football Team)",
+          "credits": "Ivan Dmitriev",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Bombardier_dash8-q400/Horizon_Washington_Huskies_Football_Team.jpg"
+          ],
+          "type_id": 1
+        },
+        {
+          "name": "Alaska (San Diego State Aztecs Football Team)",
+          "credits": "Ivan Dmitriev",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Bombardier_dash8-q400/Alaska_San_Diego_State_Aztecs_Football_Team_design.jpg"
+          ],
+          "type_id": 1
+        },
+        {
+          "name": "Alaska (Washington State Cougars)",
+          "credits": "Ivan Dmitriev",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Bombardier_dash8-q400/Alaska_Washington_State_Cougars.jpg"
+          ],
+          "type_id": 1
+        },
+        {
+          "name": "Alaska (University of Oregon)",
+          "credits": "Ivan Dmitriev",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Bombardier_dash8-q400/Alaska_University_of_Oregon.jpg"
+          ],
+          "type_id": 1
+        },
+        {
+          "name": "Alaska (Boise State Broncos Football Team)",
+          "credits": "Ivan Dmitriev",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Bombardier_dash8-q400/Alaska_Boise_State_Broncos_Football_Team.jpg"
+          ],
+          "type_id": 1
+        },
+        {
+          "name": "Alaska (Boise State Broncos Football Team, with Oneworld logo)",
+          "credits": "Ivan Dmitriev",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Bombardier_dash8-q400/Alaska_Boise_State_Broncos_Football_Team_Oneworld.jpg"
+          ],
+          "type_id": 1
+        },
+        {
+          "name": "Alaska (Washington Huskies Football Team)",
+          "credits": "Ivan Dmitriev",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Bombardier_dash8-q400/Alaska_Washington_Huskies_Football_Team.jpg"
+          ],
+          "type_id": 1
+        },
+        {
+          "name": "Alaska (new design - Washington Huskies Football Team)",
+          "credits": "Ivan Dmitriev",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Bombardier_dash8-q400/Alaska_Washington_Huskies_Football_Team2.jpg"
           ],
           "type_id": 1
         }
