@@ -693,9 +693,9 @@
       "liveries": [
         {
           "name": "Air China (National flag)",
-          "credits": "CP8888",
+          "credits": "Ivan Dmitriev",
           "texture": [
-            "https://raw.githubusercontent.com/CCA131488/GeoFS-liveries/refs/heads/main/liveries/7m8/Air_China.png"
+            "https://raw.githubusercontent.com/CCA131488/GeoFS-liveries/refs/heads/main/liveries/7m8/Air_China.jpg"
           ],
           "type_id": 1
         },
@@ -1867,6 +1867,14 @@
             "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Airbus_a330-200/Aeroflot_Skyteam_livery.jpg"
           ],
           "type_id": 1
+        },
+        {
+          "name": "KLM (new design)",
+          "credits": "Ivan Dmitriev",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Airbus_a330-200/KLMnew.jpg"
+          ],
+          "type_id": 1
         }
       ]
     },
@@ -3031,6 +3039,77 @@
           "credits": "Ivan Dmitriev",
           "texture": [
             "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Bombardier_dash8-q400/Alaska_Washington_Huskies_Football_Team2.jpg"
+          ],
+          "type_id": 1
+        },
+        {
+          "name": "Porter",
+          "credits": "Ivan Dmitriev",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Bombardier_dash8-q400/Porter.jpg"
+          ],
+          "type_id": 1
+        }
+      ]
+    },
+    "2870": {
+      "name": "Airbus A321-232",
+      "index": [0],
+      "parts": [0],
+      "liveries": [
+        {
+          "name": "Air China",
+          "credits": "CP8888",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Airbus_a321-232/Air_China.jpg"
+          ],
+          "type_id": 1
+        },
+        {
+          "name": "Air China (National flag)",
+          "credits": "CP8888",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Airbus_a321-232/Air_China_flag.jpg"
+          ],
+          "type_id": 1
+        },
+        {
+          "name": "AJet",
+          "credits": "CP8888",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Airbus_a321-232/Ajet.jpg"
+          ],
+          "type_id": 1
+        },
+        {
+          "name": "Cathay Dragon",
+          "credits": "CP8888",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Airbus_a321-232/Cathay_Dragon.jpg"
+          ],
+          "type_id": 1
+        },
+        {
+          "name": "China Eastern Airlines",
+          "credits": "CP8888",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Airbus_a321-232/China_Eastern.jpg"
+          ],
+          "type_id": 1
+        },
+        {
+          "name": "Hong Kong Express (grey nose)",
+          "credits": "CP8888",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Airbus_a321-232/Hong_Kong_Express_grey_nose.jpg"
+          ],
+          "type_id": 1
+        },
+        {
+          "name": "Turkish Airlines (Star Alliance livery)",
+          "credits": "CP8888",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Airbus_a321-232/Turkish_Airlines_Star_Alliance.jpg"
           ],
           "type_id": 1
         }
