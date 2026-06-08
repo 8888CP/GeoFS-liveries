@@ -3114,6 +3114,76 @@
           "type_id": 1
         }
       ]
+    },
+    "17": {
+      "name": "McDonell Douglas DC-10-40",
+      "index": [0],
+      "parts": [0],
+      "liveries": [
+        {
+          "name": "Transaero",
+          "credits": "Ivan Dmitriev",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/McDonell_douglas_dc-10-40/Transaero.jpg"
+          ],
+          "type_id": 1
+        },
+        {
+          "name": "Western Airlines",
+          "credits": "Nichy",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/McDonell_douglas_dc-10-40/Western.png"
+          ],
+          "type_id": 1
+        },
+        {
+          "name": "Continental Airlines (1991 - Globe livery design)",
+          "credits": "Nichy",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/McDonell_douglas_dc-10-40/N13067.png"
+          ],
+          "type_id": 1
+        },
+        {
+          "name": "AOM French Airlines",
+          "credits": "Nichy",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/McDonell_douglas_dc-10-40/F-GTDI_France.png"
+          ],
+          "type_id": 1
+        },
+        {
+          "name": "Cubana de Aviation (Leased from AOM French Airlines)",
+          "credits": "Nichy",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/McDonell_douglas_dc-10-40/F-GTDI_Cubana_1.png"
+          ],
+          "type_id": 1
+        },
+        {
+          "name": "Challenge Air Cargo",
+          "credits": "CP8888",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/McDonell_douglas_dc-10-40/Challenge_Air_Cargo.jpg"
+          ],
+          "type_id": 1
+        }
+      ]
+    },
+    "2003": {
+      "name": "Boeing 720",
+      "index": [0],
+      "parts": [0],
+      "liveries": [
+        {
+          "name": "Aerolíneas Aeronica",
+          "credits": "Nichy",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b720/YN-BYI.png"
+          ],
+          "type_id": 1
+        }
+      ]
     }
   }
 }
