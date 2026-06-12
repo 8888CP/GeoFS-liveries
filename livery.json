@@ -683,6 +683,14 @@
             "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Airbus_a320neo/easyJet_Switzerland_Basel.jpg"
           ],
           "type_id": 1
+        },
+        {
+          "name": "Avianca (Aerolínea Oficial de las Selecciones de Colombia livery)",
+          "credits": "Nichy",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Airbus_a320neo/N906AV.png"
+          ],
+          "type_id": 1
         }
       ]
     },
@@ -1288,14 +1296,6 @@
             "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b737-800/AJetred.png"
           ],
           "type_id": 2
-        },
-        {
-          "name": "American Airlines (FIFA World Cup 2026 Livery)",
-          "credits": "Nichy",
-          "texture": [
-            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b737-800/N844NN.png"
-          ],
-          "type_id": 1
         }
       ]
     },
@@ -1529,6 +1529,30 @@
             "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Airbus_a321neo/Indigo_D-AZYK.jpg"
           ],
           "type_id": 1
+        },
+        {
+          "name": "Etihad Airways",
+          "credits": "Ivan Dmitriev",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Airbus_a321neo/Etihad.jpg"
+          ],
+          "type_id": 1
+        },
+        {
+          "name": "Etihad Airways (Long Range design)",
+          "credits": "Ivan Dmitriev",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Airbus_a321neo/Etihadlong.jpg"
+          ],
+          "type_id": 1
+        },
+        {
+          "name": "Iberia",
+          "credits": "Ivan Dmitriev",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Airbus_a321neo/Iberia.jpg"
+          ],
+          "type_id": 1
         }
       ]
     },
@@ -1651,15 +1675,6 @@
           "texture": [
             "/models/aircraft/premium/777_300/specular_0.jpg",
             "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b777-300/Cathay_Pacific80stickers.jpg"
-          ],
-          "type_id": 1
-        },
-        {
-          "name": "Qatar Airways (FIFA World Cup 2026 livery)",
-          "credits": "Nichy",
-          "texture": [
-            "/models/aircraft/premium/777_300/specular_0.jpg",
-            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b777-300/A7-BEH.png"
           ],
           "type_id": 1
         }
@@ -3165,6 +3180,30 @@
           "credits": "CP8888",
           "texture": [
             "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/McDonell_douglas_dc-10-40/Challenge_Air_Cargo.jpg"
+          ],
+          "type_id": 1
+        },
+        {
+          "name": "Arrow Air",
+          "credits": "Nichy",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/McDonell_douglas_dc-10-40/Arrow.png"
+          ],
+          "type_id": 1
+        },
+        {
+          "name": "Japan Asia Airways",
+          "credits": "CNA1838",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/McDonell_douglas_dc-10-40/JapanAsia.png"
+          ],
+          "type_id": 1
+        },
+        {
+          "name": "NorthWest Airlines",
+          "credits": "CNA1838",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/McDonell_douglas_dc-10-40/JapanAsia.png"
           ],
           "type_id": 1
         }
