@@ -3206,6 +3206,14 @@
             "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/McDonell_douglas_dc-10-40/NorthWest.png"
           ],
           "type_id": 1
+        },
+        {
+          "name": "Umazon (Operated by JAL Cargo)",
+          "credits": "Nichy",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/McDonell_douglas_dc-10-40/Umazon.png"
+          ],
+          "type_id": 2
         }
       ]
     },
