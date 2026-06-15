@@ -1418,6 +1418,14 @@
             "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Airbus_a330-900neo/condorsea.jpg"
           ],
           "type_id": 1
+        },
+        {
+          "name": "Delta Air Lines",
+          "credits": "Ivan Dmitriev",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Airbus_a330-900neo/Delta.jpg"
+          ],
+          "type_id": 1
         }
       ]
     },
@@ -2562,6 +2570,15 @@
           "texture": [
             "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/CRJ200/Pinnacle_NWA.png",
             "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/CRJ200/Pinnacle_NWA.png"
+          ],
+          "type_id": 1
+        },
+        {
+          "name": "United Express (grey design)",
+          "credits": "Ivan Dmitriev",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/CRJ200/UNITED_grey.jpg",
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/CRJ200/UNITED_grey.jpg"
           ],
           "type_id": 1
         }
