@@ -365,6 +365,14 @@
             "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b787-9/Qantas.jpg"
           ],
           "type_id": 1
+        },
+        {
+          "name": "United Airlines (The future is SAF livery)",
+          "credits": "opaldelta_17676",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b787-9/United_SAF.png"
+          ],
+          "type_id": 1
         }
       ]
     },
@@ -1296,6 +1304,14 @@
             "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b737-800/AJetred.png"
           ],
           "type_id": 2
+        },
+        {
+          "name": "United Airlines (Stars and Stripes livery)",
+          "credits": "Nichy",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b737-800/n78285.png"
+          ],
+          "type_id": 1
         }
       ]
     },
@@ -2171,6 +2187,14 @@
             "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b747-8F/NCA40.png"
           ],
           "type_id": 1
+        },
+        {
+          "name": "Silkway West",
+          "credits": "opaldelta_17676",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b747-8F/Silkway_west.png"
+          ],
+          "type_id": 1
         }
       ]
     },
@@ -2428,6 +2452,87 @@
           "credits": "Ivan Dmitriev",
           "texture": [
             "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b747-400/Asiana_Cargo.jpg",
+            "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b747-400/wing/original.png"
+          ],
+          "type_id": 1
+        },
+        {
+          "name": "Air Atlanta Icelandic (ex Saudi Arabia)",
+          "credits": "opaldelta_17676",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b747-400/Saudi_Arabian_Government_v1.png",
+            "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b747-400/wing/original.png"
+          ],
+          "type_id": 1
+        },
+        {
+          "name": "Air Bridge Cargo (ex Saudi Arabia)",
+          "credits": "opaldelta_17676",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b747-400/TF-AMP.png",
+            "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b747-400/wing/original.png"
+          ],
+          "type_id": 1
+        },
+        {
+          "name": "Air Bridge Cargo (white design)",
+          "credits": "opaldelta_17676",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b747-400/AirBridgeCargo_white.png",
+            "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b747-400/wing/original.png"
+          ],
+          "type_id": 1
+        },
+        {
+          "name": "Air Zeta (ex Asiana Cargo)",
+          "credits": "opaldelta_17676",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b747-400/HL7417.jpg",
+            "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b747-400/wing/original.png"
+          ],
+          "type_id": 1
+        },
+        {
+          "name": "Air ACT V1",
+          "credits": "opaldelta_17676",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b747-400/AirACT_v1.png",
+            "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b747-400/wing/original.png"
+          ],
+          "type_id": 1
+        },
+        {
+          "name": "Air ACT V2",
+          "credits": "opaldelta_17676",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b747-400/AirACT_v2.png",
+            "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b747-400/wing/original.png"
+          ],
+          "type_id": 1
+        },
+        {
+          "name": "EVA Air Cargo (new design)",
+          "credits": "opaldelta_17676",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b747-400/EVA_Air_CargoNEW.png",
+            "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b747-400/wing/original.png"
+          ],
+          "type_id": 1
+        },
+        {
+          "name": "National Airlines (white design)",
+          "credits": "opaldelta_17676",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b747-400/National_Airlines_White.png",
+            "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b747-400/wing/original.png"
+          ],
+          "type_id": 1
+        },
+        {
+          "name": "Air Hongkong - DHL",
+          "credits": "opaldelta_17676",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b747-400/Air_Hongkong_DHL.png",
             "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b747-400/wing/original.png"
           ],
           "type_id": 1
