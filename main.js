@@ -1,8 +1,8 @@
 // ==UserScript==
 // @name         GeoFS-liveries
 // @namespace    http://tampermonkey.net/
-// @version      1.4
-// @description  add some liveries - Modern Tech Edition (White Gradient)
+// @version      1.5
+// @description  Optimized livery switcher with preloading (No LS dependency)
 // @author       ChatGPT & CP8888
 // @match        https://geo-fs.com/geofs.php*
 // @match        https://*.geo-fs.com/geofs.php*
@@ -12,63 +12,117 @@
 (function () {
     'use strict';
 
-    let panel, listContainer, searchInput, filterSelect;
-    let data;
-    let lastAircraftId = null;
-    let currentList = [];
-    let displayType = "all";
+    const JSON_URL = "https://raw.githubusercontent.com/CCA131488/GeoFS-liveries/main/livery.json";
 
+    let panel, listContainer, searchInput, filterSelect;
+    let data = null;
+    let lastAircraftId = null;
+    let displayType = "all";
     let gameFocused = false;
 
-    const jsonUrl =
-        "https://raw.githubusercontent.com/CCA131488/GeoFS-liveries/main/livery.json";
-
     const wait = setInterval(() => {
-        if (window.geofs && (window.LiverySelector || geofs.aircraft?.instance)) {
+        if (window.geofs && geofs.aircraft?.instance) {
             clearInterval(wait);
-            init();
+            loadDataAndInit();
         }
     }, 1000);
 
-    async function init() {
-        console.log("✅ Plugin Loaded v1.4 - Modern Tech Edition (White Gradient)");
-
+    async function loadDataAndInit() {
         try {
-            data = await fetch(jsonUrl).then(r => r.json());
+            const response = await fetch(JSON_URL);
+            if (!response.ok) throw new Error();
+            data = await response.json();
         } catch (e) {
-            console.error("JSON Loading Failed:", e);
-            return;
+            data = { aircrafts: {}, livery_types: {} };
         }
+        init();
+    }
 
+    function init() {
         createUI();
         setupHideKey();
         startLoop();
+
+        window.GeoFSLiveries = {
+            applyLivery: applyLivery,
+            reloadList: filterList,
+            togglePanel: togglePanel,
+            getCurrentAircraftData: getCurrentAircraftData,
+            getData: () => data,
+            refreshData: async () => { await loadDataAndInit(); }
+        };
     }
 
-    function setupHideKey() {
-        document.addEventListener("mousedown", (e) => {
-            if (panel && panel.contains(e.target)) {
-                gameFocused = false;
-            } else {
-                gameFocused = true;
-            }
+    function getCurrentAircraftData() {
+        const id = geofs.aircraft.instance.id;
+        return data?.aircrafts?.[id] || null;
+    }
+
+    function applyLivery(livery) {
+        if (!data) return;
+        const aircraft = geofs.aircraft.instance;
+        if (!aircraft) return;
+
+        const acId = aircraft.id;
+        const acData = data.aircrafts[acId];
+        if (!acData) return;
+
+        const parts = acData.parts;
+        const indexes = acData.index;
+        const textures = livery.texture;
+        const materials = livery.materials;
+
+        if (!textures || textures.length === 0) return;
+
+        const textureUrls = textures.filter(t => typeof t === 'string');
+
+        const loadPromises = textureUrls.map(url => {
+            return new Promise((resolve) => {
+                const img = new Image();
+                img.onload = () => resolve(url);
+                img.onerror = () => resolve(url);
+                img.src = url;
+            });
         });
 
-        document.addEventListener("keydown", (e) => {
-            const active = document.activeElement;
-            const typing =
-                active &&
-                (active.tagName === "INPUT" ||
-                 active.tagName === "TEXTAREA" ||
-                 active.isContentEditable);
+        Promise.all(loadPromises).then(() => {
+            for (let i = 0; i < textures.length; i++) {
+                const partIdx = parts[i];
+                const model3d = aircraft.definition.parts[partIdx]['3dmodel'];
+                const tex = textures[i];
 
-            if (typing) return;
+                if (typeof tex === 'object' && tex.material !== undefined) {
+                    if (materials && materials[tex.material]) {
+                        const mat = materials[tex.material];
+                        const keys = Object.keys(mat).filter(k => k !== 'name');
+                        if (keys.length > 0) {
+                            const type = keys[0];
+                            const color = mat[type];
+                            try {
+                                model3d._model.getMaterial(mat.name)
+                                    .setValue(type, new Cesium.Cartesian4(color[0], color[1], color[2], 1.0));
+                            } catch (e) {}
+                        }
+                    }
+                    continue;
+                }
 
-            if (e.key === "Shift" && gameFocused && panel) {
-                panel.style.display =
-                    panel.style.display === "none" ? "flex" : "none";
+                if (typeof tex !== 'string') continue;
+
+                try {
+                    const version = geofs.version || 0;
+                    if (version >= 3.7) {
+                        geofs.api.changeModelTexture(model3d._model, tex, { index: indexes[i] });
+                    } else if (version >= 3.0 && version <= 3.7) {
+                        geofs.api.changeModelTexture(model3d._model, tex, indexes[i]);
+                    } else if (version == 2.9) {
+                        geofs.api.Model.prototype.changeTexture(tex, indexes[i], model3d);
+                    } else {
+                        geofs.api.changeModelTexture(model3d._model, tex, { index: indexes[i] });
+                    }
+                } catch (e) {}
             }
-        });
+        }).catch(() => {});
     }
 
     function createUI() {
@@ -115,7 +169,7 @@
 
         const titleBar = document.createElement("div");
         titleBar.className = "panel-header";
-        titleBar.innerHTML = "<b style='letter-spacing:1px'>⚡ GeoFS Liveries V1.4</b>";
+        titleBar.innerHTML = "<b style='letter-spacing:1px'>⚡ GeoFS Liveries V1.5</b>";
         Object.assign(titleBar.style, {
             cursor: "grab",
             paddingBottom: "6px",
@@ -126,7 +180,7 @@
         panel.appendChild(titleBar);
 
         const hint = document.createElement("div");
-        hint.innerText = "Shift to hide | Mouse over for glow";
+        hint.innerText = "Press Shift to hide";
         Object.assign(hint.style, {
             fontSize: "11px",
             opacity: "0.65",
@@ -207,41 +261,12 @@
         document.body.appendChild(panel);
     }
 
-    function applyLivery(livery) {
-        const id = geofs.aircraft.instance.id;
-
-        if (window.LiverySelector) {
-            const airplane = window.LiverySelector.liveryobj.aircrafts[id];
-            if (airplane) {
-                window.LiverySelector.loadLivery(
-                    livery.texture,
-                    airplane.index,
-                    airplane.parts,
-                    livery.materials
-                );
-                return;
-            }
-        }
-
-        const aircraft = geofs.aircraft.instance;
-        if (!aircraft || !livery.texture) return;
-
-        let i = 0;
-        aircraft.object3d.traverse((child) => {
-            if (child.material && child.material.map && livery.texture[i]) {
-                const tex = new THREE.TextureLoader().load(livery.texture[i]);
-                child.material.map = tex;
-                child.material.needsUpdate = true;
-                i++;
-            }
-        });
-    }
-
     function renderList(list) {
+        if (!data) return;
         listContainer.innerHTML = "";
         const fragment = document.createDocumentFragment();
 
-        list.forEach((livery, idx) => {
+        list.forEach((livery) => {
             if (!livery || !livery.name || !livery.texture) return;
 
             const isReal = data.livery_types[livery.type_id] === 'real';
@@ -308,6 +333,7 @@
     }
 
     function filterList() {
+        if (!data) return;
         const keyword = searchInput.value.toLowerCase();
         const id = geofs.aircraft.instance.id;
         const ac = data.aircrafts[id];
@@ -358,9 +384,41 @@
         renderList(filtered);
     }
 
+    function togglePanel() {
+        if (!panel) return;
+        panel.style.display = panel.style.display === "none" ? "flex" : "none";
+    }
+
+    function setupHideKey() {
+        document.addEventListener("mousedown", (e) => {
+            if (panel && panel.contains(e.target)) {
+                gameFocused = false;
+            } else {
+                gameFocused = true;
+            }
+        });
+
+        document.addEventListener("keydown", (e) => {
+            const active = document.activeElement;
+            const typing =
+                active &&
+                (active.tagName === "INPUT" ||
+                 active.tagName === "TEXTAREA" ||
+                 active.isContentEditable);
+
+            if (typing) return;
+
+            if (e.key === "Shift" && gameFocused && panel) {
+                panel.style.display =
+                    panel.style.display === "none" ? "flex" : "none";
+            }
+        });
+    }
+
     function startLoop() {
         setInterval(() => {
             if (!panel || !document.body.contains(panel)) createUI();
+            if (!data) return;
 
             const id = geofs.aircraft.instance.id;
             if (id !== lastAircraftId) {
@@ -370,4 +428,5 @@
             }
         }, 1000);
     }
+
 })();
