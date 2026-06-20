@@ -15,10 +15,20 @@
           "texture": [
             "/models/aircraft/premium/737_700/normal.jpg",
             "/models/aircraft/premium/737_700/specular.jpg",
-            "https://raw.githubusercontent.com/CCA131488/GeoFS-liveries/refs/heads/main/liveries/b737-700/SASold.png"
+            "https://raw.githubusercontent.com/8888CP/livery/refs/heads/main/liveries/Boeing_b737-700/SASold.png"
           ],
           "type_id": 1
-        }   
+        },
+        {
+          "name": "KLM (new design)",
+          "credits": "CP8888",
+          "texture": [
+            "/models/aircraft/premium/737_700/normal.jpg",
+            "/models/aircraft/premium/737_700/specular.jpg",
+            "https://raw.githubusercontent.com/8888CP/livery/refs/heads/main/liveries/Boeing_b737-700/KLM_new.jpg"
+          ],
+          "type_id": 1
+        } 
       ]
     },
     "237": {
