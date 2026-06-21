@@ -146,6 +146,24 @@
             "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b757-200/Continental757-200.jpg"
           ],
           "type_id": 1
+        },
+        {
+          "name": "United Airlines (Star Alliance livery)",
+          "credits": "Ivan Dmitriev",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b757-200/Unitedstar.jpg",
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b757-200/Unitedstar.jpg",
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b757-200/Unitedstar.jpg",
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b757-200/Unitedstar.jpg",
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b757-200/Unitedstar.jpg",
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b757-200/Unitedstar.jpg",
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b757-200/Unitedstar.jpg",
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b757-200/Unitedstar.jpg",
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b757-200/Unitedstar.jpg",
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b757-200/Unitedstar.jpg",
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b757-200/Unitedstar.jpg"
+          ],
+          "type_id": 1
         }
       ]
     },
@@ -1727,6 +1745,15 @@
             "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b777-300/Cathay_Pacific80stickers.jpg"
           ],
           "type_id": 1
+        },
+        {
+          "name": "JA300U",
+          "credits": "Nichy",
+          "texture": [
+            "/models/aircraft/premium/777_300/specular_0.jpg",
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b777-300/JA300U.png"
+          ],
+          "type_id": 2
         }
       ]
     },
@@ -3362,6 +3389,22 @@
             "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/McDonell_douglas_dc-10-40/Umazon.png"
           ],
           "type_id": 2
+        },
+        {
+          "name": "Aeroflot Cargo VP-BDF",
+          "credits": "Ivan Dmitriev",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/McDonell_douglas_dc-10-40/Aeroflot_Cargo_VP-BDF.jpg"
+          ],
+          "type_id": 1
+        },
+        {
+          "name": "Aeroflot Cargo VP-BDH",
+          "credits": "Ivan Dmitriev",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/McDonell_douglas_dc-10-40/Aeroflot_Cargo_VP-BDH.jpg"
+          ],
+          "type_id": 1
         }
       ]
     },
