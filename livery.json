@@ -713,7 +713,7 @@
       ]
     },
     "2769": {
-      "name": "Boeing B737-max8",
+      "name": "Boeing B737-MAX8",
       "index": [0],
       "parts": [0],
       "liveries": [
@@ -914,6 +914,22 @@
           "credits": "Ivan Dmitriev",
           "texture": [
             "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b737max8/LOT100.jpg"
+          ],
+          "type_id": 1
+        },
+        {
+          "name": "Copa Airlines (Panama National Football Team livery, blue winglets)",
+          "credits": "Nichy",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/GeoFS-liveries/refs/heads/main/liveries/7m8/HP-9819CMP.png"
+          ],
+          "type_id": 1
+        },
+        {
+          "name": "Copa Airlines (Panama National Football Team livery, red winglets)",
+          "credits": "Nichy",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/GeoFS-liveries/refs/heads/main/liveries/7m8/HP-9818CMP_V2.png"
           ],
           "type_id": 1
         }
