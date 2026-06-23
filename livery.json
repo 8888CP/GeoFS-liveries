@@ -1348,14 +1348,6 @@
             "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b737-800/AJetred.png"
           ],
           "type_id": 2
-        },
-        {
-          "name": "United Airlines (Stars and Stripes livery)",
-          "credits": "Nichy",
-          "texture": [
-            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b737-800/n78285.png"
-          ],
-          "type_id": 1
         }
       ]
     },
