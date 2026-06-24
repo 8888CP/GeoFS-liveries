@@ -544,6 +544,54 @@
             "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Airbus_a320-214/Aeroflotsky.jpg"
           ],
           "type_id": 1
+        },
+        {
+          "name": "Lufthansa (Greifswald, new design)",
+          "credits": "Nichy",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Airbus_a320-214/D-AIWA.png"
+          ],
+          "type_id": 1
+        },
+        {
+          "name": "Lufthansa (Eisenach, new design)",
+          "credits": "Nichy",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Airbus_a320-214/D-AIZE.png"
+          ],
+          "type_id": 1
+        },
+        {
+          "name": "Lufthansa (Sinderfingen, new design)",
+          "credits": "Nichy",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Airbus_a320-214/D-AIZG_v1.png"
+          ],
+          "type_id": 1
+        },
+        {
+          "name": "Lufthansa (Fanhansa livery)",
+          "credits": "Nichy",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Airbus_a320-214/D-AIZG_v2.png"
+          ],
+          "type_id": 1
+        },
+        {
+          "name": "Lufthansa (Leinfelden-Echterdingen, new design)",
+          "credits": "Nichy",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Airbus_a320-214/D-AIZO.png"
+          ],
+          "type_id": 1
+        },
+        {
+          "name": "Lufthansa (Buxtehude, new design)",
+          "credits": "Nichy",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Airbus_a320-214/D-AIZX.png"
+          ],
+          "type_id": 1
         }
       ]
     },
@@ -1746,6 +1794,15 @@
             "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b777-300/JA300U.png"
           ],
           "type_id": 2
+        },
+        {
+          "name": "British Airways",
+          "credits": "Ivan Dmitriev",
+          "texture": [
+            "/models/aircraft/premium/777_300/specular_0.jpg",
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b777-300/british_airways.jpg"
+          ],
+          "type_id": 1
         }
       ]
     },
@@ -1957,6 +2014,22 @@
           "credits": "Ivan Dmitriev",
           "texture": [
             "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Airbus_a330-200/KLMnew.jpg"
+          ],
+          "type_id": 1
+        },
+        {
+          "name": "TAP",
+          "credits": "Ivan Dmitriev",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Airbus_a330-200/TAP.jpg"
+          ],
+          "type_id": 1
+        },
+        {
+          "name": "TAP (white winglets)",
+          "credits": "Ivan Dmitriev",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Airbus_a330-200/TAP_White_winglets.jpg"
           ],
           "type_id": 1
         }
@@ -2199,6 +2272,16 @@
             "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Embraer_erj190/Alliance.png",
             "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Embraer_erj190/Alliance.png",
             "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Embraer_erj190/Alliance.png"
+          ],
+          "type_id": 1
+        },
+        {
+          "name": "Austral (Skyteam livery)",
+          "credits": "Ivan Dmitriev",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Embraer_erj190/Austral_Skyteam.jpg",
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Embraer_erj190/Austral_Skyteam.jpg",
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Embraer_erj190/Austral_Skyteam.jpg"
           ],
           "type_id": 1
         }
