@@ -3497,6 +3497,21 @@
           "type_id": 1
         }
       ]
+    },
+    "6006": {
+      "name": "Airbus A340-500",
+      "index": [0],
+      "parts": [0],
+      "liveries": [
+        {
+          "name": "JA345U",
+          "credits": "Nichy",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/Geofs-liveries/refs/heads/main/liveries/Airbus_a340-500/JA345U.png"
+          ],
+          "type_id": 2
+        }
+      ]
     }
   }
 }
