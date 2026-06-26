@@ -3510,6 +3510,37 @@
             "https://raw.githubusercontent.com/CCA131488/Geofs-liveries/refs/heads/main/liveries/Airbus_a340-500/JA345U.png"
           ],
           "type_id": 2
+        },
+        {
+          "name": "Cathay Pacific (new design)",
+          "credits": "CP8888",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/Geofs-liveries/refs/heads/main/liveries/Airbus_a340-500/Cathay_Pacific.jpg"
+          ],
+          "type_id": 2
+        },
+        {
+          "name": "Emirates",
+          "credits": "Nichy",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/Geofs-liveries/refs/heads/main/liveries/Airbus_a340-500/Emirates.png"
+          ],
+          "type_id": 1
+        }
+      ]
+    },
+    "5998": {
+      "name": "Airbus A340-600",
+      "index": [0],
+      "parts": [0],
+      "liveries": [
+        {
+          "name": "USC",
+          "credits": "Nichy",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/Geofs-liveries/refs/heads/main/liveries/Airbus_a340-600/USC.png"
+          ],
+          "type_id": 1
         }
       ]
     }
