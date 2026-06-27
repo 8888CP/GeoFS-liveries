@@ -1463,6 +1463,15 @@
             "https://raw.githubusercontent.com/CCA131488/GeoFS-liveries/refs/heads/main/liveries/a359/CX80_A350-900.jpg"
           ],
           "type_id": 1
+        },
+        {
+          "name": "China Eastern Airlines (1st Airbus A350 delivered form China livery)",
+          "credits": "KN5290",
+          "texture": [
+            "/models/aircraft/premium/a350/specular.jpg",
+            "https://raw.githubusercontent.com/CCA131488/GeoFS-liveries/refs/heads/main/liveries/a359/China_Eastern_1st.png"
+          ],
+          "type_id": 1
         }
       ]
     },
@@ -3539,6 +3548,86 @@
           "credits": "Nichy",
           "texture": [
             "https://raw.githubusercontent.com/CCA131488/Geofs-liveries/refs/heads/main/liveries/Airbus_a340-600/USC.png"
+          ],
+          "type_id": 1
+        },
+        {
+          "name": "Etihad Airways (Formula 1 - Abu Dhabi Grand Prix 2009)",
+          "credits": "Nichy",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/Geofs-liveries/refs/heads/main/liveries/Airbus_a340-600/A6-EHJ_2009.png"
+          ],
+          "type_id": 1
+        },
+        {
+          "name": "Etihad Airways (Formula 1 - Abu Dhabi Grand Prix 2010)",
+          "credits": "Nichy",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/Geofs-liveries/refs/heads/main/liveries/Airbus_a340-600/A6-EHJ_2010.png"
+          ],
+          "type_id": 1
+        },
+        {
+          "name": "Etihad Airways (Formula 1 - Abu Dhabi Grand Prix 2011)",
+          "credits": "Nichy",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/Geofs-liveries/refs/heads/main/liveries/Airbus_a340-600/A6-EHJ_2011.png"
+          ],
+          "type_id": 1
+        },
+        {
+          "name": "Etihad Airways (Formula 1 - Abu Dhabi Grand Prix 2012)",
+          "credits": "Nichy",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/Geofs-liveries/refs/heads/main/liveries/Airbus_a340-600/A6-EHJ_2012.png"
+          ],
+          "type_id": 1
+        },
+        {
+          "name": "Etihad Airways (Formula 1 - Abu Dhabi Grand Prix 2013)",
+          "credits": "Nichy",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/Geofs-liveries/refs/heads/main/liveries/Airbus_a340-600/A6-EHJ_2013.png"
+          ],
+          "type_id": 1
+        },
+        {
+          "name": "Etihad Airways (Formula 1 - Abu Dhabi Grand Prix 2014)",
+          "credits": "Nichy",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/Geofs-liveries/refs/heads/main/liveries/Airbus_a340-600/A6-EHJ_2014.png"
+          ],
+          "type_id": 1
+        },
+        {
+          "name": "Etihad Airways (Formula 1 - Abu Dhabi Grand Prix 2015)",
+          "credits": "Nichy",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/Geofs-liveries/refs/heads/main/liveries/Airbus_a340-600/A6-EHJ_2015.png"
+          ],
+          "type_id": 1
+        },
+        {
+          "name": "Etihad Airways (Formula 1 - Abu Dhabi Grand Prix 2016)",
+          "credits": "Nichy",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/Geofs-liveries/refs/heads/main/liveries/Airbus_a340-600/A6-EHJ_2016.png"
+          ],
+          "type_id": 1
+        },
+        {
+          "name": "Etihad Airways (Formula 1 - Abu Dhabi Grand Prix 2017)",
+          "credits": "Nichy",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/Geofs-liveries/refs/heads/main/liveries/Airbus_a340-600/A6-EHJ_2017.png"
+          ],
+          "type_id": 1
+        },
+        {
+          "name": "Virgin Atlantic (a big Virgin Atlantic Thank you livery)",
+          "credits": "CNA1838",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/Geofs-liveries/refs/heads/main/liveries/Airbus_a340-600/G-VNAP.png"
           ],
           "type_id": 1
         }
