@@ -3536,6 +3536,30 @@
           ],
           "type_id": 1
         }
+        {
+          "name": "Qatar Amiri Flight",
+          "credits": "CP8888",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/Geofs-liveries/refs/heads/main/liveries/Airbus_a340-500/Qatar_Amiri_Flight.jpg"
+          ],
+          "type_id": 1
+        },
+        {
+          "name": "Thai Airways",
+          "credits": "CP8888",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/Geofs-liveries/refs/heads/main/liveries/Airbus_a340-500/thai_airways.jpg"
+          ],
+          "type_id": 1
+        },
+        {
+          "name": "2-STLB",
+          "credits": "CP8888",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/Geofs-liveries/refs/heads/main/liveries/Airbus_a340-500/2-STLB.jpg"
+          ],
+          "type_id": 1
+        }
       ]
     },
     "5998": {
