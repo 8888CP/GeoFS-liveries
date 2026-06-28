@@ -3498,7 +3498,7 @@
       "parts": [0],
       "liveries": [
         {
-          "name": "Aerolíneas Aeronica",
+          "name": "Aerolineas Aeronica",
           "credits": "Nichy",
           "texture": [
             "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b720/YN-BYI.png"
@@ -3535,7 +3535,7 @@
             "https://raw.githubusercontent.com/CCA131488/Geofs-liveries/refs/heads/main/liveries/Airbus_a340-500/Emirates.png"
           ],
           "type_id": 1
-        }
+        },
         {
           "name": "Qatar Amiri Flight",
           "credits": "CP8888",
