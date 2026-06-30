@@ -2673,6 +2673,15 @@
             "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b747-400/wing/original.png"
           ],
           "type_id": 1
+        },
+        {
+          "name": "Western Global Airlines",
+          "credits": "Nichy",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/livery/refs/heads/main/liveries/Boeing_b747-400/Western_Global.png",
+            "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b747-400/wing/original.png"
+          ],
+          "type_id": 1
         }
       ]
     },
@@ -3654,6 +3663,30 @@
             "https://raw.githubusercontent.com/CCA131488/Geofs-liveries/refs/heads/main/liveries/Airbus_a340-600/G-VNAP.png"
           ],
           "type_id": 1
+        },
+        {
+          "name": "European Cargo",
+          "credits": "CP8888",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/Geofs-liveries/refs/heads/main/liveries/Airbus_a340-600/European_Cargo.jpg"
+          ],
+          "type_id": 1
+        }
+      ]
+    },
+    "1014": {
+      "name": "Ilyushin IL-76TD",
+      "index": [0, 1],
+      "parts": [0, 0],
+      "liveries": [
+        {
+          "name": "VietNam Air Force",
+          "credits": "opaldelta_17676",
+          "texture": [
+            "https://raw.githubusercontent.com/CCA131488/Geofs-liveries/refs/heads/main/liveries/Ilyushin_il76/VietNam.png",
+            "https://raw.githubusercontent.com/CCA131488/Geofs-liveries/refs/heads/main/liveries/Ilyushin_il76/wing/VietNam.png"
+          ],
+          "type_id": 2
         }
       ]
     }
