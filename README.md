@@ -61,9 +61,11 @@ The list of supported aircrafts is:
 - Embraer E175
 - Embraer E190
 - Embraer E190-E2
+- Ilyushin IL-76TD
 
-# Version: 1.5
+# Version: 1.6
 
-- Completely remove the dependency on LiverySelector.
+- Added Favorites System
+- Added Dual‑Pane View
 
 # [Welcome join our discord!](https://discord.gg/VQuy54sQ)

@@ -14,11 +14,11 @@ with open("commit.txt", "r") as file:
     commit_id = file.read().strip()
 
 new_raw = requests.get(
-    "https://raw.githubusercontent.com/CCA131488/GeoFS-liveries/refs/heads/main/livery.json"
+    "https://raw.githubusercontent.com/8888CP/GeoFS-liveries/refs/heads/main/livery.json"
 ).text
 
 old_raw = requests.get(
-    f"https://raw.githubusercontent.com/CCA131488/GeoFS-liveries/{commit_id}/livery.json"
+    f"https://raw.githubusercontent.com/8888CP/GeoFS-liveries/{commit_id}/livery.json"
 ).text
 
 if new_raw == old_raw:

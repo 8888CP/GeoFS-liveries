@@ -1,9 +1,9 @@
 // ==UserScript==
 // @name         GeoFS-liveries
 // @namespace    http://tampermonkey.net/
-// @version      1.5
-// @description  Optimized livery switcher with preloading (No LS dependency)
-// @author       ChatGPT & CP8888
+// @version      1.6
+// @description  add some liveries
+// @author       ai & CP8888
 // @match        https://geo-fs.com/geofs.php*
 // @match        https://*.geo-fs.com/geofs.php*
 // @grant        none
@@ -12,13 +12,54 @@
 (function () {
     'use strict';
 
-    const JSON_URL = "https://raw.githubusercontent.com/CCA131488/GeoFS-liveries/main/livery.json";
+    const JSON_URL = "https://raw.githubusercontent.com/8888CP/GeoFS-liveries/main/livery.json";
 
-    let panel, listContainer, searchInput, filterSelect;
+    let panel, searchInput, filterSelect;
     let data = null;
-    let lastAircraftId = null;
+    let currentAircraftId = null;
     let displayType = "all";
     let gameFocused = false;
+    let dataLoaded = false;
+
+    let availableContainer = null;
+    let favoritesContainer = null;
+
+    const sectionState = {
+        available: true,
+        favorites: true
+    };
+
+    function getFavorites() {
+        try {
+            const raw = localStorage.getItem('liveryFavorites_all');
+            if (!raw) return [];
+            return JSON.parse(raw);
+        } catch { return []; }
+    }
+
+    function saveFavorites(favList) {
+        try {
+            localStorage.setItem('liveryFavorites_all', JSON.stringify(favList));
+        } catch (e) { console.warn('Save favorites failed', e); }
+    }
+
+    function toggleFavorite(acId, liveryName) {
+        const key = acId + '|' + liveryName;
+        let favs = getFavorites();
+        const idx = favs.indexOf(key);
+        if (idx > -1) {
+            favs.splice(idx, 1);
+        } else {
+            favs.push(key);
+        }
+        saveFavorites(favs);
+        return favs;
+    }
+
+    function isFavorite(acId, liveryName) {
+        const key = acId + '|' + liveryName;
+        return getFavorites().includes(key);
+    }
 
     const wait = setInterval(() => {
         if (window.geofs && geofs.aircraft?.instance) {
@@ -30,12 +71,15 @@
     async function loadDataAndInit() {
         try {
             const response = await fetch(JSON_URL);
-            if (!response.ok) throw new Error();
+            if (!response.ok) throw new Error(`HTTP ${response.status}`);
             data = await response.json();
+            dataLoaded = true;
         } catch (e) {
+            console.error('Failed to load liveries:', e);
             data = { aircrafts: {}, livery_types: {} };
         }
         init();
+        filterList();
     }
 
     function init() {
@@ -45,17 +89,20 @@
 
         window.GeoFSLiveries = {
             applyLivery: applyLivery,
+            toggleFavorite: toggleFavorite,
+            getFavorites: getFavorites,
             reloadList: filterList,
             togglePanel: togglePanel,
-            getCurrentAircraftData: getCurrentAircraftData,
             getData: () => data,
             refreshData: async () => { await loadDataAndInit(); }
         };
     }
 
-    function getCurrentAircraftData() {
-        const id = geofs.aircraft.instance.id;
-        return data?.aircrafts?.[id] || null;
+    function getCurrentAircraftId() {
+        if (geofs && geofs.aircraft && geofs.aircraft.instance) {
+            return geofs.aircraft.instance.id;
+        }
+        return null;
     }
 
     function applyLivery(livery) {
@@ -63,8 +110,16 @@
         const aircraft = geofs.aircraft.instance;
         if (!aircraft) return;
 
-        const acId = aircraft.id;
-        const acData = data.aircrafts[acId];
+        const currentAcId = aircraft.id;
+        const targetAcId = livery._acId || currentAcId;
+
+        if (currentAcId != targetAcId) {
+            ui.notification.show(`This livery belongs to ${targetAcId}, not current.`, 'warning');
+            console.warn(`Livery for ${targetAcId} cannot be applied to ${currentAcId}`);
+            return;
+        }
+
+        const acData = data.aircrafts[targetAcId];
         if (!acData) return;
 
         const parts = acData.parts;
@@ -125,6 +180,203 @@
         }).catch(() => {});
     }
 
+    function renderList(container, list, acId, isFavorites) {
+        if (!container) return;
+        container.innerHTML = "";
+
+        if (!list || list.length === 0) {
+            const empty = document.createElement("div");
+            empty.innerText = isFavorites ? "No favorites yet. Star some liveries!" : "No liveries available for this aircraft";
+            empty.style.color = "#aaa";
+            empty.style.marginTop = "10px";
+            empty.style.textAlign = "center";
+            empty.style.fontSize = "13px";
+            container.appendChild(empty);
+            return;
+        }
+
+        const fragment = document.createDocumentFragment();
+
+        list.forEach((livery) => {
+            if (!livery || !livery.name || !livery.texture) return;
+
+            const isReal = data.livery_types[livery.type_id] === 'real';
+            const typeLabel = isReal ? '✈️ Real' : '🎨 Virtual';
+            const faved = isFavorite(acId, livery.name);
+
+            const div = document.createElement("div");
+            div.style.cssText = `
+                cursor: pointer;
+                padding: 8px 10px;
+                margin: 0;
+                border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+                transition: background 0.25s ease-out;
+                background: transparent;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                font-family: inherit;
+            `;
+
+            const info = document.createElement("div");
+            info.style.flex = "1";
+            info.innerHTML = `
+                <div style="font-weight:500;font-size:14px;">${livery.name}</div>
+                <div style="font-size:11px; opacity:0.7;">by ${livery.credits || "Anonymous"}</div>
+                <div style="font-size:9px; color: #ccc; margin-top:2px;">${typeLabel}</div>
+            `;
+
+            const star = document.createElement("span");
+            star.className = "favorite-star" + (faved ? " faved" : "");
+            star.textContent = faved ? "★" : "☆";
+            star.style.cssText = `
+                float: right;
+                cursor: pointer;
+                font-size: 18px;
+                line-height: 1;
+                color: ${faved ? '#ffcc00' : '#aaa'};
+                transition: color 0.2s, transform 0.2s;
+                margin-left: 8px;
+                user-select: none;
+                text-shadow: ${faved ? '0 0 8px rgba(255,204,0,0.6)' : 'none'};
+            `;
+            star.addEventListener("click", (e) => {
+                e.stopPropagation();
+                toggleFavorite(acId, livery.name);
+                filterList();
+            });
+
+            div.appendChild(info);
+            div.appendChild(star);
+
+            div.onmousemove = (e) => {
+                const rect = div.getBoundingClientRect();
+                const x = e.clientX - rect.left;
+                const y = e.clientY - rect.top;
+                div.style.background = `
+                    radial-gradient(
+                        280px circle at ${x}px ${y}px,
+                        rgba(255, 255, 255, 0.35),
+                        rgba(255, 255, 255, 0.1),
+                        rgba(0, 0, 0, 0) 75%
+                    )
+                `;
+            };
+            div.onmouseleave = () => {
+                div.style.background = "transparent";
+            };
+
+            div.onclick = () => applyLivery({ ...livery, _acId: acId });
+
+            fragment.appendChild(div);
+        });
+
+        container.appendChild(fragment);
+    }
+
+    function filterList() {
+        if (!data) {
+            if (availableContainer) {
+                availableContainer.innerHTML = `<div style="color:#aaa;text-align:center;padding:10px;">⏳ Loading liveries...</div>`;
+            }
+            if (favoritesContainer) {
+                favoritesContainer.innerHTML = `<div style="color:#aaa;text-align:center;padding:10px;">⏳ Loading...</div>`;
+            }
+            return;
+        }
+
+        const acId = getCurrentAircraftId();
+        if (!acId) {
+            if (availableContainer) {
+                availableContainer.innerHTML = `<div style="color:#aaa;text-align:center;padding:10px;">⚠️ No aircraft loaded</div>`;
+            }
+            if (favoritesContainer) {
+                favoritesContainer.innerHTML = `<div style="color:#aaa;text-align:center;padding:10px;">⚠️ No aircraft loaded</div>`;
+            }
+            return;
+        }
+
+        const acData = data.aircrafts[acId];
+        let allLiveries = (acData && acData.liveries) ? acData.liveries.slice() : [];
+
+        const keyword = searchInput ? searchInput.value.toLowerCase() : "";
+        const typeFilter = displayType;
+
+        let filtered = allLiveries.filter(l =>
+            l.name.toLowerCase().includes(keyword) ||
+            (l.credits || "").toLowerCase().includes(keyword)
+        );
+
+        if (typeFilter !== "all") {
+            filtered = filtered.filter(l => {
+                const type = data.livery_types[l.type_id];
+                return type === typeFilter;
+            });
+        }
+
+        filtered.sort((a, b) =>
+            a.name.localeCompare(b.name, "en", { sensitivity: "base" })
+        );
+
+        const favKeys = getFavorites();
+        const favFiltered = filtered.filter(l => favKeys.includes(acId + '|' + l.name));
+
+        renderList(availableContainer, filtered, acId, false);
+        renderList(favoritesContainer, favFiltered, acId, true);
+    }
+
+    function createSection(title, id, container, defaultOpen) {
+        const section = document.createElement("div");
+        section.style.marginBottom = "6px";
+
+        const header = document.createElement("div");
+        header.style.cssText = `
+            display: flex;
+            align-items: center;
+            cursor: pointer;
+            padding: 4px 0;
+            user-select: none;
+            border-bottom: 1px solid rgba(255,255,255,0.15);
+            margin-bottom: 4px;
+        `;
+
+        const arrow = document.createElement("span");
+        arrow.textContent = defaultOpen ? "▼" : "▶";
+        arrow.style.cssText = "margin-right:8px;font-size:14px;transition:transform 0.2s;display:inline-block;";
+
+        const titleSpan = document.createElement("span");
+        titleSpan.textContent = title;
+        titleSpan.style.fontWeight = "bold";
+        titleSpan.style.fontSize = "14px";
+
+        header.appendChild(arrow);
+        header.appendChild(titleSpan);
+
+        const content = document.createElement("div");
+        content.className = "section-content";
+        content.style.cssText = `
+            overflow: hidden;
+            transition: max-height 0.3s ease;
+            max-height: ${defaultOpen ? '2000px' : '0'};
+            padding: ${defaultOpen ? '4px 0' : '0'};
+        `;
+
+        header.addEventListener("click", () => {
+            const isOpen = content.style.maxHeight !== '0px' && content.style.maxHeight !== '0';
+            const newState = !isOpen;
+            content.style.maxHeight = newState ? '2000px' : '0';
+            content.style.padding = newState ? '4px 0' : '0';
+            arrow.textContent = newState ? "▼" : "▶";
+            if (id === 'available') sectionState.available = newState;
+            else sectionState.favorites = newState;
+        });
+
+        section.appendChild(header);
+        section.appendChild(content);
+        container.appendChild(section);
+        return content;
+    }
+
     function createUI() {
         if (panel && document.body.contains(panel)) return;
 
@@ -133,8 +385,8 @@
             position: "absolute",
             top: "80px",
             right: "20px",
-            width: "300px",
-            height: "450px",
+            width: "320px",
+            height: "520px",
             background: "rgba(8, 12, 25, 0.75)",
             color: "#eef",
             padding: "12px",
@@ -151,9 +403,7 @@
 
         let isDragging = false, offsetX, offsetY;
         panel.addEventListener("mousedown", (e) => {
-            if (listContainer && (e.target === listContainer || listContainer.contains(e.target))) {
-                return;
-            }
+            if (e.target.closest('.section-content')) return;
             isDragging = true;
             offsetX = e.clientX - panel.offsetLeft;
             offsetY = e.clientY - panel.offsetTop;
@@ -169,7 +419,7 @@
 
         const titleBar = document.createElement("div");
         titleBar.className = "panel-header";
-        titleBar.innerHTML = "<b style='letter-spacing:1px'>⚡ GeoFS Liveries V1.5</b>";
+        titleBar.innerHTML = "<b style='letter-spacing:1px'>⚡ GeoFS Liveries V1.6</b>";
         Object.assign(titleBar.style, {
             cursor: "grab",
             paddingBottom: "6px",
@@ -180,7 +430,7 @@
         panel.appendChild(titleBar);
 
         const hint = document.createElement("div");
-        hint.innerText = "Press Shift to hide";
+        hint.innerText = "Press Shift to hide | ★ to favorite";
         Object.assign(hint.style, {
             fontSize: "11px",
             opacity: "0.65",
@@ -192,7 +442,6 @@
         searchInput = document.createElement("input");
         searchInput.placeholder = "🔍 Search liveries...";
         Object.assign(searchInput.style, {
-            marginTop: "4px",
             marginBottom: "8px",
             padding: "8px 10px",
             borderRadius: "40px",
@@ -204,7 +453,6 @@
             backdropFilter: "blur(4px)",
             width: "calc(100% - 20px)"
         });
-
         ["keydown", "keyup", "keypress"].forEach(evt => {
             searchInput.addEventListener(evt, e => e.stopPropagation());
         });
@@ -214,8 +462,8 @@
         filterSelect = document.createElement("select");
         filterSelect.innerHTML = `
             <option value="all">✨ All Liveries</option>
-            <option value="real">✈️ Real Liveries</option>
-            <option value="virtual">🎨 Virtual Liveries</option>
+            <option value="real">✈️ Real</option>
+            <option value="virtual">🎨 Virtual</option>
         `;
         Object.assign(filterSelect.style, {
             background: "rgba(0, 0, 0, 0.5)",
@@ -223,7 +471,7 @@
             border: "1px solid rgba(255, 255, 255, 0.3)",
             borderRadius: "40px",
             padding: "5px 10px",
-            marginBottom: "12px",
+            marginBottom: "10px",
             fontSize: "12px",
             cursor: "pointer"
         });
@@ -233,155 +481,57 @@
         };
         panel.appendChild(filterSelect);
 
-        listContainer = document.createElement("div");
-        Object.assign(listContainer.style, {
-            marginTop: "4px",
-            overflowY: "auto",
-            flex: "1",
-            scrollBehavior: "smooth"
-        });
+        const sectionsWrapper = document.createElement("div");
+        sectionsWrapper.style.cssText = `
+            flex: 1;
+            overflow-y: auto;
+            overflow-x: hidden;
+            margin-top: 4px;
+        `;
+
+        const availContent = createSection('📦 Available Liveries', 'available', sectionsWrapper, sectionState.available);
+        const favContent = createSection('⭐ Favorited Liveries', 'favorites', sectionsWrapper, sectionState.favorites);
+
+        panel.appendChild(sectionsWrapper);
+
+        availableContainer = availContent;
+        favoritesContainer = favContent;
 
         const style = document.createElement("style");
         style.textContent = `
-            #livery-list-container::-webkit-scrollbar {
-                width: 5px;
+            .favorite-star {
+                float: right;
+                cursor: pointer;
+                font-size: 18px;
+                line-height: 1;
+                color: #aaa;
+                transition: color 0.2s, transform 0.2s;
+                margin-left: 8px;
+                user-select: none;
             }
-            #livery-list-container::-webkit-scrollbar-track {
+            .favorite-star.faved {
+                color: #ffcc00;
+                text-shadow: 0 0 8px rgba(255,204,0,0.6);
+            }
+            .favorite-star:hover {
+                transform: scale(1.2);
+            }
+            .section-content::-webkit-scrollbar {
+                width: 4px;
+            }
+            .section-content::-webkit-scrollbar-track {
                 background: rgba(0,0,0,0.3);
                 border-radius: 10px;
             }
-            #livery-list-container::-webkit-scrollbar-thumb {
+            .section-content::-webkit-scrollbar-thumb {
                 background: #fff;
                 border-radius: 10px;
             }
         `;
-        listContainer.id = "livery-list-container";
-        panel.appendChild(listContainer);
         document.head.appendChild(style);
         document.body.appendChild(panel);
-    }
 
-    function renderList(list) {
-        if (!data) return;
-        listContainer.innerHTML = "";
-        const fragment = document.createDocumentFragment();
-
-        list.forEach((livery) => {
-            if (!livery || !livery.name || !livery.texture) return;
-
-            const isReal = data.livery_types[livery.type_id] === 'real';
-            const typeLabel = isReal ? '✈️ Real' : '🎨 Virtual';
-
-            const div = document.createElement("div");
-            div.innerHTML = `
-                <div style="font-weight:500;">${livery.name}</div>
-                <div style="font-size:11px; opacity:0.7;">by ${livery.credits || "Anonymous"}</div>
-                <div style="font-size:9px; color: #ccc; margin-top:4px;">
-                    ${typeLabel}
-                </div>
-            `;
-
-            Object.assign(div.style, {
-                cursor: "pointer",
-                padding: "10px 12px",
-                margin: "0",
-                borderBottom: "1px solid rgba(255, 255, 255, 0.08)",
-                transition: "background 0.25s ease-out, border-color 0.2s",
-                background: "transparent",
-                fontFamily: "inherit"
-            });
-
-            div.onmousemove = (e) => {
-                const rect = div.getBoundingClientRect();
-                const x = e.clientX - rect.left;
-                const y = e.clientY - rect.top;
-                div.style.background = `
-                    radial-gradient(
-                        280px circle at ${x}px ${y}px,
-                        rgba(255, 255, 255, 0.35),
-                        rgba(255, 255, 255, 0.1),
-                        rgba(0, 0, 0, 0) 75%
-                    )
-                `;
-            };
-
-            div.onmouseleave = () => {
-                div.style.background = "transparent";
-            };
-
-            div.onclick = () => applyLivery(livery);
-            fragment.appendChild(div);
-        });
-
-        if (list.length > 0) {
-            const thanksDiv = document.createElement("div");
-            thanksDiv.innerText = "Thank you for using GeoFS Liveries addon";
-            Object.assign(thanksDiv.style, {
-                textAlign: "center",
-                fontSize: "11px",
-                color: "rgba(255, 255, 255, 0.5)",
-                padding: "12px 8px",
-                marginTop: "4px",
-                borderTop: "1px solid rgba(255, 255, 255, 0.1)",
-                fontStyle: "italic",
-                letterSpacing: "0.5px"
-            });
-            fragment.appendChild(thanksDiv);
-        }
-
-        listContainer.appendChild(fragment);
-    }
-
-    function filterList() {
-        if (!data) return;
-        const keyword = searchInput.value.toLowerCase();
-        const id = geofs.aircraft.instance.id;
-        const ac = data.aircrafts[id];
-
-        listContainer.innerHTML = "";
-
-        if (!ac || !ac.liveries?.length) {
-            const empty = document.createElement("div");
-            empty.innerText = "No liveries available for this aircraft";
-            empty.style.color = "#aaa";
-            empty.style.marginTop = "20px";
-            empty.style.textAlign = "center";
-            empty.style.fontSize = "13px";
-            listContainer.appendChild(empty);
-            return;
-        }
-
-        let filtered = ac.liveries.filter(l =>
-            l.name.toLowerCase().includes(keyword) ||
-            (l.credits || "").toLowerCase().includes(keyword)
-        );
-
-        if (displayType !== "all") {
-            filtered = filtered.filter(l => {
-                const type = data.livery_types[l.type_id];
-                return type === displayType;
-            });
-        }
-
-        filtered.sort((a, b) =>
-            a.name.localeCompare(b.name, "en", { sensitivity: "base" })
-        );
-
-        if (filtered.length === 0) {
-            const empty = document.createElement("div");
-            let msg = displayType === "all"
-                ? "No matching liveries"
-                : `No ${displayType === 'real' ? 'real' : 'virtual'} liveries found`;
-            empty.innerText = msg;
-            empty.style.color = "#aaa";
-            empty.style.marginTop = "20px";
-            empty.style.textAlign = "center";
-            empty.style.fontSize = "13px";
-            listContainer.appendChild(empty);
-            return;
-        }
-
-        renderList(filtered);
+        filterList();
     }
 
     function togglePanel() {
@@ -418,12 +568,17 @@
     function startLoop() {
         setInterval(() => {
             if (!panel || !document.body.contains(panel)) createUI();
-            if (!data) return;
+            if (!data) {
+                if (!dataLoaded) {
+                    loadDataAndInit();
+                }
+                return;
+            }
 
-            const id = geofs.aircraft.instance.id;
-            if (id !== lastAircraftId) {
-                lastAircraftId = id;
-                searchInput.value = "";
+            const newId = getCurrentAircraftId();
+            if (newId !== currentAircraftId) {
+                currentAircraftId = newId;
+                if (searchInput) searchInput.value = "";
                 filterList();
             }
         }, 1000);
