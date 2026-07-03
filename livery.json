@@ -10,16 +10,6 @@
       "parts": [0, 0, 0],
       "liveries": [
         {
-          "name": "SAS (old design)",
-          "credits": "CP8888",
-          "texture": [
-            "/models/aircraft/premium/737_700/normal.jpg",
-            "/models/aircraft/premium/737_700/specular.jpg",
-            "https://raw.githubusercontent.com/8888CP/livery/refs/heads/main/liveries/Boeing_b737-700/SASold.png"
-          ],
-          "type_id": 1
-        },
-        {
           "name": "KLM (new design)",
           "credits": "CP8888",
           "texture": [
@@ -401,6 +391,14 @@
             "https://raw.githubusercontent.com/8888CP/livery/refs/heads/main/liveries/Boeing_b787-9/United_SAF.png"
           ],
           "type_id": 1
+        },
+        {
+          "name": "ANA (Blue Horizon livery)",
+          "credits": "CP8888",
+          "texture": [
+            "https://raw.githubusercontent.com/8888CP/livery/refs/heads/main/liveries/Boeing_b787-9/JA873A.jpg"
+          ],
+          "type_id": 2
         }
       ]
     },
@@ -1034,14 +1032,6 @@
           "credits": "KN5290",
           "texture": [
             "https://raw.githubusercontent.com/8888CP/GeoFS-liveries/refs/heads/main/liveries/738/ChinaeasternSkyteam.png"
-          ],
-          "type_id": 1
-        },
-        {
-          "name": "China United Airlines (Chengdu livery)",
-          "credits": "HO1796[Sino Wings Group]",
-          "texture": [
-            "https://raw.githubusercontent.com/8888CP/GeoFS-liveries/refs/heads/main/liveries/738/CUAchengdu.png"
           ],
           "type_id": 1
         },
@@ -1852,14 +1842,6 @@
           "type_id": 1
         },
         {
-          "name": "DHL (Operated by SmartLynx Cargo)",
-          "credits": "Geofs Player Bilibili",
-          "texture": [
-            "https://raw.githubusercontent.com/8888CP/livery/refs/heads/main/liveries/Airbus_a321-211/DHLSmartLynxCargo.png"
-          ],
-          "type_id": 1
-        },
-        {
           "name": "Sichuan Airlines",
           "credits": "CP8888",
           "texture": [
@@ -2039,21 +2021,6 @@
           "credits": "Ivan Dmitriev",
           "texture": [
             "https://raw.githubusercontent.com/8888CP/livery/refs/heads/main/liveries/Airbus_a330-200/TAP_White_winglets.jpg"
-          ],
-          "type_id": 1
-        }
-      ]
-    },
-    "5203": {
-      "name": "Boeing B737-600",
-      "index": [0],
-      "parts": [0],
-      "liveries": [
-        {
-          "name": "Air France",
-          "credits": "CP8888",
-          "texture": [
-            "https://raw.githubusercontent.com/8888CP/livery/refs/heads/main/liveries/Boeing_b737-600/AirFrance.png"
           ],
           "type_id": 1
         }
