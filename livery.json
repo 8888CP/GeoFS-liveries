@@ -801,7 +801,7 @@
           "name": "China Southern Airlines",
           "credits": "CP8888",
           "texture": [
-            "https://raw.githubusercontent.com/8888CP/GeoFS-liveries/refs/heads/main/liveries/7m8/Chinasouthern.png"
+            "https://raw.githubusercontent.com/8888CP/GeoFS-liveries/refs/heads/main/liveries/7m8/Chinasouthern.jpg"
           ],
           "type_id": 1
         },
@@ -809,7 +809,7 @@
           "name": "China Southern Airlines (with SkyTeam logo)",
           "credits": "CP8888",
           "texture": [
-            "https://raw.githubusercontent.com/8888CP/GeoFS-liveries/refs/heads/main/liveries/7m8/Chinasouthernskyteamlogo.png"
+            "https://raw.githubusercontent.com/8888CP/GeoFS-liveries/refs/heads/main/liveries/7m8/Chinasouthern_skyteam_logo.jpg"
           ],
           "type_id": 1
         },
@@ -3237,7 +3237,7 @@
           "type_id": 1
         },
         {
-          "name": "Alaska (San Diego State Aztecs Football Team)",
+          "name": "Alaska Airlines (San Diego State Aztecs Football Team)",
           "credits": "Ivan Dmitriev",
           "texture": [
             "https://raw.githubusercontent.com/8888CP/livery/refs/heads/main/liveries/Bombardier_dash8-q400/Alaska_San_Diego_State_Aztecs_Football_Team_design.jpg"
@@ -3245,7 +3245,7 @@
           "type_id": 1
         },
         {
-          "name": "Alaska (Washington State Cougars)",
+          "name": "Alaska Airlines (Washington State Cougars)",
           "credits": "Ivan Dmitriev",
           "texture": [
             "https://raw.githubusercontent.com/8888CP/livery/refs/heads/main/liveries/Bombardier_dash8-q400/Alaska_Washington_State_Cougars.jpg"
@@ -3253,7 +3253,7 @@
           "type_id": 1
         },
         {
-          "name": "Alaska (University of Oregon)",
+          "name": "Alaska Airlines (University of Oregon)",
           "credits": "Ivan Dmitriev",
           "texture": [
             "https://raw.githubusercontent.com/8888CP/livery/refs/heads/main/liveries/Bombardier_dash8-q400/Alaska_University_of_Oregon.jpg"
@@ -3261,7 +3261,7 @@
           "type_id": 1
         },
         {
-          "name": "Alaska (Boise State Broncos Football Team)",
+          "name": "Alaska Airlines (Boise State Broncos Football Team)",
           "credits": "Ivan Dmitriev",
           "texture": [
             "https://raw.githubusercontent.com/8888CP/livery/refs/heads/main/liveries/Bombardier_dash8-q400/Alaska_Boise_State_Broncos_Football_Team.jpg"
@@ -3269,7 +3269,7 @@
           "type_id": 1
         },
         {
-          "name": "Alaska (Boise State Broncos Football Team, with Oneworld logo)",
+          "name": "Alaska Airlines (Boise State Broncos Football Team, with Oneworld logo)",
           "credits": "Ivan Dmitriev",
           "texture": [
             "https://raw.githubusercontent.com/8888CP/livery/refs/heads/main/liveries/Bombardier_dash8-q400/Alaska_Boise_State_Broncos_Football_Team_Oneworld.jpg"
@@ -3277,7 +3277,7 @@
           "type_id": 1
         },
         {
-          "name": "Alaska (Washington Huskies Football Team)",
+          "name": "Alaska Airlines(Washington Huskies Football Team)",
           "credits": "Ivan Dmitriev",
           "texture": [
             "https://raw.githubusercontent.com/8888CP/livery/refs/heads/main/liveries/Bombardier_dash8-q400/Alaska_Washington_Huskies_Football_Team.jpg"
@@ -3285,7 +3285,7 @@
           "type_id": 1
         },
         {
-          "name": "Alaska (new design - Washington Huskies Football Team)",
+          "name": "Alaska Airlines (new design - Washington Huskies Football Team)",
           "credits": "Ivan Dmitriev",
           "texture": [
             "https://raw.githubusercontent.com/8888CP/livery/refs/heads/main/liveries/Bombardier_dash8-q400/Alaska_Washington_Huskies_Football_Team2.jpg"
