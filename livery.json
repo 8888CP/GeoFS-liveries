@@ -590,6 +590,14 @@
             "https://raw.githubusercontent.com/8888CP/livery/refs/heads/main/liveries/Airbus_a320-214/D-AIZX.png"
           ],
           "type_id": 1
+        },
+        {
+          "name": "Condor (retro livery)",
+          "credits": "CP8888",
+          "texture": [
+            "https://raw.githubusercontent.com/8888CP/livery/refs/heads/main/liveries/Airbus_a320-214/D-AICH.jpg"
+          ],
+          "type_id": 1
         }
       ]
     },
@@ -3654,6 +3662,21 @@
             "https://raw.githubusercontent.com/8888CP/Geofs-liveries/refs/heads/main/liveries/Ilyushin_il76/wing/VietNam.png"
           ],
           "type_id": 2
+        }
+      ]
+    },
+    "4745": {
+      "name": "Boeing B757-300WL",
+      "index": [0],
+      "parts": [0],
+      "liveries": [
+        {
+          "name": "Fly Khiva UK75006",
+          "credits": "CP8888",
+          "texture": [
+            "https://raw.githubusercontent.com/8888CP/livery/refs/heads/main/liveries/Boeing_b757-300wl/UK75006.jpg"
+          ],
+          "type_id": 1
         }
       ]
     }
