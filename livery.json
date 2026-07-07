@@ -480,22 +480,6 @@
           "type_id": 1
         },
         {
-          "name": "Aeroflot VP-BLL (old aircraft registration)",
-          "credits": "Ivan Dmitriev",
-          "texture": [
-            "https://raw.githubusercontent.com/8888CP/livery/refs/heads/main/liveries/Airbus_a320-214/Aeroflot_VP-BLL.jpg"
-          ],
-          "type_id": 1
-        },
-        {
-          "name": "Aeroflot VP-BLL",
-          "credits": "Ivan Dmitriev",
-          "texture": [
-            "https://raw.githubusercontent.com/8888CP/livery/refs/heads/main/liveries/Airbus_a320-214/VP-BLLnew.jpg"
-          ],
-          "type_id": 1
-        },
-        {
           "name": "Aeroflot",
           "credits": "Ivan Dmitriev",
           "texture": [
@@ -607,14 +591,6 @@
       "parts": [0],
       "liveries": [
         {
-          "name": "China Southern Airlines",
-          "credits": "KN5290",
-          "texture": [
-            "https://raw.githubusercontent.com/8888CP/GeoFS-liveries/refs/heads/main/liveries/a320neo/chinasouthern.png"
-          ],
-          "type_id": 1
-        },
-        {
           "name": "Colorful Guizhou Airlines (China Moutai livery)",
           "credits": "CP8888",
           "texture": [
@@ -647,22 +623,6 @@
           "type_id": 1
         },
         {
-          "name": "Spring Airlines",
-          "credits": "KN5290",
-          "texture": [
-            "https://raw.githubusercontent.com/8888CP/GeoFS-liveries/refs/heads/main/liveries/a320neo/spring_airlines.png"
-          ],
-          "type_id": 1
-        },
-        {
-          "name": "Xiamen Airlines",
-          "credits": "CP8888",
-          "texture": [
-            "https://raw.githubusercontent.com/8888CP/GeoFS-liveries/refs/heads/main/liveries/a320neo/xiamen.png"
-          ],
-          "type_id": 1
-        },
-        {
           "name": "Hainan Airlines",
           "credits": "CP8888",
           "texture": [
@@ -675,14 +635,6 @@
           "credits": "CP8888",
           "texture": [
             "https://raw.githubusercontent.com/8888CP/livery/refs/heads/main/liveries/Airbus_a320neo/Juneyao_B-325L.jpg"
-          ],
-          "type_id": 1
-        },
-        {
-          "name": "Aeroflot VP-BPQ",
-          "credits": "Ivan Dmitriev",
-          "texture": [
-            "https://raw.githubusercontent.com/8888CP/livery/refs/heads/main/liveries/Airbus_a320neo/AeroflotVP-BPQ.jpg"
           ],
           "type_id": 1
         },
@@ -1048,14 +1000,6 @@
           "credits": "CP8888",
           "texture": [
             "https://raw.githubusercontent.com/8888CP/GeoFS-liveries/refs/heads/main/liveries/738/hebei20th.png"
-          ],
-          "type_id": 1
-        },
-        {
-          "name": "Mandarin Airlines (new design)",
-          "credits": "CP8888",
-          "texture": [
-            "https://raw.githubusercontent.com/8888CP/GeoFS-liveries/refs/heads/main/liveries/738/mandarin.png"
           ],
           "type_id": 1
         },
@@ -1546,30 +1490,6 @@
           "credits": "CP8888",
           "texture": [
             "https://raw.githubusercontent.com/8888CP/GeoFS-liveries/refs/heads/main/liveries/321n/shenzhen.png"
-          ],
-          "type_id": 1
-        },
-        {
-          "name": "Spring Airlines",
-          "credits": "KN5290",
-          "texture": [
-            "https://raw.githubusercontent.com/8888CP/GeoFS-liveries/refs/heads/main/liveries/321n/Spring_Airlines.jpg"
-          ],
-          "type_id": 1
-        },
-        {
-          "name": "West Air",
-          "credits": "CP8888",
-          "texture": [
-            "https://raw.githubusercontent.com/8888CP/GeoFS-liveries/refs/heads/main/liveries/321n/WestAir.png"
-          ],
-          "type_id": 1
-        },
-        {
-          "name": "West Air (old design radome)",
-          "credits": "CP8888",
-          "texture": [
-            "https://raw.githubusercontent.com/8888CP/GeoFS-liveries/refs/heads/main/liveries/321n/WestAiroldradome.png"
           ],
           "type_id": 1
         },
@@ -2281,14 +2201,6 @@
           "credits": "CP8888",
           "texture": [
             "https://raw.githubusercontent.com/8888CP/livery/refs/heads/main/liveries/Boeing_b747-8F/CXcargo80.png"
-          ],
-          "type_id": 1
-        },
-        {
-          "name": "UPS (ex Qatar Cargo)",
-          "credits": "CP8888",
-          "texture": [
-            "https://raw.githubusercontent.com/8888CP/livery/refs/heads/main/liveries/Boeing_b747-8F/UPSexqatar.png"
           ],
           "type_id": 1
         },
