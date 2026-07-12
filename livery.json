@@ -226,14 +226,6 @@
       "parts": [0],
       "liveries": [
         {
-          "name": "Qatar Airways",
-          "credits": "Ivan Dmitriev",
-          "texture": [
-            "https://raw.githubusercontent.com/8888CP/livery/refs/heads/main/liveries/Airbus_a350-1000/Qatar_airways.jpg"
-          ],
-          "type_id": 1
-        },
-        {
           "name": "Etihad",
           "credits": "Ivan Dmitriev",
           "texture": [
@@ -301,14 +293,6 @@
           "credits": "Ivan Dmitriev",
           "texture": [
             "https://raw.githubusercontent.com/8888CP/livery/refs/heads/main/liveries/Boeing_b787-9/Etihad_Manchester.jpg"
-          ],
-          "type_id": 1
-        },
-        {
-          "name": "Qatar Airways",
-          "credits": "Ivan Dmitriev",
-          "texture": [
-            "https://raw.githubusercontent.com/8888CP/livery/refs/heads/main/liveries/Boeing_b787-9/qatar.jpg"
           ],
           "type_id": 1
         },
@@ -452,30 +436,6 @@
           "credits": "Nichy",
           "texture": [
             "https://raw.githubusercontent.com/8888CP/livery/refs/heads/main/liveries/Airbus_a320-214/N689TA.png"
-          ],
-          "type_id": 1
-        },
-        {
-          "name": "Easyjet (new design)",
-          "credits": "Ivan Dmitriev",
-          "texture": [
-            "https://raw.githubusercontent.com/8888CP/livery/refs/heads/main/liveries/Airbus_a320-214/easyJetNew1.jpg"
-          ],
-          "type_id": 1
-        },
-        {
-          "name": "Easyjet Europe (new design)",
-          "credits": "Ivan Dmitriev",
-          "texture": [
-            "https://raw.githubusercontent.com/8888CP/livery/refs/heads/main/liveries/Airbus_a320-214/easyJet_Europe_New.jpg"
-          ],
-          "type_id": 1
-        },
-        {
-          "name": "Easyjet Switzerland (new design)",
-          "credits": "Ivan Dmitriev",
-          "texture": [
-            "https://raw.githubusercontent.com/8888CP/livery/refs/heads/main/liveries/Airbus_a320-214/easyJet_Switzerland_New.jpg"
           ],
           "type_id": 1
         },
@@ -635,14 +595,6 @@
           "credits": "CP8888",
           "texture": [
             "https://raw.githubusercontent.com/8888CP/GeoFS-liveries/refs/heads/main/liveries/a320neo/play.png"
-          ],
-          "type_id": 1
-        },
-        {
-          "name": "Qingdao Airlines (Jinghong livery)",
-          "credits": "CP8888",
-          "texture": [
-            "https://raw.githubusercontent.com/8888CP/GeoFS-liveries/refs/heads/main/liveries/a320neo/qingdaojinghong.png"
           ],
           "type_id": 1
         },
@@ -942,14 +894,6 @@
           "type_id": 1
         },
         {
-          "name": "LOT (Star Alliance livery)",
-          "credits": "Ivan Dmitriev",
-          "texture": [
-            "https://raw.githubusercontent.com/8888CP/livery/refs/heads/main/liveries/Boeing_b737max8/LOTSTAR.jpg"
-          ],
-          "type_id": 1
-        },
-        {
           "name": "LOT (Bank Pekao livery)",
           "credits": "Ivan Dmitriev",
           "texture": [
@@ -966,26 +910,10 @@
           "type_id": 1
         },
         {
-          "name": "LOT (Proud of Poland's Independence livery)",
-          "credits": "Ivan Dmitriev",
-          "texture": [
-            "https://raw.githubusercontent.com/8888CP/livery/refs/heads/main/liveries/Boeing_b737max8/LOT_SP-LVD.jpg"
-          ],
-          "type_id": 1
-        },
-        {
           "name": "LOT (EG 2023 livery)",
           "credits": "Ivan Dmitriev",
           "texture": [
             "https://raw.githubusercontent.com/8888CP/livery/refs/heads/main/liveries/Boeing_b737max8/LOT_EG2023.jpg"
-          ],
-          "type_id": 1
-        },
-        {
-          "name": "LOT (100 years of Krosno Glass livery)",
-          "credits": "Ivan Dmitriev",
-          "texture": [
-            "https://raw.githubusercontent.com/8888CP/livery/refs/heads/main/liveries/Boeing_b737max8/LOT100.jpg"
           ],
           "type_id": 1
         },
@@ -1417,15 +1345,6 @@
       "index": [2, 3],
       "parts": [0, 0],
       "liveries": [
-        {
-          "name": "Finnair (Santa Claus livery)",
-          "credits": "CP8888",
-          "texture": [
-            "/models/aircraft/premium/a350/specular.jpg",
-            "https://raw.githubusercontent.com/8888CP/GeoFS-liveries/refs/heads/main/liveries/a359/FinnairSantaClaus.png"
-          ],
-          "type_id": 1
-        },
         {
           "name": "ITA Airways (Born to be Sustainable livery)",
           "credits": "KN5290",
@@ -2001,14 +1920,6 @@
           "type_id": 1
         },
         {
-          "name": "Aeroflot (Skyteam livery)",
-          "credits": "Ivan Dmitriev",
-          "texture": [
-            "https://raw.githubusercontent.com/8888CP/livery/refs/heads/main/liveries/Airbus_a330-200/Aeroflot_Skyteam_livery.jpg"
-          ],
-          "type_id": 1
-        },
-        {
           "name": "KLM (new design)",
           "credits": "Ivan Dmitriev",
           "texture": [
@@ -2182,6 +2093,14 @@
             "https://raw.githubusercontent.com/8888CP/livery/refs/heads/main/liveries/Airbus_a320-232/Spiritold.jpg"
           ],
           "type_id": 1
+        },
+        {
+          "name": "Icelandair",
+          "credits": "CP8888",
+          "texture": [
+            "https://raw.githubusercontent.com/8888CP/livery/refs/heads/main/liveries/Airbus_a320-232/icelandair.jpg"
+          ],
+          "type_id": 1
         }
       ]
     },
@@ -2190,15 +2109,6 @@
       "index": [1, 0],
       "parts": [0, 0],
       "liveries": [
-        {
-          "name": "Mahan Air",
-          "credits": "CP8888",
-          "texture": [
-            "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/boeing_b777-200/shaders/original.png",
-            "https://raw.githubusercontent.com/8888CP/livery/refs/heads/main/liveries/Boeing_b777-200/mahan.png"
-          ],
-          "type_id": 1
-        },
         {
           "name": "Aeromexico (Chrome livery)",
           "credits": "Nichy",
@@ -3054,30 +2964,6 @@
       "index": [0],
       "parts": [0],
       "liveries": [
-        {
-          "name": "LOT",
-          "credits": "Ivan Dmitriev",
-          "texture": [
-            "https://raw.githubusercontent.com/8888CP/livery/refs/heads/main/liveries/ATR72/LOT.jpg"
-          ],
-          "type_id": 1
-        },
-        {
-          "name": "LOT (Eurolot livery)",
-          "credits": "Ivan Dmitriev",
-          "texture": [
-            "https://raw.githubusercontent.com/8888CP/livery/refs/heads/main/liveries/ATR72/LOTEurolot_livery.jpg"
-          ],
-          "type_id": 1
-        },
-        {
-          "name": "EuroLOT",
-          "credits": "Ivan Dmitriev",
-          "texture": [
-            "https://raw.githubusercontent.com/8888CP/livery/refs/heads/main/liveries/ATR72/EuroLOT.jpg"
-          ],
-          "type_id": 1
-        },
         {
           "name": "Myanmar Airways International",
           "credits": "PietroB777pilot",
