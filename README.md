@@ -3,7 +3,7 @@
 This section contains all the unupdated liveries created by me and my friends. If you would like to contribute, please submit it to the issues section and indicate whether it is a real or virtual livery.
 
 For any aircraft that supports livery switching, press the Shift key to display the livery list.
-![alt text](https://i.ibb.co/YF6s5KsR/image.png)
+![alt text](image.png)
 **If you have an idea for making a addon better, feel free to ask it in the [issues](https://github.com/8888CP/GeoFS-liveries/issues).**
 
 # How to install this add-on?
