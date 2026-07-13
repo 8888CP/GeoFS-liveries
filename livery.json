@@ -383,6 +383,22 @@
             "https://raw.githubusercontent.com/8888CP/livery/refs/heads/main/liveries/Boeing_b787-9/JA873A.jpg"
           ],
           "type_id": 2
+        },
+        {
+          "name": "EL AL (retro livery)",
+          "credits": "CP8888",
+          "texture": [
+            "https://raw.githubusercontent.com/8888CP/GeoFS-liveries/refs/heads/main/liveries/b787-9/4X-EDF.jpg"
+          ],
+          "type_id": 1
+        },
+        {
+          "name": "EL AL (retro livery - white nose)",
+          "credits": "CP8888",
+          "texture": [
+            "https://raw.githubusercontent.com/8888CP/GeoFS-liveries/refs/heads/main/liveries/b787-9/4X-EDF_white_nose.jpg"
+          ],
+          "type_id": 1
         }
       ]
     },
