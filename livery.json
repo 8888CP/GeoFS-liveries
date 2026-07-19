@@ -281,26 +281,10 @@
           "type_id": 1
         },
         {
-          "name": "Etihad",
-          "credits": "Ivan Dmitriev",
-          "texture": [
-            "https://raw.githubusercontent.com/8888CP/livery/refs/heads/main/liveries/Boeing_b787-9/Etihad.jpg"
-          ],
-          "type_id": 1
-        },
-        {
-          "name": "Etihad airways (Manchester City livery)",
+          "name": "Etihad Airways (Manchester City livery)",
           "credits": "Ivan Dmitriev",
           "texture": [
             "https://raw.githubusercontent.com/8888CP/livery/refs/heads/main/liveries/Boeing_b787-9/Etihad_Manchester.jpg"
-          ],
-          "type_id": 1
-        },
-        {
-          "name": "Air Canada (old design)",
-          "credits": "Ivan Dmitriev",
-          "texture": [
-            "https://raw.githubusercontent.com/8888CP/livery/refs/heads/main/liveries/Boeing_b787-9/aircanadaold.jpg"
           ],
           "type_id": 1
         },
@@ -590,14 +574,6 @@
       "index": [0],
       "parts": [0],
       "liveries": [
-        {
-          "name": "Colorful Guizhou Airlines (China Moutai livery)",
-          "credits": "CP8888",
-          "texture": [
-            "https://raw.githubusercontent.com/8888CP/GeoFS-liveries/refs/heads/main/liveries/a320neo/GY_moutai.png"
-          ],
-          "type_id": 1
-        },
         {
           "name": "China Express (Oriental Fumigation Dao livery)",
           "credits": "CP8888",
@@ -1220,30 +1196,6 @@
           "type_id": 1
         },
         {
-          "name": "Aeroflot",
-          "credits": "Ivan Dmitriev",
-          "texture": [
-            "https://raw.githubusercontent.com/8888CP/livery/refs/heads/main/liveries/Boeing_b737-800/aeroflot.jpg"
-          ],
-          "type_id": 1
-        },
-        {
-          "name": "Aeroflot VQ-BWC",
-          "credits": "Ivan Dmitriev",
-          "texture": [
-            "https://raw.githubusercontent.com/8888CP/livery/refs/heads/main/liveries/Boeing_b737-800/aeroflotVQ-BWC.jpg"
-          ],
-          "type_id": 1
-        },
-        {
-          "name": "LOT",
-          "credits": "Ivan Dmitriev",
-          "texture": [
-            "https://raw.githubusercontent.com/8888CP/livery/refs/heads/main/liveries/Boeing_b737-800/LOT.jpg"
-          ],
-          "type_id": 1
-        },
-        {
           "name": "S7 Airlines (old design, VP-BNG)",
           "credits": "Ivan Dmitriev",
           "texture": [
@@ -1256,14 +1208,6 @@
           "credits": "Ivan Dmitriev",
           "texture": [
             "https://raw.githubusercontent.com/8888CP/livery/refs/heads/main/liveries/Boeing_b737-800/S7_Airlines.jpg"
-          ],
-          "type_id": 1
-        },
-        {
-          "name": "KLM",
-          "credits": "Ivan Dmitriev",
-          "texture": [
-            "https://raw.githubusercontent.com/8888CP/livery/refs/heads/main/liveries/Boeing_b737-800/KLM.jpg"
           ],
           "type_id": 1
         },
@@ -1347,15 +1291,6 @@
           "type_id": 1
         },
         {
-          "name": "World2fly",
-          "credits": "KN5290",
-          "texture": [
-            "/models/aircraft/premium/a350/specular.jpg",
-            "https://raw.githubusercontent.com/8888CP/GeoFS-liveries/refs/heads/main/liveries/a359/World2fly.png"
-          ],
-          "type_id": 1
-        },
-        {
           "name": "Air France (Marseille)",
           "credits": "Ivan Dmitriev",
           "texture": [
@@ -1389,14 +1324,6 @@
       "index": [0],
       "parts": [0],
       "liveries": [
-        {
-          "name": "Hainan Airlines",
-          "credits": "TOMAIM & CP8888",
-          "texture": [
-            "https://raw.githubusercontent.com/8888CP/GeoFS-liveries/refs/heads/main/liveries/a339/hainannew.png"
-          ],
-          "type_id": 1
-        },
         {
           "name": "Thai Airways (Star Alliance livery)",
           "credits": "CP8888",
@@ -1563,15 +1490,6 @@
       "index": [2, 3],
       "parts": [0, 0],
       "liveries": [
-        {
-          "name": "Korean Air (200th Boeing aircraft tick)",
-          "credits": "CP8888 & KN5290",
-          "texture": [
-            "/models/aircraft/premium/777_300/specular_0.jpg",
-            "https://raw.githubusercontent.com/8888CP/GeoFS-liveries/refs/heads/main/liveries/77w/Korean_200th.png"
-          ],
-          "type_id": 1
-        },
         {
           "name": "JA307M",
           "credits": "Nichy",
@@ -1796,14 +1714,6 @@
           "credits": "CNA1838",
           "texture": [
             "https://raw.githubusercontent.com/8888CP/GeoFS-liveries/refs/heads/main/liveries/332/airbus.png"
-          ],
-          "type_id": 1
-        },
-        {
-          "name": "Air China Cargo",
-          "credits": "KN5290",
-          "texture": [
-            "https://raw.githubusercontent.com/8888CP/livery/refs/heads/main/liveries/Airbus_a330-200/AirChinaCargo.png"
           ],
           "type_id": 1
         },
@@ -3216,6 +3126,14 @@
             "https://raw.githubusercontent.com/8888CP/livery/refs/heads/main/liveries/Airbus_a321-232/Turkish_Airlines_Star_Alliance.jpg"
           ],
           "type_id": 1
+        },
+        {
+          "name": "Sichuan Airlines (100th Aircraft livery)",
+          "credits": "CP8888",
+          "texture": [
+            "https://raw.githubusercontent.com/8888CP/livery/refs/heads/main/liveries/Airbus_a321-232/Sichuan_100.jpg"
+          ],
+          "type_id": 1
         }
       ]
     },
@@ -3492,6 +3410,14 @@
             "https://raw.githubusercontent.com/8888CP/Geofs-liveries/refs/heads/main/liveries/Airbus_a340-600/European_Cargo.jpg"
           ],
           "type_id": 1
+        },
+        {
+          "name": "Lufthansa (Star Alliance livery)",
+          "credits": "KN5290",
+          "texture": [
+            "https://raw.githubusercontent.com/8888CP/Geofs-liveries/refs/heads/main/liveries/Airbus_a340-600/LufthansA_Star_Alliance.png"
+          ],
+          "type_id": 1
         }
       ]
     },
@@ -3523,6 +3449,21 @@
             "https://raw.githubusercontent.com/8888CP/livery/refs/heads/main/liveries/Boeing_b757-300wl/UK75006.jpg"
           ],
           "type_id": 1
+        }
+      ]
+    },
+    "2153": {
+      "name": "Airbus A340-900neo",
+      "index": [0],
+      "parts": [0],
+      "liveries": [
+        {
+          "name": "Cathay Pacific (new design)",
+          "credits": "CP8888",
+          "texture": [
+            "https://raw.githubusercontent.com/8888CP/livery/refs/heads/main/liveries/Airbus_a340-900neo/CXnew.jpg"
+          ],
+          "type_id": 2
         }
       ]
     }
