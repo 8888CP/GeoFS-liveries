@@ -1718,14 +1718,6 @@
           "type_id": 1
         },
         {
-          "name": "China Eastern Airlines (50th A330 for China Eastern Airlines)",
-          "credits": "CP8888 & KN5290",
-          "texture": [
-            "https://raw.githubusercontent.com/8888CP/livery/refs/heads/main/liveries/Airbus_a330-200/MU50th.png"
-          ],
-          "type_id": 1
-        },
-        {
           "name": "China Eastern Airlines (Heroes AFC Champions League livery)",
           "credits": "CNA1838",
           "texture": [
